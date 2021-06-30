@@ -1,0 +1,11 @@
+BACKUP ~correctfrBG2EE/backup~
+AUTHOR ~Lefreut~
+VERSION ~0.1~
+LANGUAGE ~Francais~
+         ~fr_FR~
+         ~correctfrBG2EE/francais/setup.tra~
+         ~correctfrBG2EE/francais/correcfr.tra~
+
+BEGIN @1
+	REQUIRE_PREDICATE GAME_IS ~bg2ee~ @3
+	INCLUDE ~correctfrBG2EE/BG2EE.tph~
