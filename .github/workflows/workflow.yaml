@@ -16,8 +16,8 @@ jobs:
       - name: Clone repository using 'github.ref' from release
         uses: actions/checkout@master
 
-      - name: Print node version
-        run: node -v
+      - name: Perform a diff between tra files and generate patching code
+        run: node dist/index.js
 
       - name: Create Infinity Engine Mod Packages (.iemod and .zip)
         uses: ALIENQuake/CreateIEModZipPackage@master
