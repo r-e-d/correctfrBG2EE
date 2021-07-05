@@ -1,0 +1,13 @@
+BACKUP ~correctfrbg2ee/backup~
+SUPPORT ~Lefreut et Jazira (https://www.baldursgateworld.fr)~
+VERSION ~0.1~
+README ~correctfrbg2ee/readme/readme-correcfrbg2ee.html~
+
+LANGUAGE ~Francais~
+         ~fr_FR~
+         ~correctfrbg2ee/francais/setup.tra~
+         ~correctfrbg2ee/francais/correcfr.tra~
+
+BEGIN @0 // Correction de la traduction de Baldur's Gate II : Enhanced Edition
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @1 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
+	INCLUDE ~correctfrbg2ee/bg2ee.tph~
