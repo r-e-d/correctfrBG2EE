@@ -29,8 +29,8 @@ function main() {
   const ref = new DialogFile('tra/dialogref.tra');
   const fix = new DialogFile('tra/dialog.tra');
 
-  const tphFD = fs.openSync('correctfrBG2EE/BG2EE.tph', 'w');
-  const traFD = fs.openSync('correctfrBG2EE/francais/correcfr.tra', 'w');
+  const tphFD = fs.openSync('correctfrbg2ee/bg2ee.tph', 'w');
+  const traFD = fs.openSync('correctfrbg2ee/francais/correcfr.tra', 'w');
 
   while (1) {
     const refLine = ref.getLine();
