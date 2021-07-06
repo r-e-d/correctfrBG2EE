@@ -9,9 +9,7 @@ jobs:
     steps:
       - name: Initial setup
         run: |
-          git lfs uninstall
-          git config --global core.autocrlf false
-          git config --global core.ignorecase true
+          git config --global core.autocrlf true
 
       - name: Clone repository using 'github.ref' from release
         uses: actions/checkout@master

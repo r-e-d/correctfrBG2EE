@@ -45,10 +45,10 @@ function main() {
     if (fixLine === undefined)
       throw { refLine };
 
-    if (refLine.nb != fixLine.nb)
+    if (refLine.nb !== fixLine.nb)
       throw { refLine, fixLine };
 
-    if (refLine.text != fixLine.text) {
+    if (refLine.text !== fixLine.text) {
       const offset = 1000000;
       fs.appendFileSync(tphFD, '\tSTRING_SET ~' + fixLine.nb + '~ @' + (offset + fixLine.nb) + '\n', 'utf8');
       fs.appendFileSync(traFD, '@' + (offset + fixLine.nb) + ' = ' + fixLine.text + '\n', 'utf8');
