@@ -214,6 +214,17 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.3 &nbsp;(14 juillet 2021)
+
+  - Uniformisation du cartouche des objets.
+  - Uniformisation de la ponctuation («», ', -, etc.).
+  - Correction des caractères spéciaux (œ, û, ï, ë, Œ, Ê, É, È, À, Ç, etc.).
+  - Amélioration de la « qualité de vie » (10 000, 2 365, etc).
+
+#### Version 0.2 &nbsp;(05 juillet 2021)
+
+  - Fusion 2.6 + bg2eetrans + pack de corrections.
+
 #### Version 0.1 &nbsp;(01 juillet 2021)
 
   - Version prototype.
