@@ -131,7 +131,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Uniformisation du cartouche des objets.
 - Uniformisation de la ponctuation («», ', -, etc.).
 - Correction des caractères spéciaux (œ, û, ï, ë, Œ, Ê, É, È, À, Ç, etc.).
-- Supression des espaces insécables et whitespaces.
+- Supression des whitespaces.
 - Correction des fautes de frappe, d'othographe, de conjugaison et de grammaire.
 - Amélioration de la « qualité de vie » (10 000, 2 365, etc).
 
