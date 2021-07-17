@@ -1,6 +1,7 @@
 //Ce fichier ne doit contenir aucun caractere special.
-@0 = ~Correction de la traduction de Baldur's Gate II : Enhanced Edition~
-@1 = ~Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)~
+@0 = ~Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)~
+@1 = ~Correction de la traduction de Baldur's Gate II : Enhanced Edition~
+@2 = ~Correction de la description de certains objets~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
