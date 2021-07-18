@@ -8,11 +8,11 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/setup.tra~
          ~correctfrbg2ee/francais/correcfr.tra~
 
-BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition
+BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	INCLUDE ~correctfrbg2ee/bg2ee.tph~
 
-BEGIN @2 DESIGNATED 20 // Correction de la description de certains objets
+BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le composant principal)
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679

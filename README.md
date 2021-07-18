@@ -23,7 +23,7 @@
 
 Ce mod a pour objectif de corriger la traduction française de Baldur's Gate II : Enhanced Edition.
 En effet, le patch 2.6 de BG2:EE propose une toute nouvelle traduction française officielle, par le prestataire de Beamdog : Mogi Group.
-Malheureusement, certaines modifications arbitraires des textes originaux de la traduction française, comme les vouvoiements/tutoiements, par exemple Imoen qui vouvoie le personnage joueur, ou encore des changements de noms propres, par exemple « Spellhold » qui devient « Brisesort », pour ne citer qu'eux, ne sont pas compatibles avec le travail de traduction et de relecture effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans.
+Bien que cela ouvre de nouvelles perspectives, certaines modifications arbitraires des textes originaux de la traduction française, comme les vouvoiements/tutoiements, par exemple Imoen qui vouvoie le personnage joueur, ou encore des changements de noms propres, par exemple « Spellhold » qui devient « Brisesort », pour ne citer qu'eux, ne sont pas compatibles avec le travail de traduction et de relecture effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans.
 De plus, de nombreuses corrections supplémentaires ont été intégrées à cette traduction, voir la section <a href="#compon">Composants</a> pour plus de détails. Merci de nous signaler toute éventuelle faute à corriger sur le <a href="https://www.baldursgateworld.fr">Forum du mod</a>.
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
@@ -107,8 +107,6 @@ Tapez la commande **`export PATH=$PATH:/usr/local/bin`**, puis lancez **`weinsta
 
 En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant **`setup-correctfrbg2ee --uninstall`** dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.</br>
 
-## 
-
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 <hr>
@@ -126,14 +124,23 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Correction des tutoiements/vouvoiements.
 - Ajout des versions féminines.
-- Correction et uniformisation des noms propres (personnage, lieu, organisation, etc.).
+- Correction et uniformisation des noms propres (personnage, lieu, organisation, lore, objets, sorts, etc.).
 - Correction des non-sens et erreurs de traduction.
-- Uniformisation du cartouche des objets.
-- Uniformisation de la ponctuation («», ', -, etc.).
-- Correction des caractères spéciaux (œ, û, ï, ë, Œ, Ê, É, È, À, Ç, etc.).
-- Supression des whitespaces.
+- Uniformisation du cartouche des objets et des sorts.
+- Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
+- Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
+- Supression des whitespaces et des caractères spéciaux inadéquats.
 - Correction des fautes de frappe, d'othographe, de conjugaison et de grammaire.
-- Amélioration de la « qualité de vie » (10 000, 2 365, etc).
+- Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
+
+##
+
+#### [20] Correction de la description des objets (nécessite le composant principal)
+
+- Correction de la description de l'Hallebarde elfe noir +3
+- Correction de la description du Symbole sacré de Lathandre
+- Correction de la description du Symbole sacré de Heaum
+- Correction de la description du Symbole sacré de Talos
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -216,10 +223,10 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### Version 0.3 &nbsp;(14 juillet 2021)
 
-  - Uniformisation du cartouche des objets.
-  - Uniformisation de la ponctuation («», ', -, etc.).
-  - Correction des caractères spéciaux (œ, û, ï, ë, Œ, Ê, É, È, À, Ç, etc.).
-  - Amélioration de la « qualité de vie » (10 000, 2 365, etc).
+  - Uniformisation du cartouche des objets et des sorts.
+  - Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
+  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
+  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
 
 #### Version 0.2 &nbsp;(05 juillet 2021)
 
