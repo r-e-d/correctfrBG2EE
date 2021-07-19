@@ -141,6 +141,9 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description du Symbole sacré de Lathandre
 - Correction de la description du Symbole sacré de Heaum
 - Correction de la description du Symbole sacré de Talos
+- Correction de la description du Symbole sacré de Baervan Ermiterrant
+- Correction de la description du Symbole sacré de Shar
+- Correction de la description du Symbole sacré de Tyr
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
