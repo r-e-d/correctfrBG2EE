@@ -1,14 +1,14 @@
-@100 = ~Épée courte +4
-Cette épée courte a été forgée par un artisan extrêmement talentueux, qui devait être aussi un puissant magicien. Aucune faiblesse ne gâte sa lame. En combat, elle irradie de magie et augmente fortement les capacités de son porteur.
+@100 = ~Ã‰pÃ©e courte +4
+Cette Ã©pÃ©e courte a Ã©tÃ© forgÃ©e par un artisan extrÃªmement talentueux, qui devait Ãªtre aussi un puissant magicien. Aucune faiblesse ne gÃ¢te sa lame. En combat, elle irradie de magie et augmente fortement les capacitÃ©s de son porteur.
 
-PARAMÈTRES :
+PARAMÃˆTRESÂ :
 
-TAC0 : +4
-Dégâts : 1d6 +4 (perforant)
-Facteur de vitesse : 1
-Type de compétence : épée courte
-Type : arme à une main
-Nécessite :
+TAC0Â : +4
+DÃ©gÃ¢tsÂ : 1d6 +4 (perforant)
+Facteur de vitesseÂ : 1
+Type de compÃ©tenceÂ : Ã©pÃ©e courte
+TypeÂ : arme Ã  une main
+NÃ©cessiteÂ :
  5 en Force
 
-Poids : 2~
+PoidsÂ : 2~
