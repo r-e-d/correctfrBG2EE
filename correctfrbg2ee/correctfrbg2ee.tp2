@@ -23,6 +23,7 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 				  ~beltbw.ITM~ ~override~
 				  ~beltsh.ITM~ ~override~
 				  ~beltty.ITM~ ~override~
+				  ~OHTEMPUS.ITM~ ~override~
 		WRITE_LONG 0x08 6348
 		WRITE_LONG 0x50 17054
 	BUT_ONLY_IF_IT_CHANGES
