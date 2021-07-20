@@ -17,12 +17,23 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679
 	BUT_ONLY_IF_IT_CHANGES
+	COPY_EXISTING ~HALBSHA.ITM~ ~override~
+		WRITE_LONG 0x54 7344
+	BUT_ONLY_IF_IT_CHANGES
 	COPY_EXISTING ~BELT12.ITM~ ~override~
 				  ~BELT13.ITM~ ~override~
 				  ~BELT14.ITM~ ~override~
 				  ~beltbw.ITM~ ~override~
 				  ~beltsh.ITM~ ~override~
 				  ~beltty.ITM~ ~override~
+				  ~OHTEMPUS.ITM~ ~override~
 		WRITE_LONG 0x08 6348
 		WRITE_LONG 0x50 17054
 	BUT_ONLY_IF_IT_CHANGES
+/*	
+	LOAD_TRA ~correctfrbg2ee/francais/correctobjets.tra~
+	
+	COPY_EXISTING ~SHAKTI1.ITM~ ~override~
+		WRITE_LONG 0x54 @100
+	BUT_ONLY_IF_IT_CHANGES
+*/

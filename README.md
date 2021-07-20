@@ -144,6 +144,8 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description du Symbole sacré de Baervan Ermiterrant
 - Correction de la description du Symbole sacré de Shar
 - Correction de la description du Symbole sacré de Tyr
+- Correction de la description du Symbole sacré de Tempus
+- Correction de la description de la Lame de Suryris +2
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
