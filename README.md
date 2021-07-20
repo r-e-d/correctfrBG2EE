@@ -226,7 +226,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### Version 0.4 &nbsp;(19 juillet 2021)
 
-  - Nouveau compososant Correction de la description des objets
+  - Nouveau compososant Correction de la description des objets.
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
   - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
