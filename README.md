@@ -146,6 +146,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description du Symbole sacré de Tyr
 - Correction de la description du Symbole sacré de Tempus
 - Correction de la description de la Lame de Suryris +2
+- Correction de la description de la Hache +3 du sort Arme enchantée
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
