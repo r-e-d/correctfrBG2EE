@@ -24,6 +24,11 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 		WRITE_LONG 0x08 71038
 		WRITE_LONG 0x0c 71038
 	BUT_ONLY_IF_IT_CHANGES
+	COPY_EXISTING ~LEAT19.ITM~ ~override~
+				  ~CHAN20.ITM~ ~override~
+				  ~PLAT20.ITM~ ~override~
+		WRITE_LONG 0x08 39544
+	BUT_ONLY_IF_IT_CHANGES
 	COPY_EXISTING ~BELT12.ITM~ ~override~
 				  ~BELT13.ITM~ ~override~
 				  ~BELT14.ITM~ ~override~
