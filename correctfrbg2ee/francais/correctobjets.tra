@@ -1,5 +1,5 @@
-@100 = ~Épée courte +4
-Cette épée courte a été forgée par un artisan extrêmement talentueux, qui devait être aussi un puissant magicien. Aucune faiblesse ne gâte sa lame. En combat, elle irradie de magie et augmente fortement les capacités de son porteur.
+// Épée courte +4 (SHAKTI1.ITM)
+@100 = ~Cette épée courte a été forgée par un artisan extrêmement talentueux, qui devait être aussi un puissant magicien. Aucune faiblesse ne gâte sa lame. En combat, elle irradie de magie et augmente fortement les capacités de son porteur.
 
 PARAMÈTRES :
 
@@ -12,3 +12,20 @@ Nécessite :
  5 en Force
 
 Poids : 2~
+// Cotte de mailles elfe noir +1 (CLOLTH.ITM)
+@101 = ~Tissée par les meilleurs artisans elfes noirs, cette cotte de mailles semble faite de tissu plutôt que de métal. Sans doute portée pour des attaques à la surface, elle a été soigneusement couverte d'une étrange laque noire qui l'empêche probablement de se dissoudre sous l'effet des rayons solaires. Elle peut être portée quasiment sans pénalités par les voleurs et les guerriers-mages... mais est très inconfortable pour ceux qui ne sont pas voués au mal.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Crochetage de serrures : -5 %
+- Détection des pièges : -5 %
+- Vol à la tire : -20 %
+- Furtivité : -10 %
+- N'empêche pas de lancer des sorts
+
+Classe d'armure : 4
+Nécessite :
+ 5 en Force
+
+Poids : 8~
