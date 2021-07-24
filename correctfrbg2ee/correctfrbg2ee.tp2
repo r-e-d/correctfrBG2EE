@@ -29,6 +29,10 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 				  ~PLAT20.ITM~ ~override~
 		WRITE_LONG 0x08 39544
 	BUT_ONLY_IF_IT_CHANGES
+	COPY_EXISTING ~DWCHAN01.ITM~ ~override~
+				  ~DWCHAN02.ITM~ ~override~
+		WRITE_LONG 0x08 6146
+	BUT_ONLY_IF_IT_CHANGES
 	COPY_EXISTING ~BELT12.ITM~ ~override~
 				  ~BELT13.ITM~ ~override~
 				  ~BELT14.ITM~ ~override~
@@ -44,5 +48,8 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 	
 	COPY_EXISTING ~SHAKTI1.ITM~ ~override~
 		WRITE_LONG 0x54 @100
+	BUT_ONLY_IF_IT_CHANGES
+	COPY_EXISTING ~CLOLTH.ITM~ ~override~
+		WRITE_LONG 0x54 @101
 	BUT_ONLY_IF_IT_CHANGES
 */
