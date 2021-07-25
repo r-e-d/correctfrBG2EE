@@ -147,7 +147,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description du Symbole sacré de Tempus
 - Correction de la description de la Lame de Suryris +2
 - Correction de la description de la Hache +3 du sort Arme enchantée
-- Correction de la description de l'Armure d'écailles de dragon noir
+- Correction de la description de l'Armure d'écailles de dragon d'ombre
 - Correction de la description de l'Armure d'écailles de dragon blanc
 - Correction de la description de l'Armure d'écailles de dragon bleu
 - Correction de la description de la Cotte de mailles elfe noir +3
