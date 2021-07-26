@@ -152,6 +152,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description de l'Armure d'écailles de dragon bleu
 - Correction de la description de la Cotte de mailles elfe noir +3
 - Correction de la description de la Cotte de mailles elfe noir +5
+- Correction de la description de l'Épée courte +4 (Figurine de Shakti)
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
