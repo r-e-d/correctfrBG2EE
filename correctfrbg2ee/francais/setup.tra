@@ -2,6 +2,8 @@
 @0 = ~Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)~
 @1 = ~Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)~
 @2 = ~Correction de la description des objets (necessite le composant principal)~
+@3 = ~Ensembles de voix du personnage principal en francais~
+@4 = ~Suppression ensembles de voix Adventurers of Neverwinter~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

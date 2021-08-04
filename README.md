@@ -5,8 +5,8 @@
 </div><br>
 
 
-**Auteurs :** <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>  
-**Forum du mod :** <a href="https://www.baldursgateworld.fr">Correction de la traduction de Baldur's Gate II : Enhanced Edition</a>  
+**Auteurs :** <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>
+**Forum du mod :** <a href="https://www.baldursgateworld.fr">Correction de la traduction de Baldur's Gate II : Enhanced Edition</a>
 
 <br>
 
@@ -61,7 +61,7 @@ Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced
 
 *Par précaution, __désactivez les antivirus__ ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.*
 
-## 
+##
 
 #### Note pour les jeux en Édition Améliorée (EE)
 
@@ -69,7 +69,7 @@ Les Éditions améliorées sont des jeux que le développeur fait encore évolue
 
 Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc., qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.</br>
 
-## 
+##
 
 #### Windows
 
@@ -79,7 +79,7 @@ Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (*le
 
 Vous pouvez lancer **`setup-correctfrbg2ee.exe`** dans votre répertoire de jeu pour réinstaller, désinstaller, ou encore changer des composants.
 
-## 
+##
 
 #### Mac OS X
 
@@ -89,7 +89,7 @@ Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extra
 
 Vous pouvez lancer **`setup-correctfrbg2ee.command`** dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
 
-## 
+##
 
 #### Linux
 
@@ -101,7 +101,7 @@ Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https
 
 Tapez la commande **`export PATH=$PATH:/usr/local/bin`**, puis lancez **`weinstall setup-correctfrbg2ee`** depuis le dossier de votre jeu pour installer le mod. Puis, lancez **`wine baldur.exe`** et commencez à jouer.
 
-## 
+##
 
 #### Note pour effectuer une désinstallation complète
 
@@ -116,7 +116,7 @@ En plus des méthodes détaillées plus haut pour supprimer des composants, il e
 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
 
-## 
+##
 
 #### [10] Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)
 
@@ -154,6 +154,18 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description de la Cotte de mailles elfe noir +5
 - Correction de la description de l'Épée courte +4 (Figurine de Shakti)
 
+##
+
+#### [30] Ensembles de voix du personnage principal en français
+
+- Inclusion des ensembles de voix pour le personnage principal en français.
+
+##
+
+#### [40] Suppression ensembles de voix Adventurers of Neverwinter
+
+- Supprime les ensembles de voix AoN en anglais pour le personnage principal ajoutées par le patch 2.6.
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 <hr>
@@ -179,11 +191,11 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 &#9755; Pour toute question ou demande d'assistance, veuillez consulter le <a href="https://www.baldursgateworld.fr">forum du mod</a>.
 
-## 
+##
 
 #### Auteurs : <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>
 
-## 
+##
 
 #### Remerciements particuliers à :
 
@@ -195,7 +207,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Freddy_Gwendo</a> pour son template de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>.
 - Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="https://www.gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE qui nous ont offert leur aide.
 
-## 
+##
 
 #### Logiciels et outils utilisés pour la réalisation de ce mod :
 
@@ -206,7 +218,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - <a href="https://github.com/">GitHub</a> par l'équipe de GitHub.
 - <a href="https://tortoisegit.org/">TortoiseGit</a> par l'équipe de TortoiseGit.
 
-## 
+##
 
 #### Information sur les droits d'auteur
 
@@ -219,7 +231,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez nous contacter et conseillez-nous sur ce qu'il faut faire à ce sujet. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droit d'auteur, merci de bien vouloir nous le faire savoir dès que possible et nous supprimeront immédiatement le contenu en conflit.
 
-###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, à des fins non commerciales. Si vous souhaitez des précisions, veuillez consulter la <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>. 
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, à des fins non commerciales. Si vous souhaitez des précisions, veuillez consulter la <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>.
 ###### Tous les copyrights et marques commerciales appartiennent à leurs propriétaires respectifs.
 
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de vingt ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs, traducteurs et relecteurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
@@ -255,5 +267,5 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
   - Version prototype.
 
-   
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
