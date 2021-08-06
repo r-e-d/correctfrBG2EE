@@ -245,6 +245,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.5 &nbsp;(6 août 2021)
+
+  - Nouveau compososant Ensembles de voix du personnage principal en francais.
+  - Nouveau compososant Suppression ensembles de voix Adventurers of Neverwinter.
+  - Uniformisation du cartouche des objets et des sorts.
+  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
+  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
+
 #### Version 0.4 &nbsp;(19 juillet 2021)
 
   - Nouveau compososant Correction de la description des objets.
