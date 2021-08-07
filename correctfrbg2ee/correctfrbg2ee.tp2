@@ -62,7 +62,7 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets (necessite le 
 BEGIN @3 DESIGNATED 30 // Ensembles de voix du personnage principal en francais
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
 
-BEGIN @4 DESIGNATED 40 // Suppression ensembles de voix Adventurers of Neverwinter
+BEGIN @4 DESIGNATED 40 // Suppression ensembles de voix Adventurers of Neverwinter en anglais
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
 	END
