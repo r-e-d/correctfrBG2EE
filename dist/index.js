@@ -30,7 +30,7 @@ function main() {
   const fix = new DialogFile('tra/dialog.tra');
 
   const tphFD = fs.openSync('correctfrbg2ee/bg2ee.tph', 'w');
-  const traFD = fs.openSync('correctfrbg2ee/francais/correcfr.tra', 'w');
+  const traFD = fs.openSync('correctfrbg2ee/francais/correctfr.tra', 'w');
 
   while (1) {
     const refLine = ref.getLine();

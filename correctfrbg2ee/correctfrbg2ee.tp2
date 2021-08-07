@@ -1,12 +1,12 @@
 BACKUP ~correctfrbg2ee/backup~
 SUPPORT ~Lefreut et Jazira (https://www.baldursgateworld.fr)~
 VERSION ~0.5~
-README ~correctfrbg2ee/readme/readme-correcfrbg2ee.html~
+README ~correctfrbg2ee/readme/readme-correctfrbg2ee.html~
 
 LANGUAGE ~Francais~
          ~fr_FR~
          ~correctfrbg2ee/francais/setup.tra~
-         ~correctfrbg2ee/francais/correcfr.tra~
+         ~correctfrbg2ee/francais/correctfr.tra~
          ~correctfrbg2ee/francais/correctobjets.tra~
 
 BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)
