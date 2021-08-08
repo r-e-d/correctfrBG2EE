@@ -200,7 +200,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 #### Remerciements particuliers à :
 
 - L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
-- Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>.
+- Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>, ainsi que <a href="https://www.aroundtheword.com/fr/">Around the word</a> pour la traduction française du contenu classique.
 - Les créateurs des Éditions Améliorées : <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a>.
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
