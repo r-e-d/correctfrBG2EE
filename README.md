@@ -124,14 +124,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Correction des tutoiements/vouvoiements.
 - Ajout des versions féminines.
-- Correction et uniformisation des noms propres (personnage, lieu, organisation, lore, objets, sorts, etc.).
+- Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
 - Correction des non-sens et erreurs de traduction.
 - Uniformisation du cartouche des objets et des sorts.
 - Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
-- Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
+- Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Supression des whitespaces et des caractères spéciaux inadéquats.
 - Correction des fautes de frappe, d'othographe, de conjugaison et de grammaire.
-- Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
+- Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 ##
 
@@ -146,7 +146,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description du Symbole sacré de Tyr
 - Correction de la description du Symbole sacré de Tempus
 - Correction de la description de la Lame de Suryris +2
-- Correction de la description de la Hache +3 du sort Arme enchantée
+- Correction de la description de la Hache +3 (Arme enchantée)
 - Correction de la description de l'Armure d'écailles de dragon d'ombre
 - Correction de la description de l'Armure d'écailles de dragon blanc
 - Correction de la description de l'Armure d'écailles de dragon bleu
@@ -162,7 +162,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ##
 
-#### [40] Suppression ensembles de voix Adventurers of Neverwinter
+#### [40] Suppression ensembles de voix Adventurers of Neverwinter en anglais
 
 - Supprime les ensembles de voix AoN en anglais pour le personnage principal ajoutées par le patch 2.6.
 
@@ -234,9 +234,9 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 ###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, à des fins non commerciales. Si vous souhaitez des précisions, veuillez consulter la <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>.
 ###### Tous les copyrights et marques commerciales appartiennent à leurs propriétaires respectifs.
 
-###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de vingt ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs, traducteurs et relecteurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
-###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
-###### Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteurs. Ne le faites pas.</br>
+La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de vingt ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs, traducteurs et relecteurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
+Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
+Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteurs. Ne le faites pas.</br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -248,24 +248,24 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 #### Version 0.5 &nbsp;(6 août 2021)
 
   - Nouveau composant Ensembles de voix du personnage principal en francais.
-  - Nouveau composant Suppression ensembles de voix Adventurers of Neverwinter.
+  - Nouveau composant Suppression ensembles de voix Adventurers of Neverwinter en anglais.
   - Uniformisation du cartouche des objets et des sorts.
-  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
-  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
+  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.4 &nbsp;(19 juillet 2021)
 
   - Nouveau composant Correction de la description des objets.
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
-  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
+  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 
 #### Version 0.3 &nbsp;(14 juillet 2021)
 
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la ponctuation (?, !, :, ;, «», ', -, etc.).
-  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, etc.).
-  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc).
+  - Correction des caractères spéciaux (œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.2 &nbsp;(05 juillet 2021)
 
