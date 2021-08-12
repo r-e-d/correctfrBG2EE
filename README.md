@@ -132,6 +132,8 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Supression des whitespaces et des caractères spéciaux inadéquats.
 - Correction des fautes de frappe, d'othographe, de conjugaison et de grammaire.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
+- Réduction du nombre de majuscules dans les noms communs (Oncle Gerhardt, Elfe Noir, etc.).
+- Correction des « sous-titres » pour les répliques doublées en français.
 
 ##
 
