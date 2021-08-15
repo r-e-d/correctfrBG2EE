@@ -66,3 +66,6 @@ BEGIN @4 DESIGNATED 40 // Suppression ensembles de voix Adventurers of Neverwint
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
 	END
+
+BEGIN @5 DESIGNATED 50 // Voix françaises
+	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~

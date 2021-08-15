@@ -168,6 +168,12 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 - Supprime les ensembles de voix AoN en anglais pour le personnage principal ajoutées par le patch 2.6.
 
+##
+
+#### [50] Voix françaises
+
+- Inclusion des voix françaises.
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 <hr>
