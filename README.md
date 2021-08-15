@@ -250,6 +250,12 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.6 &nbsp;(15 août 2021)
+
+  - Nouveau composant Patch audio francais.
+  - Réduction du nombre de majuscules dans les noms communs (Oncle Gerhardt, Elfe Noir, etc.).
+  - Correction des « sous-titres » pour les répliques doublées en français.
+
 #### Version 0.5 &nbsp;(6 août 2021)
 
   - Nouveau composant Ensembles de voix du personnage principal en francais.
