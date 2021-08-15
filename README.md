@@ -158,21 +158,18 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ##
 
-#### [30] Ensembles de voix du personnage principal en français
+#### [30] Patch audio français
 
 - Inclusion des ensembles de voix pour le personnage principal en français.
-
-##
-
-#### [40] Suppression ensembles de voix Adventurers of Neverwinter en anglais
-
-- Supprime les ensembles de voix AoN en anglais pour le personnage principal ajoutées par le patch 2.6.
-
-##
-
-#### [50] Voix françaises
-
 - Inclusion des voix françaises.
+- Les voix non doublées restent en anglais.
+
+##
+
+#### [40] Suppression des voix en anglais
+
+- Supprime les ensembles de voix Adventurers of Neverwinter en anglais pour le personnage principal ajoutées par le patch 2.6.
+- Rend silencieux les voix non doublées en français (WIP).
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
