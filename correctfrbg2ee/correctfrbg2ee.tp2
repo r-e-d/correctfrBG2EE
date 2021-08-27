@@ -72,3 +72,6 @@ BEGIN @4 DESIGNATED 40 // Suppression des voix en anglais
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
 	END
+	COPY_EXISTING_REGEXP - ~^oh[0-9]+\.wav$~ ~inlined~
+		INNER_ACTION BEGIN COPY + ~%MOD_FOLDER%/override/NARR05.WAV~ ~%MOD_FOLDER%/tmp/%SOURCE_FILE%~ END
+	MAKE_BIFF ~noeevo~ BEGIN ~%MOD_FOLDER%/tmp~ ~^.*$~ END
