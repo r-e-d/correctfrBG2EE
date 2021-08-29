@@ -64,6 +64,7 @@ BEGIN @3 DESIGNATED 30 // Patch audio francais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
+	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
 
 BEGIN @4 DESIGNATED 40 // Suppression des voix en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)

@@ -163,6 +163,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Inclusion des ensembles de voix pour le personnage principal en français.
 - Inclusion des voix françaises.
 - Les voix non doublées restent en anglais.
+- Inclusion des vidéos doublées en français.
 
 ##
 
