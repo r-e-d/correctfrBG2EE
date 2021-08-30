@@ -170,7 +170,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 #### [40] Suppression des voix en anglais
 
 - Supprime les ensembles de voix Adventurers of Neverwinter en anglais pour le personnage principal ajoutées par le patch 2.6.
-- Rend silencieux les voix non doublées en français (WIP).
+- Rend silencieux les voix non doublées en français.
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
