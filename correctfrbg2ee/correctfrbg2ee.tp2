@@ -8,6 +8,7 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/setup.tra~
          ~correctfrbg2ee/francais/correctfr.tra~
          ~correctfrbg2ee/francais/correctobjets.tra~
+         ~correctfrbg2ee/francais/soundset.tra~
 
 BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
@@ -65,6 +66,110 @@ BEGIN @3 DESIGNATED 30 // Patch audio francais
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
+
+	INCLUDE ~%MOD_FOLDER%/cd_add_soundset.tph~
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1001) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1002) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1003) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1004) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1005) //  e
+			cd_common1            = RESOLVE_STR_REF(@1006) //  f
+			cd_common2            = RESOLVE_STR_REF(@1007) //  g
+			cd_common3            = RESOLVE_STR_REF(@1008) //  h
+			cd_action1            = RESOLVE_STR_REF(@1009) //  i
+			cd_action2            = RESOLVE_STR_REF(@1010) //  j
+			cd_action3            = RESOLVE_STR_REF(@1011) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1012) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1013) //  m
+		STR_VAR cd_name = "FEMALE5"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1021) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1022) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1023) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1024) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1025) //  e
+			cd_common1            = RESOLVE_STR_REF(@1026) //  f
+			cd_common2            = RESOLVE_STR_REF(@1027) //  g
+			cd_common3            = RESOLVE_STR_REF(@1028) //  h
+			cd_action1            = RESOLVE_STR_REF(@1029) //  i
+			cd_action2            = RESOLVE_STR_REF(@1030) //  j
+			cd_action3            = RESOLVE_STR_REF(@1031) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1032) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1033) //  m
+		STR_VAR cd_name = "FEMALE6"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1041) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1042) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1043) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1044) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1045) //  e
+			cd_common1            = RESOLVE_STR_REF(@1046) //  f
+			cd_common2            = RESOLVE_STR_REF(@1047) //  g
+			cd_common3            = RESOLVE_STR_REF(@1048) //  h
+			cd_action1            = RESOLVE_STR_REF(@1049) //  i
+			cd_action2            = RESOLVE_STR_REF(@1050) //  j
+			cd_action3            = RESOLVE_STR_REF(@1051) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1052) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1053) //  m
+		STR_VAR cd_name = "FEMALE7"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1061) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1062) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1063) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1064) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1065) //  e
+			cd_common1            = RESOLVE_STR_REF(@1066) //  f
+			cd_common2            = RESOLVE_STR_REF(@1067) //  g
+			cd_common3            = RESOLVE_STR_REF(@1068) //  h
+			cd_action1            = RESOLVE_STR_REF(@1069) //  i
+			cd_action2            = RESOLVE_STR_REF(@1070) //  j
+			cd_action3            = RESOLVE_STR_REF(@1071) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1072) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1073) //  m
+		STR_VAR cd_name = "MALE6"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1081) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1082) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1083) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1084) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1085) //  e
+			cd_common1            = RESOLVE_STR_REF(@1086) //  f
+			cd_common2            = RESOLVE_STR_REF(@1087) //  g
+			cd_common3            = RESOLVE_STR_REF(@1088) //  h
+			cd_action1            = RESOLVE_STR_REF(@1089) //  i
+			cd_action2            = RESOLVE_STR_REF(@1090) //  j
+			cd_action3            = RESOLVE_STR_REF(@1091) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1092) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1093) //  m
+		STR_VAR cd_name = "MALE7"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry1         = RESOLVE_STR_REF(@1101) //  a
+			cd_leader1            = RESOLVE_STR_REF(@1102) //  b
+			cd_tired1             = RESOLVE_STR_REF(@1103) //  c
+			cd_bored1             = RESOLVE_STR_REF(@1104) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@1105) //  e
+			cd_common1            = RESOLVE_STR_REF(@1106) //  f
+			cd_common2            = RESOLVE_STR_REF(@1107) //  g
+			cd_common3            = RESOLVE_STR_REF(@1108) //  h
+			cd_action1            = RESOLVE_STR_REF(@1109) //  i
+			cd_action2            = RESOLVE_STR_REF(@1110) //  j
+			cd_action3            = RESOLVE_STR_REF(@1111) //  k
+			cd_damage1            = RESOLVE_STR_REF(@1112) //  l
+			cd_dying1             = RESOLVE_STR_REF(@1113) //  m
+		STR_VAR cd_name = "MALE8"
+	END
 
 BEGIN @4 DESIGNATED 40 // Suppression des voix en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
