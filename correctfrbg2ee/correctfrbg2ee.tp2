@@ -8,15 +8,15 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/setup.tra~
          ~correctfrbg2ee/francais/correctfr.tra~
          ~correctfrbg2ee/francais/correctobjets.tra~
-         ~correctfrbg2ee/francais/soundset.tra~
+		 ~correctfrbg2ee/francais/soundset.tra~
 
-BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition (composant principal)
+BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	INCLUDE ~correctfrbg2ee/bg2ee.tph~
 
 BEGIN @2 DESIGNATED 20 // Correction de la description des objets
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
-	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~10~ @10 // Necessite le composant principal
+	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~10~ @10 // Necessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition"
 
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679
@@ -61,7 +61,7 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets
 		SAY DESC @101
 	BUT_ONLY_IF_IT_CHANGES
 
-BEGIN @3 DESIGNATED 30 // Patch audio francais
+BEGIN @3 DESIGNATED 30 // Patch audio et video français
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
@@ -171,9 +171,9 @@ BEGIN @3 DESIGNATED 30 // Patch audio francais
 		STR_VAR cd_name = "MALE8"
 	END
 
-BEGIN @4 DESIGNATED 40 // Suppression des voix en anglais
+BEGIN @4 DESIGNATED 40 // Suppression des doublages en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
-	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @11 // Necessite le composant Patch audio francais
+	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @11 // Necessite le composant "Patch audio et video français"
 	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
