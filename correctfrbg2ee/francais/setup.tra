@@ -2,11 +2,11 @@
 @0 = ~Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)~
 @1 = ~Correction de la traduction de Baldur's Gate II : Enhanced Edition~
 @2 = ~Correction de la description des objets~
-@3 = ~Patch audio et video français~
+@3 = ~Patch audio et video francais~
 @4 = ~Suppression des doublages en anglais~
 
 @10 = ~Necessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition"~
-@11 = ~Necessite le composant "Patch audio et video français"~
+@11 = ~Necessite le composant "Patch audio et video francais"~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

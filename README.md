@@ -211,6 +211,12 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.7 &nbsp;(27 octobre 2021)
+
+  - Correction des « sous-titres » pour les répliques doublées en français.
+  - Importation des ensembles de voix pour le personnage principal doublés en français de BG1.
+  - Inclusion des vidéos doublées en français.
+
 #### Version 0.6 &nbsp;(15 août 2021)
 
   - Nouveau composant Patch audio francais.
