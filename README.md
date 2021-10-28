@@ -145,6 +145,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 <img src="correctfrbg2ee/readme/images/2.6patched.jpg">
 
+#### Avant :
+
+<img src="correctfrbg2ee/readme/images/2.6a.jpg">
+
+#### Après :
+
+<img src="correctfrbg2ee/readme/images/2.6apatched.jpg">
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
