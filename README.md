@@ -78,32 +78,32 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
 - Uniformisation du cartouche des objets et des sorts.
-- Uniformisation de la ponctuation (?, !, :, ;, «, », ', -, etc.).
+- Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
 - Suppression des whitespaces et des caractères spéciaux inadéquats.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 - Réduction du nombre de majuscules dans les noms communs (Tante, Oncle, Elfe Noir, etc.).
-- Réduction des anglicismes (hello, ranger, yeah, etc.).
+- Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 
 ##
 
 #### [20] Correction de la description des objets (nécessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition")
 
-- Correction de la description de l'Hallebarde elfe noir +3
-- Correction de la description du Symbole sacré de Lathandre
-- Correction de la description du Symbole sacré de Heaum
-- Correction de la description du Symbole sacré de Talos
-- Correction de la description du Symbole sacré de Baervan Ermiterrant
-- Correction de la description du Symbole sacré de Shar
-- Correction de la description du Symbole sacré de Tyr
-- Correction de la description du Symbole sacré de Tempus
-- Correction de la description de la Lame de Suryris +2
-- Correction de la description de la Hache +3 (Arme enchantée)
-- Correction de la description de l'Armure d'écailles de dragon d'ombre
-- Correction de la description de l'Armure d'écailles de dragon blanc
-- Correction de la description de l'Armure d'écailles de dragon bleu
-- Correction de la description de la Cotte de mailles elfe noir +3
-- Correction de la description de la Cotte de mailles elfe noir +5
-- Correction de la description de l'Épée courte +4 (Figurine de Shakti)
+- Correction de la description de l'Armure d'écailles de dragon blanc.
+- Correction de la description de l'Armure d'écailles de dragon bleu.
+- Correction de la description de l'Armure d'écailles de dragon d'ombre.
+- Correction de la description de l'Hallebarde elfe noir +3.
+- Correction de la description de l'Épée courte +4 (Figurine de Shakti).
+- Correction de la description de la Cotte de mailles elfe noir +3.
+- Correction de la description de la Cotte de mailles elfe noir +5.
+- Correction de la description de la Hache +3 (Arme enchantée).
+- Correction de la description de la Lame de Suryris +2.
+- Correction de la description du Symbole sacré de Baervan Ermiterrant.
+- Correction de la description du Symbole sacré de Heaum.
+- Correction de la description du Symbole sacré de Lathandre.
+- Correction de la description du Symbole sacré de Shar.
+- Correction de la description du Symbole sacré de Talos.
+- Correction de la description du Symbole sacré de Tempus.
+- Correction de la description du Symbole sacré de Tyr.
 
 ##
 
@@ -114,13 +114,30 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Inclusion des vidéos doublées en français.
 - Importation des ensembles de voix pour le personnage principal doublés en français de BG1.
 - Les répliques non doublées en français sont conservées.
-- Correction de la réplique doublée [KORGAN66].
-- Correction de la réplique doublée [YOSHIM49].
-- Correction de la réplique doublée [VALYGA15].
-- Correction de la réplique doublée [JAHEIRBX].
-- Correction de la réplique doublée [JAHEIRB2].
+- Correction de la réplique doublée [ANOM2517].
+- Correction de la réplique doublée [ANOMEN82].
+- Correction de la réplique doublée [BAZDR310].
 - Correction de la réplique doublée [BDHIGG13].
 - Correction de la réplique doublée [BDHIGG14].
+- Correction de la réplique doublée [CERND81].
+- Correction de la réplique doublée [GORTAN01].
+- Correction de la réplique doublée [HELFEA11].
+- Correction de la réplique doublée [HELPRI03].
+- Correction de la réplique doublée [HUMAN05].
+- Correction de la réplique doublée [IRENIC66].
+- Correction de la réplique doublée [JAHEIRB2].
+- Correction de la réplique doublée [JAHEIRBX].
+- Correction de la réplique doublée [KORGAN18].
+- Correction de la réplique doublée [KORGAN36].
+- Correction de la réplique doublée [KORGAN66].
+- Correction de la réplique doublée [LEOPA05].
+- Correction de la réplique doublée [NALIA79].
+- Correction de la réplique doublée [PEASM305].
+- Correction de la réplique doublée [SSWORD13].
+- Correction de la réplique doublée [SSWORD66].
+- Correction de la réplique doublée [VALYGA15].
+- Correction de la réplique doublée [VICO2510].
+- Correction de la réplique doublée [YOSHIM49].
 
 ##
 
@@ -243,13 +260,13 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
 
   - Nouveau composant Correction de la description des objets.
   - Uniformisation du cartouche des objets et des sorts.
-  - Uniformisation de la ponctuation (?, !, :, ;, «, », ', -, etc.).
+  - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
   - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 
 #### Version 0.3 &nbsp;(14 juillet 2021)
 
   - Uniformisation du cartouche des objets et des sorts.
-  - Uniformisation de la ponctuation (?, !, :, ;, «, », ', -, etc.).
+  - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
   - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
   - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
