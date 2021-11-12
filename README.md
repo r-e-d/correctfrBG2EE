@@ -28,7 +28,7 @@ En effet, le <a href="https://forums.beamdog.com/discussion/81909/patch-2-6-laun
 
 Bien que cela ouvre de nouvelles perspectives, l'absence totale de versions féminines ou de doublage audio en français, pourtant bien présents dans le jeu original. Ainsi que de nombreuses modifications arbitraires des textes originaux, comme les vouvoiements/tutoiements (<a href="#images">par exemple Imoen qui vouvoie le personnage joueur</a>). Ou encore des changements de noms propres (<a href="#images">par exemple « Spellhold » qui devient « Brisesort »</a>). Pour ne citer qu'eux, ne sont pas compatibles avec le travail effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans. Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
 
-Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, en les uniformisants en conséquence. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées à la traduction et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
+Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, en les uniformisant en conséquence. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées à la traduction et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
 
 Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que les bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
@@ -152,6 +152,16 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [VALYGA15].
 - Correction de la réplique doublée [VICO2510].
 - Correction de la réplique doublée [YOSHIM49].
+- Correction de la réplique doublée [SOLAR22].
+- Correction de la réplique doublée [SOLAR29].
+- Correction de la réplique doublée [SOLAR85].
+- Correction de la réplique doublée [SOLF06].
+- Correction de la réplique doublée [SOLF07].
+- Correction de la réplique doublée [SOLF08].
+- Correction de la réplique doublée [PEASF302].
+- Correction de la réplique doublée [VICONID1].
+- Correction de la réplique doublée [ARAN09].
+- Correction de la réplique doublée [HELGRE07].
 
 ##
 
