@@ -116,16 +116,20 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Les répliques non doublées en français sont conservées.
 - Correction de la réplique doublée [ANOM2517].
 - Correction de la réplique doublée [ANOMEN82].
+- Correction de la réplique doublée [ARAN09].
 - Correction de la réplique doublée [BAZDR310].
 - Correction de la réplique doublée [BDHIGG13].
 - Correction de la réplique doublée [BDHIGG14].
 - Correction de la réplique doublée [CELOGA10].
 - Correction de la réplique doublée [CERND81].
+- Correction de la réplique doublée [DPJON119].
 - Correction de la réplique doublée [GORTAN01].
 - Correction de la réplique doublée [HELFEA11].
+- Correction de la réplique doublée [HELGRE07].
 - Correction de la réplique doublée [HELPRI03].
 - Correction de la réplique doublée [HELPRI16].
 - Correction de la réplique doublée [HUMAN05].
+- Correction de la réplique doublée [IMOEN74].
 - Correction de la réplique doublée [IRENIC66].
 - Correction de la réplique doublée [JAHEIRB2].
 - Correction de la réplique doublée [JAHEIRBX].
@@ -134,7 +138,10 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [KORGAN66].
 - Correction de la réplique doublée [LEOPA05].
 - Correction de la réplique doublée [NALIA79].
+- Correction de la réplique doublée [PEASF302].
 - Correction de la réplique doublée [PEASM305].
+- Correction de la réplique doublée [SOLAR22].
+- Correction de la réplique doublée [SOLAR29].
 - Correction de la réplique doublée [SOLAR30].
 - Correction de la réplique doublée [SOLAR32].
 - Correction de la réplique doublée [SOLAR39].
@@ -144,24 +151,21 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [SOLAR77].
 - Correction de la réplique doublée [SOLAR82].
 - Correction de la réplique doublée [SOLAR84].
+- Correction de la réplique doublée [SOLAR85].
 - Correction de la réplique doublée [SOLAR89].
 - Correction de la réplique doublée [SOLAR99].
 - Correction de la réplique doublée [SOLAR100].
-- Correction de la réplique doublée [SSWORD13].
-- Correction de la réplique doublée [SSWORD66].
-- Correction de la réplique doublée [VALYGA15].
-- Correction de la réplique doublée [VICO2510].
-- Correction de la réplique doublée [YOSHIM49].
-- Correction de la réplique doublée [SOLAR22].
-- Correction de la réplique doublée [SOLAR29].
-- Correction de la réplique doublée [SOLAR85].
 - Correction de la réplique doublée [SOLF06].
 - Correction de la réplique doublée [SOLF07].
 - Correction de la réplique doublée [SOLF08].
-- Correction de la réplique doublée [PEASF302].
+- Correction de la réplique doublée [SSWORD13].
+- Correction de la réplique doublée [SSWORD66].
+- Correction de la réplique doublée [VALYGA15].
+- Correction de la réplique doublée [VALYGA78].
+- Correction de la réplique doublée [VALYGA88].
+- Correction de la réplique doublée [VICO2510].
 - Correction de la réplique doublée [VICONID1].
-- Correction de la réplique doublée [ARAN09].
-- Correction de la réplique doublée [HELGRE07].
+- Correction de la réplique doublée [YOSHIM49].
 
 ##
 
