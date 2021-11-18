@@ -115,6 +115,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des ensembles de voix pour le personnage principal doublés en français de BG1.
 - Les répliques non doublées en français sont conservées.
 - Correction de la réplique doublée [ANOM2517].
+- Correction de la réplique doublée [ANOM2536].
 - Correction de la réplique doublée [ANOMEN82].
 - Correction de la réplique doublée [ARAN09].
 - Correction de la réplique doublée [BAZDR310].
@@ -138,6 +139,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [KORGAN66].
 - Correction de la réplique doublée [LEOPA05].
 - Correction de la réplique doublée [NALIA79].
+- Correction de la réplique doublée [NALIA82].
 - Correction de la réplique doublée [PEASF302].
 - Correction de la réplique doublée [PEASM305].
 - Correction de la réplique doublée [SOLAR22].
