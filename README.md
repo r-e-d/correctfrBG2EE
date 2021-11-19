@@ -125,6 +125,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [CERND81].
 - Correction de la réplique doublée [DPJON119].
 - Correction de la réplique doublée [GORTAN01].
+- Correction de la réplique doublée [HAER2508].
 - Correction de la réplique doublée [HELFEA11].
 - Correction de la réplique doublée [HELGRE07].
 - Correction de la réplique doublée [HELPRI03].
