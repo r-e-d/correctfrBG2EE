@@ -124,6 +124,8 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [CELOGA10].
 - Correction de la réplique doublée [CERND81].
 - Correction de la réplique doublée [DPJON119].
+- Correction de la réplique doublée [EDWIN46].
+- Correction de la réplique doublée [FFACT204].
 - Correction de la réplique doublée [GORTAN01].
 - Correction de la réplique doublée [HAER2508].
 - Correction de la réplique doublée [HELFEA11].
@@ -143,6 +145,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [NALIA82].
 - Correction de la réplique doublée [PEASF302].
 - Correction de la réplique doublée [PEASM305].
+- Correction de la réplique doublée [RIFTG08].
 - Correction de la réplique doublée [SOLAR22].
 - Correction de la réplique doublée [SOLAR29].
 - Correction de la réplique doublée [SOLAR30].
@@ -167,6 +170,8 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la réplique doublée [VALYGA78].
 - Correction de la réplique doublée [VALYGA88].
 - Correction de la réplique doublée [VICO2510].
+- Correction de la réplique doublée [VICONIC2].
+- Correction de la réplique doublée [VICONIC4].
 - Correction de la réplique doublée [VICONID1].
 - Correction de la réplique doublée [YOSHIM49].
 
