@@ -81,7 +81,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
 - Suppression des whitespaces et des caractères spéciaux inadéquats.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
-- Réduction du nombre de majuscules dans les noms communs (Tante, Oncle, Elfe Noir, etc.).
+- Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 
 ##
@@ -223,7 +223,7 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
 #### Version 0.6 &nbsp;(15 août 2021)
 
   - Nouveau composant Patch audio francais.
-  - Réduction du nombre de majuscules dans les noms communs (Tante, Oncle, Elfe Noir, etc.).
+  - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
   - Correction des « sous-titres » pour les répliques doublées en français.
 
 #### Version 0.5 &nbsp;(6 août 2021)
