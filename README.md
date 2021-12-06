@@ -89,7 +89,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
 - Correction des non-sens et des erreurs de traduction.
-  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+- Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
 - Uniformisation du cartouche des objets et des sorts.
 - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
