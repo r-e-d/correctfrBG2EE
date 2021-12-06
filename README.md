@@ -89,7 +89,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
 - Correction des non-sens et des erreurs de traduction.
-- Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+- Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
 - Uniformisation du cartouche des objets et des sorts.
 - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
@@ -278,7 +278,7 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
   - Nouveau composant Ensembles de voix du personnage principal en francais.
   - Nouveau composant Suppression ensembles de voix Adventurers of Neverwinter en anglais.
   - Uniformisation du cartouche des objets et des sorts.
-  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
   - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.4 &nbsp;(19 juillet 2021)
@@ -286,13 +286,13 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
   - Nouveau composant Correction de la description des objets.
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
-  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 
 #### Version 0.3 &nbsp;(14 juillet 2021)
 
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
-  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
   - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.2 &nbsp;(05 juillet 2021)
