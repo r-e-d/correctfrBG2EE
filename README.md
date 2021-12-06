@@ -58,14 +58,14 @@ Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced
 
 « Correction de la traduction de Baldur's Gate II : Enhanced Edition » vous offre 3 options au sujet du doublage vidéo et audio :
 
-- __VF+VO__ ; Douglage français corrigée, doublage anglais par défaut pour le contenu Enhanced Edition :
-	- Nécessite le composant [30] Patch audio et vidéo français.
+- __VF+VO__ ; Douglage français corrigé, doublage anglais par défaut du contenu Enhanced Edition conservé :
+	- Nécessite le composant __[30] Patch audio et vidéo français.__
 	
-- __VF__ ; Douglage français corrigé uniquement, bruitages du contenu Enhanced Edition conservés :
-	- Nécessite les composants [30] Patch audio et vidéo français + [40] Suppression des doublages en anglais.
+- __VF__ ; Douglage français corrigé uniquement, bruitage du contenu Enhanced Edition conservé :
+	- Nécessite les composants __[30] Patch audio et vidéo français__ + __[40] Suppression des doublages en anglais.__
 	
 - __VO__ ; Doublage en anglais uniquement :
-	- N'installez pas les composants [30] Patch audio et vidéo français et [40] Suppression des doublages en anglais.
+	- N'installez pas les composants __[30] Patch audio et vidéo français__ et __[40] Suppression des doublages en anglais.__
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
