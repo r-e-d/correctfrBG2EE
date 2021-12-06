@@ -13,7 +13,7 @@
 
 
 <div align="center">
-<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#images">Captures d'écran et vidéos</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
 </div>
 
 
@@ -54,6 +54,19 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced Edition » avant tout autre mod, notamment EET.
 
+#### Language du doublage vidéo et audio
+
+« Correction de la traduction de Baldur's Gate II : Enhanced Edition » vous offre 3 options au sujet du doublage vidéo et audio :
+
+- __VF+VO__ ; Douglage français corrigée, doublage anglais par défaut pour le contenu Enhanced Edition :
+	- Nécessite le composant [30] Patch audio et vidéo français.
+	
+- __VF__ ; Douglage français corrigé uniquement, bruitages du contenu Enhanced Edition conservés :
+	- Nécessite les composants [30] Patch audio et vidéo français + [40] Suppression des doublages en anglais.
+	
+- __VO__ ; Doublage en anglais uniquement :
+	- N'installez pas les composants [30] Patch audio et vidéo français et [40] Suppression des doublages en anglais.
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 <hr>
@@ -69,13 +82,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 - Remplacement des textes de la partie originale (BG2 & ToB) de la traduction officielle par les textes du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a>.
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
+- Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
-- Ajout des onomatopées et des interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., (soupir), etc.).
+- Ajout des onomatopées et des interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupir\*, etc.).
 - Correction des « sous-titres » pour les répliques doublées en français.
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
 - Correction des non-sens et des erreurs de traduction.
-- Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
 - Uniformisation du cartouche des objets et des sorts.
 - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
@@ -130,7 +144,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 <hr>
 
 
-## <a name="images" id="images"></a>Captures d'écran
+## <a name="images" id="images"></a>Captures d'écran et vidéos
 
 #### Avant :
 
@@ -148,6 +162,20 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 <img src="correctfrbg2ee/readme/images/2.6apatched.jpg">
 
+##
+
+#### Doublage
+
+Cliquez sur les vidéos vous redirigera vers youtube, où vous pourrez comparer les différentes versions du doublage (BG2:EE/BG2/CorrectfrBG2EE).
+
+[KORGAN36]
+
+[![[KORGAN36]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ex2oBv2zXwU "[KORGAN36]")
+
+[VICONID1]
+
+[![[VICONID1]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ha92mWe3S24 "[VICONID1]")
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -156,19 +184,38 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
 
-#### Auteurs : <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>
+#### Auteurs : <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Clément « Jazira » Bizieau</a>
 
 ##
 
 #### Remerciements particuliers à :
 
-- Nos contributeurs, relecteurs, etc. : Elisabeth.
-- Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>, ainsi que <a href="https://www.aroundtheword.com/fr/">Around the word</a> pour la traduction française du contenu classique.
-- Les créateurs des Éditions Améliorées : <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
-- Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> : La Voix 2 la sagesse, Isaya, Freddy_Gwendo, Luren, Graoumf, McGregor777, N3ige, Scylla, slip, sombrepiaf, zelurker, Cruller et Leninator.
-- Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a> : Mornagest, Zefklop et Isaya.
+- Nos contributeurs, relecteurs, etc. :
+	- Maud « Elisabeth » Fanny
+	- Mickaël Leduque
+- Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
+	- Lionel « La Voix 2 la sagesse » Bayle-Denise
+	- Denis « Isaya » Ribayrol
+	- Freddy_Gwendo
+	- Luren
+	- David « Graoumf » Pascaud
+	- McGregor777
+	- N3ige
+	- Scylla
+	- slip
+	- sombrepiaf
+	- zelurker
+	- Cruller
+	- Leninator
+- Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a> :
+	- Mornagest 
+	- Zefklop
+	- Denis « Isaya » Ribayrol
+	- Freddy_Gwendo
 - Freddy_Gwendo pour son template de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>.
 - L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
+- Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>, ainsi que <a href="https://www.aroundtheword.com/fr/">Around the word</a> pour la traduction française du contenu classique.
+- Les créateurs des Éditions Améliorées : <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
 - L'équipe des d'Oghmatiques pour leurs nombreuses traductions, ainsi qu'à tous les bénévoles moddeurs, traducteurs, relecteurs de la communauté française.
 - Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="https://www.gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE.
 
@@ -231,7 +278,7 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
   - Nouveau composant Ensembles de voix du personnage principal en francais.
   - Nouveau composant Suppression ensembles de voix Adventurers of Neverwinter en anglais.
   - Uniformisation du cartouche des objets et des sorts.
-  - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
   - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.4 &nbsp;(19 juillet 2021)
@@ -239,13 +286,13 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
   - Nouveau composant Correction de la description des objets.
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
-  - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 
 #### Version 0.3 &nbsp;(14 juillet 2021)
 
   - Uniformisation du cartouche des objets et des sorts.
   - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
-  - Correction des caractères spéciaux (o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
+  - Correction des caractères spéciaux (æ, o, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
   - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 
 #### Version 0.2 &nbsp;(05 juillet 2021)
