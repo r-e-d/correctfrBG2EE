@@ -84,10 +84,11 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
-- Ajout des onomatopées et des interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupir\*, etc.).
+- Ajout des onomatopées, actions et des interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
 - Correction des « sous-titres » pour les répliques doublées en français.
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
+- Correction et uniformisation des onomatopées, actions et des interjections (\*sanglote\*, \*rester silencieux\*, \*rote\*, etc.).
 - Correction des non-sens et des erreurs de traduction.
 - Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
