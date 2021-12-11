@@ -169,13 +169,21 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 Cliquez sur les vidéos vous redirigera vers youtube, où vous pourrez comparer les différentes versions du doublage (BG2:EE/BG2/CorrectfrBG2EE).
 
-[KORGAN36]
+<summary>[KORGAN36]</summary>
+<div align="center">
+&nbsp;
 
-[![[KORGAN36]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ex2oBv2zXwU "[KORGAN36]")
+[![[KORGAN36]](correctfrbg2ee/readme/images/video.png)](https://youtu.be/Ex2oBv2zXwU "[KORGAN36]")
+</div>
+<br>
 
-[VICONID1]
+<summary>[VICONID1]</summary>
+<div align="center">
+&nbsp;
 
-[![[VICONID1]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ha92mWe3S24 "[VICONID1]")
+[![[VICONID1]](correctfrbg2ee/readme/images/video.png)](https://youtu.be/Ha92mWe3S24 "[VICONID1]")
+</div>
+<br>
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
