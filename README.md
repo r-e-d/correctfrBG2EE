@@ -26,9 +26,9 @@ Ce mod a pour objectif de corriger la traduction française de Baldur's Gate II 
 
 En effet, le <a href="https://forums.beamdog.com/discussion/81909/patch-2-6-launches-today">patch 2.6</a> de <acronym title="Baldur's Gate II : Enhanced Edition">BG2:EE</acronym> sorti en avril 2021, propose une toute nouvelle traduction française officielle réalisée par le prestataire de <a href="https://www.beamdog.com/">Beamdog</a> : <a href="https://mogi-group.com/">Mogi Group</a>. Désespérément attendu depuis novembre 2013 par la communauté française, ce nouveau patch traduit notamment le contenu Enhanced Edition.
 
-Bien que cela ouvre de nouvelles perspectives, l'absence totale de dialogue accordé au féminin pour le personnage joueur ou de doublage audio en français, pourtant bien présents dans le jeu original. Ainsi que de nombreuses modifications arbitraires des textes originaux, comme les vouvoiements/tutoiements (<a href="#images">par exemple Imoen qui vouvoie le personnage joueur</a>). Ou encore des changements de noms propres (<a href="#images">par exemple « Spellhold » qui devient « Brisesort »</a>). Pour ne citer qu'eux, ne sont pas compatibles avec le travail effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans. Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
+Bien que cela ouvre de nouvelles perspectives, l'absence totale de dialogue accordé au féminin pour le personnage joueur, ou encore de doublage audio en français, pourtant bien présents dans le jeu original. Ainsi que de nombreuses modifications arbitraires des textes originaux, comme les vouvoiements/tutoiements (<a href="#images">par exemple Imoen qui vouvoie le personnage joueur</a>). Ou encore des changements de noms propres (<a href="#images">par exemple « Spellhold » qui devient « Brisesort »</a>). Pour ne citer qu'eux, ne sont pas compatibles avec le travail effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans. Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
 
-Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacun. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées à la traduction et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
+Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées à la traduction et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
 
 Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que les bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
@@ -169,13 +169,21 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 Cliquez sur les vidéos vous redirigera vers youtube, où vous pourrez comparer les différentes versions du doublage (BG2:EE/BG2/CorrectfrBG2EE).
 
-[KORGAN36]
+<summary>[KORGAN36]</summary>
+<div align="center">
+&nbsp;
 
-[![[KORGAN36]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ex2oBv2zXwU "[KORGAN36]")
+[![[KORGAN36]](correctfrbg2ee/readme/images/video.png)](https://youtu.be/Ex2oBv2zXwU "[KORGAN36]")
+</div>
+<br>
 
-[VICONID1]
+<summary>[VICONID1]</summary>
+<div align="center">
+&nbsp;
 
-[![[VICONID1]](correctfrbg2ee/readme/images/video.jpg)](https://youtu.be/Ha92mWe3S24 "[VICONID1]")
+[![[VICONID1]](correctfrbg2ee/readme/images/video.png)](https://youtu.be/Ha92mWe3S24 "[VICONID1]")
+</div>
+<br>
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
