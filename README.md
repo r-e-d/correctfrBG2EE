@@ -26,9 +26,13 @@ Ce mod a pour objectif de corriger la traduction française de Baldur's Gate II 
 
 En effet, le <a href="https://forums.beamdog.com/discussion/81909/patch-2-6-launches-today">patch 2.6</a> de <acronym title="Baldur's Gate II : Enhanced Edition">BG2:EE</acronym> sorti en avril 2021, propose une toute nouvelle traduction française officielle réalisée par le prestataire de <a href="https://www.beamdog.com/">Beamdog</a> : <a href="https://mogi-group.com/">Mogi Group</a>. Désespérément attendu depuis novembre 2013 par la communauté française, ce nouveau patch traduit notamment le contenu Enhanced Edition.
 
-Bien que cela ouvre de nouvelles perspectives, l'absence totale de dialogue accordé au féminin pour le personnage joueur, ou encore de doublage audio en français, pourtant bien présents dans le jeu original. Ainsi que de nombreuses modifications arbitraires des textes originaux, comme les vouvoiements/tutoiements (<a href="#images">par exemple Imoen qui vouvoie le personnage joueur</a>). Ou encore des changements de noms propres (<a href="#images">par exemple « Spellhold » qui devient « Brisesort »</a>). Pour ne citer qu'eux, ne sont pas compatibles avec le travail effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans. Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
+Bien que cette nouvelle traduction officielle ouvre de nouvelles perspectives, elle comporte également certaines régressions majeures. Comme par exemple : l'absence totale de doublage audio en français (<a href="#doublage">par exemple la comparaison du doublage BG2:EE/BG2/CorrectfrBG2EE</a>) ou encore de dialogue accordé au féminin pour le personnage joueur (<a href="#images">par exemple la réponse 4</a>), qui étaient pourtant bien présents dans le jeu original.
 
-Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées à la traduction et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
+Par ailleurs, de nombreuses modifications arbitraires des textes originaux ne sont pas compatibles avec le travail effectué par les traducteurs et relecteurs francophones bénévoles depuis maintenant plus de 20 ans. Comme par exemple : le vouvoiement systématique (<a href="#images">par exemple Imoen qui vouvoie le personnage joueur, ou l'inverse</a>), ou encore des changements de noms propres (<a href="#images2">par exemple « Spellhold » qui devient « Brisesort »</a>), pour ne citer qu'eux.
+
+Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
+
+Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées aux textes et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
 
 Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que les bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
@@ -147,27 +151,27 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ## <a name="images" id="images"></a>Captures d'écran et vidéos
 
-#### Avant :
+#### BG2:EE :
 
 <img src="correctfrbg2ee/readme/images/2.6.jpg">
 
-#### Après :
+#### CorrectfrBG2EE :
 
 <img src="correctfrbg2ee/readme/images/2.6patched.jpg">
 
-#### Avant :
+#### <a name="images2" id="images2"></a>BG2:EE :
 
 <img src="correctfrbg2ee/readme/images/2.6a.jpg">
 
-#### Après :
+#### CorrectfrBG2EE :
 
 <img src="correctfrbg2ee/readme/images/2.6apatched.jpg">
 
 ##
 
-#### Doublage
+#### <a name="doublage" id="doublage"></a>Doublage
 
-Cliquez sur les vidéos vous redirigera vers youtube, où vous pourrez comparer les différentes versions du doublage (BG2:EE/BG2/CorrectfrBG2EE).
+Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer les différentes versions du doublage (BG2:EE/BG2/CorrectfrBG2EE).
 
 <summary>[KORGAN36]</summary>
 <div align="center">
@@ -201,6 +205,7 @@ Cliquez sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 
 - Nos contributeurs, relecteurs, etc. :
 	- Maud « Elisabeth » Fanny
+	- Machiavélique
 	- Mickaël Leduque
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
