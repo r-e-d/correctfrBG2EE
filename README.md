@@ -34,7 +34,7 @@ Nous constatons donc que la fidélité et la qualité de cette nouvelle traducti
 
 Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées aux textes et aux doublages originaux, voir la section <a href="#compon">Composants</a> pour plus de détails.
 
-Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que les bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
+Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
 Merci de nous signaler toute éventuelle faute à corriger sur le <a href="https://www.baldursgateworld.fr">Forum du mod</a>.
 
@@ -52,7 +52,7 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 #### Compatibilité avec les autres mods
 
-« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> ou <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>, ou encore de poster dans le <a href="https://www.baldursgateworld.fr">Forum du mod</a>.
+« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> ou <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>, ou encore poster dans le <a href="https://www.baldursgateworld.fr">Forum du mod</a>.
 
 #### Ordre d'installation
 
@@ -62,10 +62,10 @@ Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced
 
 « Correction de la traduction de Baldur's Gate II : Enhanced Edition » vous offre 3 options au sujet du doublage vidéo et audio :
 
-- __VF+VO__ ; Douglage français corrigé, doublage anglais par défaut du contenu Enhanced Edition conservé :
+- __VF+VO__ ; Doublage français corrigé, doublage anglais par défaut du contenu Enhanced Edition conservé :
 	- Nécessite le composant __[30] Patch audio et vidéo français.__
 	
-- __VF__ ; Douglage français corrigé uniquement, bruitage du contenu Enhanced Edition conservé :
+- __VF__ ; Doublage français corrigé uniquement, bruitage du contenu Enhanced Edition conservé :
 	- Nécessite les composants __[30] Patch audio et vidéo français__ + __[40] Suppression des doublages en anglais.__
 	
 - __VO__ ; Doublage en anglais uniquement :
@@ -88,11 +88,11 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
-- Ajout des onomatopées, actions et des interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
+- Ajout des onomatopées, actions et interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
 - Correction des « sous-titres » pour les répliques doublées en français.
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
-- Correction et uniformisation des onomatopées, actions et des interjections (\*sanglote\*, \*rester silencieux\*, \*rote\*, etc.).
+- Correction et uniformisation des onomatopées, actions et interjections (\*sanglote\*, \*rester silencieux\*, \*rote\*, etc.).
 - Correction des non-sens et des erreurs de traduction.
 - Correction des caractères spéciaux (æ, ō, œ, Œ, Î, Ù, Ê, É, È, À, Ç, Ô, etc.).
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
@@ -110,7 +110,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description de l'Armure d'écailles de dragon blanc.
 - Correction de la description de l'Armure d'écailles de dragon bleu.
 - Correction de la description de l'Armure d'écailles de dragon d'ombre.
-- Correction de la description de l'Hallebarde elfe noir +3.
+- Correction de la description de la Hallebarde elfe noir +3.
 - Correction de la description de l'Épée courte +4 (Figurine de Shakti).
 - Correction de la description de la Cotte de mailles elfe noir +3.
 - Correction de la description de la Cotte de mailles elfe noir +5.
@@ -128,10 +128,10 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### [30] Patch audio et vidéo français
 
-- Inclusion des ensembles de voix pour le personnage principal doublés en français.
+- Inclusion des ensembles de voix doublées en français pour le personnage principal.
 - Inclusion des répliques doublées en français.
 - Inclusion des vidéos doublées en français.
-- Importation des ensembles de voix pour le personnage principal doublés en français de BG1.
+- Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
 - Les répliques non doublées en français sont conservées.
 - Correction des répliques doublées : 
 	- [ANOM2517], [ANOM2536], [ANOMEN82], [ARAN09], [BAZDR310], [BDHIGG13], [BDHIGG14], [CELOGA10], [CERND81], [DPJON119], [EDWIN46], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIRB2], [JAHEIRBX], [KORGAN18], [KORGAN36], [KORGAN66], [LEOPA05], [NALIA79], [NALIA82], [PEASM305], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD66], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONIC2], [VICONIC4], [VICONID1], [YOSHIM49].
@@ -140,7 +140,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### [40] Suppression des doublages en anglais (nécessite le composant "Patch audio et vidéo français")
 
-- Suppression des ensembles de voix pour le personnage principal Adventurers of Neverwinter en anglais ajoutés par le patch 2.6.
+- Suppression des ensembles de voix en anglais de Adventurers of Neverwinter pour le personnage principal ajoutées par le patch 2.6.
 - Suppression des répliques non doublées en français.
 - Les doublages de type « bruitages » du contenu Enhanced Edition sont conservés.
 
@@ -205,6 +205,7 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 
 - Nos contributeurs, relecteurs, etc. :
 	- Maud « Elisabeth » Fanny
+	- Tiffany « GrootIsntTree » Goalec
 	- Machiavélique
 	- Mickaël Leduque
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
@@ -256,16 +257,18 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 ###### Ce mod a été créé pour être librement apprécié par tous les joueurs de Baldur's Gate II : Enhanced Edition. Cependant, il ne doit pas être vendu, publié, compilé ou redistribué sous une forme quelconque sans le consentement de ses auteurs.
 ###### Veuillez noter que tout partage ou hébergement de ce mod est interdit sans la permission des auteurs.
 
-###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez nous contacter et conseillez-nous sur ce qu'il faut faire à ce sujet. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droit d'auteur, merci de bien vouloir nous le faire savoir dès que possible et nous supprimeront immédiatement le contenu en conflit.
+###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez nous contacter et nous conseiller sur la démarche à suivre. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droits d'auteur, merci de bien vouloir nous le faire savoir dès que possible et nous supprimerons immédiatement le contenu en question.
 
-###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, à des fins non commerciales. Si vous souhaitez des précisions, veuillez consulter la <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>.
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer, transmettre) et de modifier (adapter) ce travail, à des fins non commerciales. Pour plus de précisions, veuillez consulter la <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>.
 ###### Tous les copyrights et marques commerciales appartiennent à leurs propriétaires respectifs.
 
-La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de vingt ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs, traducteurs et relecteurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
+##
+
+La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de vingt ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs, traducteurs et relecteurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous vers un même but.
 
 Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
 
-Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteurs. Ne le faites pas.
+Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecteurs. Ne le faites pas.
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -278,7 +281,7 @@ Soyez assez sympa avec vos collègues joueurs, moddeurs, traducteurs et relecteu
 #### Version 0.7 &nbsp;(27 octobre 2021)
 
   - Correction des « sous-titres » pour les répliques doublées en français.
-  - Importation des ensembles de voix pour le personnage principal doublés en français de BG1.
+  - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
   - Inclusion des vidéos doublées en français.
 
 #### Version 0.6 &nbsp;(15 août 2021)
