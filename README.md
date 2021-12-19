@@ -110,11 +110,11 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Correction de la description de l'Armure d'écailles de dragon blanc.
 - Correction de la description de l'Armure d'écailles de dragon bleu.
 - Correction de la description de l'Armure d'écailles de dragon d'ombre.
-- Correction de la description de la Hallebarde elfe noir +3.
 - Correction de la description de l'Épée courte +4 (Figurine de Shakti).
 - Correction de la description de la Cotte de mailles elfe noir +3.
 - Correction de la description de la Cotte de mailles elfe noir +5.
 - Correction de la description de la Hache +3 (Arme enchantée).
+- Correction de la description de la Hallebarde elfe noir +3.
 - Correction de la description de la Lame de Suryris +2.
 - Correction de la description du Symbole sacré de Baervan Ermiterrant.
 - Correction de la description du Symbole sacré de Heaum.
@@ -134,7 +134,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
 - Les répliques non doublées en français sont conservées.
 - Correction des répliques doublées : 
-	- [ANOM2517], [ANOM2536], [ANOMEN82], [ARAN09], [BAZDR310], [BDHIGG13], [BDHIGG14], [CELOGA10], [CERND81], [DPJON119], [EDWIN46], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIRB2], [JAHEIRBX], [KORGAN18], [KORGAN36], [KORGAN66], [LEOPA05], [NALIA79], [NALIA82], [PEASM305], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD66], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONIC2], [VICONIC4], [VICONID1], [YOSHIM49].
+	- [ANOM2517], [ANOM2536], [ANOMEN82], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [CELOGA10], [CERND81], [DPJON119], [EDWIN46], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIRB2], [JAHEIRBX], [JANJAN68], [KORGAN18], [KORGAN36], [KORGAN66], [LEOPA05], [NALIA79], [NALIA82], [PEASM305], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD66], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONIC2], [VICONIC4], [VICONID1], [YOSHIM49].
 
 ##
 
