@@ -203,7 +203,7 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 
 #### Remerciements particuliers à :
 
-- Nos contributeurs, relecteurs, etc. :
+- Nos contributeurs, relecteurs, bêta-testeurs, etc. :
 	- Maud « Elisabeth » Fanny
 	- Tiffany « GrootIsntTree » Goalec
 	- Machiavélique
