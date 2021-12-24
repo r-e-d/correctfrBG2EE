@@ -278,6 +278,13 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.8 &nbsp;(24 décembre 2021)
+  - Correction des répliques doublées.
+  - Correction de fichiers audio.
+  - Correction vouvoiement / tutoiement.
+  - Correction et uniformisation des onomatopées, actions et interjections (\*sanglote\*, \*rester silencieux\*, \*rote\*, etc.).
+  - Importation des corrections de la traduction française officielle du patch 2.6.
+
 #### Version 0.7 &nbsp;(27 octobre 2021)
 
   - Correction des « sous-titres » pour les répliques doublées en français.
