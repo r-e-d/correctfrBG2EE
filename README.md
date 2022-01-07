@@ -151,7 +151,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 ## <a name="images" id="images"></a>Captures d'écran et vidéos
 
-Comparez les deux captures d'écran des textes (BG2:EE/CorrectfrBG2EE).
+Comparez les captures d'écran des textes (BG2:EE/CorrectfrBG2EE).
 
 #### BG2:EE :
 
