@@ -280,6 +280,11 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.9 &nbsp;(7 janvier 2022)
+  - Correction de fichiers audio.
+  - Correction accords féminins.
+  - Importation des corrections de la traduction française officielle du patch 2.6.
+
 #### Version 0.8 &nbsp;(24 décembre 2021)
   - Correction des répliques doublées.
   - Correction de fichiers audio.
