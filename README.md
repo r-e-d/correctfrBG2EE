@@ -210,6 +210,8 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 	- Tiffany « GrootIsntTree » Goalec
 	- Machiavélique
 	- Mickaël Leduque
+	- Mera
+	- JohnBob
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
 	- Denis « Isaya » Ribayrol
