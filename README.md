@@ -288,6 +288,12 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.11 &nbsp;(18 avril 2022)
+  - Relecture et corrections des épilogues.
+  - Relecture des textes des familiers.
+  - Correction de fichiers audio.
+  - Corrections diverses.
+
 #### Version 0.10 &nbsp;(5 février 2022)
   - Correction de fichiers audio.
   - Importation des corrections de la traduction française officielle du patch 2.6.
