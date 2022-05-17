@@ -84,11 +84,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### [10] Correction de la traduction de Baldur's Gate II : Enhanced Edition
 
+Ce composant apporte toutes les corrections nécessaires aux textes de BG2EE.
+
 - Remplacement des textes de la partie originale (BG2 & ToB) de la traduction officielle par les textes du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a>.
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
 - Ajout des onomatopées, actions et interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
+- Ajout des détails omis de la traduction originale.
 - Correction des « sous-titres » pour les répliques doublées en français.
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
@@ -106,6 +109,8 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 ##
 
 #### [20] Correction de la description des objets (nécessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition")
+
+Ce composant corrige les références de ligne de divers objets, ou en ajoute de nouvelles si nécessaire.
 
 - Correction de la description de l'Armure d'écailles de dragon blanc.
 - Correction de la description de l'Armure d'écailles de dragon bleu.
@@ -128,17 +133,23 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### [30] Patch audio et vidéo français
 
+Ce composant ajoute (et corrige) les doublages et les vidéos en français.
+
 - Inclusion des ensembles de voix doublées en français pour le personnage principal.
 - Inclusion des répliques doublées en français.
 - Inclusion des vidéos doublées en français.
+- Réduction des artefacts de compression des cinématiques.
+- Réduction des grésillements des doublages.
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
-- Les répliques non doublées en français sont conservées.
 - Correction (et/ou ajout) des répliques doublées :
 	- [AERIE91], [AERIEC8], [ANOM2517], [ANOM2536], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN68], [KORGAN18], [KORGAN36], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD66], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [YOSHIM44], [YOSHIM49].
+- Les répliques non doublées en français sont conservées.
 
 ##
 
 #### [40] Suppression des doublages en anglais (nécessite le composant "Patch audio et vidéo français")
+
+Ce composant supprime les doublages anglais restants.
 
 - Suppression des ensembles de voix en anglais de Adventurers of Neverwinter pour le personnage principal ajoutées par le patch 2.6.
 - Suppression des répliques non doublées en français.
@@ -193,6 +204,23 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
+##
+
+#### <a name="cinématiques" id="cinématiques"></a>Cinématiques
+
+Comparez les différentes versions des cinématiques.
+
+#### BG2
+
+<img src="correctfrbg2ee/readme/images/vidbg2.png">
+
+#### BG2EE
+
+<img src="correctfrbg2ee/readme/images/vidbg2ee.png">
+
+#### CorrectfrBG2EE
+
+<img src="correctfrbg2ee/readme/images/vidcorrectfrbg2ee.png">
 
 <hr>
 
@@ -218,6 +246,7 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 	- Le Marquis
 	- Nixou
 	- Sloth
+	- Sanctifer
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
 	- Denis « Isaya » Ribayrol

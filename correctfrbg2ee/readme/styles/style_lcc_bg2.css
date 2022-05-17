@@ -394,6 +394,8 @@ img.image_left {
 }
 .screen img:hover{max-width:100%; opacity:0}
 
+.screen2 {background-size:contain;background-repeat:no-repeat}
+
 
 /*  ------------ *
  *  Ligne dorée  *
