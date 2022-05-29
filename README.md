@@ -1,3 +1,5 @@
+[![Github Releases](https://img.shields.io/github/v/release/r-e-d/correctfrBG2EE)](https://github.com/r-e-d/correctfrBG2EE/releases/latest)
+
 <div align="center"><h1>Correction de la traduction de Baldur's Gate II : Enhanced Edition</h1>
 
 <h3>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour BG2:EE (v2.6+) et EET (v13+)<h3>
