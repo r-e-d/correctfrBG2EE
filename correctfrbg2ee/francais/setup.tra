@@ -8,6 +8,8 @@
 @10 = ~Necessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition"~
 @11 = ~Necessite le composant "Patch audio et video francais"~
 
+@20 = ~Utilisez la version officielle : https://github.com/r-e-d/correctfrBG2EE/releases/latest~
+
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
 @-1001= "composants optionnels distincts.
