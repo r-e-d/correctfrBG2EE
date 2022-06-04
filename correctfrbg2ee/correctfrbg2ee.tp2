@@ -24,30 +24,45 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~10~ @10 // Necessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition"
 
+	// Correction de la description de la Hallebarde elfe noir +3
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction de la description de la Lame de Suryris +2
 	COPY_EXISTING ~HALBSHA.ITM~ ~override~
 		WRITE_LONG 0x54 7344
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom de la Hache +3 (Arme enchantée)
 	COPY_EXISTING ~ENSW2H.ITM~ ~override~
 		WRITE_LONG 0x08 71038
 		WRITE_LONG 0x0c 71038
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom de l'Armure d'écailles de dragon blanc
+	// Correction du nom de l'Armure d'écailles de dragon bleu
+	// Correction du nom de l'Armure d'écailles de dragon d'ombre
 	COPY_EXISTING ~LEAT19.ITM~ ~override~
 				  ~CHAN20.ITM~ ~override~
 				  ~PLAT20.ITM~ ~override~
 		WRITE_LONG 0x08 39544
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom de la Cotte de mailles elfe noir +3
+	// Correction du nom de la Cotte de mailles elfe noir +5
 	COPY_EXISTING ~DWCHAN01.ITM~ ~override~
 				  ~DWCHAN02.ITM~ ~override~
 		WRITE_LONG 0x08 6146
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant
+	// Correction du nom et de la description du Symbole sacré de Heaum
+	// Correction du nom et de la description du Symbole sacré de Lathandre
+	// Correction du nom et de la description du Symbole sacré de Shar
+	// Correction du nom et de la description du Symbole sacré de Talos
+	// Correction du nom et de la description du Symbole sacré de Tempus
+	// Correction du nom et de la description du Symbole sacré de Tyr
 	COPY_EXISTING ~BELT12.ITM~ ~override~
 				  ~BELT13.ITM~ ~override~
 				  ~BELT14.ITM~ ~override~
@@ -59,12 +74,34 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets
 		WRITE_LONG 0x50 17054
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction de la description de l'Épée courte +4 (Figurine de Shakti)
 	COPY_EXISTING ~SHAKTI1.ITM~ ~override~
 		SAY DESC @100
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction de la description de la Cotte de mailles elfe noir +1
 	COPY_EXISTING ~CLOLTH.ITM~ ~override~
 		SAY DESC @101
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom du parchemin du sort Protection contre le feu
+	COPY_EXISTING ~SCRL6H.ITM~ ~override~
+		WRITE_LONG 0x0c 12926
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom du parchemin du sort Protection contre le froid
+	COPY_EXISTING ~SCRL6I.ITM~ ~override~
+		WRITE_LONG 0x0c 7539
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom du parchemin du sort Protection contre l'acide
+	COPY_EXISTING ~SCRL6Y.ITM~ ~override~
+		WRITE_LONG 0x0c 7563
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom du parchemin du sort Protection contre l'électricité
+	COPY_EXISTING ~SCRL5T.ITM~ ~override~
+		WRITE_LONG 0x0c 7571
 	BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @3 DESIGNATED 30 // Patch audio et video francais
