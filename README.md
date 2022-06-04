@@ -114,22 +114,27 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2EE.
 
 Ce composant corrige les références de ligne de divers objets, ou en ajoute de nouvelles si nécessaire.
 
-- Correction de la description de l'Armure d'écailles de dragon blanc.
-- Correction de la description de l'Armure d'écailles de dragon bleu.
-- Correction de la description de l'Armure d'écailles de dragon d'ombre.
+- Correction du nom de l'Armure d'écailles de dragon blanc.
+- Correction du nom de l'Armure d'écailles de dragon bleu.
+- Correction du nom de l'Armure d'écailles de dragon d'ombre.
 - Correction de la description de l'Épée courte +4 (Figurine de Shakti).
-- Correction de la description de la Cotte de mailles elfe noir +3.
-- Correction de la description de la Cotte de mailles elfe noir +5.
-- Correction de la description de la Hache +3 (Arme enchantée).
+- Correction du nom de de la Cotte de mailles elfe noir +3.
+- Correction du nom de de la Cotte de mailles elfe noir +5.
+- Correction du nom de la Hache +3 (Arme enchantée).
 - Correction de la description de la Hallebarde elfe noir +3.
 - Correction de la description de la Lame de Suryris +2.
-- Correction de la description du Symbole sacré de Baervan Ermiterrant.
-- Correction de la description du Symbole sacré de Heaum.
-- Correction de la description du Symbole sacré de Lathandre.
-- Correction de la description du Symbole sacré de Shar.
-- Correction de la description du Symbole sacré de Talos.
-- Correction de la description du Symbole sacré de Tempus.
-- Correction de la description du Symbole sacré de Tyr.
+- Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant.
+- Correction du nom et de la description du Symbole sacré de Heaum.
+- Correction du nom et de la description du Symbole sacré de Lathandre.
+- Correction du nom et de la description du Symbole sacré de Shar.
+- Correction du nom et de la description du Symbole sacré de Talos.
+- Correction du nom et de la description du Symbole sacré de Tempus.
+- Correction du nom et de la description du Symbole sacré de Tyr.
+- Correction du nom et de la description de la Cotte de mailles elfe noir +1.
+- Correction du nom du parchemin du sort Protection contre le feu.
+- Correction du nom du parchemin du sort Protection contre le froid.
+- Correction du nom du parchemin du sort Protection contre l'acide.
+- Correction du nom du parchemin du sort Protection contre l'électricité.
 
 ##
 
