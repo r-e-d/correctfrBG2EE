@@ -107,7 +107,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2EE.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
-- Réduction des mots-clés inutiles ou inadéquats (<GABBER>, <HESHE>, <GIRLBOY>, etc.).
+- Réduction des mots-clés inutiles ou inadéquats (&ltGABBER&gt, &ltHESHE&gt, &ltGIRLBOY&gt, etc.).
 
 ##
 
