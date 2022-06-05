@@ -107,6 +107,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2EE.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
+- Réduction des mots-clés inutiles ou inadéquats (\<GABBER\>, \<HESHE\>, \<GIRLBOY\>, etc.).
 
 ##
 
@@ -118,8 +119,8 @@ Ce composant corrige les références de ligne de divers objets, ou en ajoute de
 - Correction du nom de l'Armure d'écailles de dragon bleu.
 - Correction du nom de l'Armure d'écailles de dragon d'ombre.
 - Correction de la description de l'Épée courte +4 (Figurine de Shakti).
-- Correction du nom de de la Cotte de mailles elfe noir +3.
-- Correction du nom de de la Cotte de mailles elfe noir +5.
+- Correction du nom de la Cotte de mailles elfe noir +3.
+- Correction du nom de la Cotte de mailles elfe noir +5.
 - Correction du nom de la Hache +3 (Arme enchantée).
 - Correction de la description de la Hallebarde elfe noir +3.
 - Correction de la description de la Lame de Suryris +2.
