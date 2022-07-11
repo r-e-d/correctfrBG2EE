@@ -325,6 +325,11 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.13 &nbsp;(11 juillet 2022)
+  - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
+  - Correction de fichiers audio.
+  - Corrections diverses.
+
 #### Version 0.12 &nbsp;(5 juin 2022)
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Réduction des mots-clés inutiles ou inadéquats.
