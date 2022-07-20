@@ -245,11 +245,10 @@ Comparez les différentes versions des cinématiques.
 	- Maud « Elisabeth » Fanny
 	- Tiffany « GrootIsntTree » Goalec
 	- Machiavélique
-	- Mickaël Leduque
+	- Mickaël « Mickabouille » Leduque
 	- Mera
 	- JohnBob
 	- Freddy_Gwendo
-	- Mickabouille
 	- Deratiseur
 	- Le Marquis
 	- Nixou
