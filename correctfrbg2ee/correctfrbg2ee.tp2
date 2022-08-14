@@ -1,6 +1,6 @@
 BACKUP ~correctfrbg2ee/backup~
 SUPPORT ~Lefreut et Jazira (https://www.baldursgateworld.fr)~
-VERSION ~0.13~
+VERSION ~0.14~
 README ~correctfrbg2ee/readme/readme-correctfrbg2ee.html~
 
 ALWAYS
@@ -109,8 +109,8 @@ BEGIN @3 DESIGNATED 30 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
-	COPY ~%MOD_FOLDER%/override/LEOPA05.WAV~ ~lang/fr_fr/override/LEOPA05.WAV~
-	COPY ~%MOD_FOLDER%/override/bdtptol.WAV~ ~lang/fr_fr/override/bdtptol.WAV~
+	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
+	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
 
 	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
 	LAF cd_add_soundset
