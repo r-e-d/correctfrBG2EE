@@ -26,7 +26,7 @@
 
 Ce mod a pour objectif de corriger la traduction française de Baldur's Gate II : Enhanced Edition, ainsi que de proposer une version française complète digne de ce nom, aussi bien au niveau des textes que du doublage audio.
 
-En effet, le <a href="https://forums.beamdog.com/discussion/81909/patch-2-6-launches-today">patch 2.6</a> de <acronym title="Baldur's Gate II : Enhanced Edition">BG2:EE</acronym> sorti en avril 2021, propose une toute nouvelle traduction française officielle réalisée par le prestataire de <a href="https://www.beamdog.com/">Beamdog</a> : <a href="https://mogi-group.com/">Mogi Group</a>. Désespérément attendu depuis novembre 2013 par la communauté française, ce nouveau patch traduit notamment le contenu Enhanced Edition.
+En effet, le <a href="https://forums.beamdog.com/discussion/81909/patch-2-6-launches-today">patch 2.6</a> de BG2:EE sorti en avril 2021, propose une nouvelle traduction française officielle réalisée par le prestataire de <a href="https://www.beamdog.com/">Beamdog</a> : <a href="https://mogi-group.com/">Mogi Group</a>. Désespérément attendu depuis novembre 2013 par la communauté française, ce nouveau patch traduit notamment le contenu Enhanced Edition.
 
 Bien que cette nouvelle traduction officielle ouvre de nouvelles perspectives, elle comporte également certaines régressions majeures. Comme par exemple : l'absence totale de doublage audio en français (<a href="#doublage">par exemple la comparaison du doublage BG2:EE/BG2/CorrectfrBG2EE</a>) ou encore de dialogue accordé au féminin pour le personnage joueur (<a href="#images">par exemple la réponse 4</a>), qui étaient pourtant bien présents dans le jeu original.
 
@@ -34,7 +34,7 @@ Par ailleurs, de nombreuses modifications arbitraires des textes originaux ne so
 
 Nous constatons donc que la fidélité et la qualité de cette nouvelle traduction officielle ne correspondent pas aux attentes de la communauté.
 
-Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées aux textes et aux doublages originaux, voir la section <a href="#components">Composants</a> pour plus de détails.
+Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans pour autant être obstinément fermé à certaines corrections et améliorations de cette nouvelle traduction officielle, afin d'en tirer le meilleur parti de chacune. De plus, de nombreuses corrections et améliorations supplémentaires ont été intégrées aux textes et aux doublages originaux de BG2, voir la section <a href="#components">Composants</a> pour plus de détails.
 
 Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
@@ -58,7 +58,7 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 #### Ordre d'installation
 
-Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced Edition » avant tout autre mod, notamment EET.
+Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced Edition » avant tout autre mod, Enhanced Edition Trilogy (EET).
 
 #### Language du doublage vidéo et audio
 
@@ -86,14 +86,14 @@ Le programme d'installation comprend les composants suivants. Chacun possède un
 
 #### [10] Correction de la traduction de Baldur's Gate II : Enhanced Edition
 
-Ce composant apporte toutes les corrections nécessaires aux textes de BG2EE.
+Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 
 - Remplacement des textes de la partie originale (BG2 & ToB) de la traduction officielle par les textes du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a>.
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
 - Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
 - Ajout des onomatopées, actions et interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
-- Ajout des détails omis de la traduction originale.
+- Ajout des détails omis de la version originale.
 - Correction des « sous-titres » pour les répliques doublées en français.
 - Correction des tutoiements/vouvoiements.
 - Correction et uniformisation des noms propres (personnages, lieux, organisations, lore, objets, sorts, etc.).
@@ -147,7 +147,7 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 - Inclusion des répliques doublées en français.
 - Inclusion des vidéos doublées en français.
 - Réduction des artefacts de compression des cinématiques.
-- Réduction des grésillements des doublages.
+- Réduction des grésillements et autres bruits indésirables des doublages
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
 - Correction (et/ou ajout) des répliques doublées :
 	- [3AMONK08], [AERI2518], [AERIE91], [AERIEC8], [AERIED5], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [bdtptol], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KELD2508], [KELDOR45], [KELDOR68], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [YOSHIM44], [YOSHIM49].
@@ -212,25 +212,25 @@ Cliquer sur les vidéos vous redirigera vers youtube, où vous pourrez comparer 
 </div>
 <br>
 
-<div align="right"><a href="#top">Retour en haut de page</a></div>
-
 ##
 
 #### <a name="cinématiques" id="cinématiques"></a>Cinématiques
 
-Comparez les différentes versions des cinématiques.
+Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE).
 
 #### BG2
 
 <img src="correctfrbg2ee/readme/images/vidbg2.png">
 
-#### BG2EE
+#### BG2:EE
 
 <img src="correctfrbg2ee/readme/images/vidbg2ee.png">
 
 #### CorrectfrBG2EE
 
 <img src="correctfrbg2ee/readme/images/vidcorrectfrbg2ee.png">
+
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 <hr>
 
@@ -256,6 +256,8 @@ Comparez les différentes versions des cinématiques.
 	- Nixou
 	- Sloth
 	- Sanctifer
+	- loupgris
+	- Streen
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
 	- Denis « Isaya » Ribayrol
@@ -275,10 +277,10 @@ Comparez les différentes versions des cinématiques.
 	- Zefklop
 	- Denis « Isaya » Ribayrol
 	- Freddy_Gwendo
-- Freddy_Gwendo pour son template de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>.
+- Freddy_Gwendo pour son modèle de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>.
 - L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
 - Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>, ainsi que <a href="https://www.aroundtheword.com/fr/">Around the word</a> pour la traduction française du contenu classique.
-- Les créateurs des Éditions Améliorées : <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
+- Les créateurs des Enhanced Editions et de Siege of Dragonspear : <a href="https://www.beamdog.com/">Overhaul Games</a>, <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
 - L'équipe des d'Oghmatiques pour leurs nombreuses traductions, ainsi qu'à tous les bénévoles moddeurs, traducteurs, relecteurs de la communauté française.
 - Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="https://www.gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE.
 
@@ -298,7 +300,7 @@ Comparez les différentes versions des cinématiques.
 
 #### Information sur les droits d'auteur
 
-###### Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul, Beamdog ou Wizards of the Coast. Il a été développé par Lefreut et Jazira, et est basé sur le jeu Baldur's Gate II : Enhanced Edition.
+###### Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul Games, Beamdog ou Wizards of the Coast. Il a été développé par Lefreut et Jazira, et est basé sur le jeu Baldur's Gate II : Enhanced Edition.
 ###### Tout le contenu du mod appartient à &copy; Lefreut et Jazira.
 ###### Baldur's Gate II : Les Ombres d'Amn et Baldur's Gate II : Trône de Bhaal appartiennent à &copy; TSR, Inc. Le moteur Infinity Engine appartient à &copy; BioWare Corp. Toutes les autres marques et droits d'auteur appartiennent à leurs propriétaires respectifs.
 
