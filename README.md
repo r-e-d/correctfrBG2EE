@@ -90,6 +90,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 
 - Remplacement des textes de la partie originale (BG2 & ToB) de la traduction officielle par les textes du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a>.
 - Importation des corrections du <a href="https://www.baldursgateworld.fr/lacouronne/la-zone-de-telechargement/24082-mods-crees-patch-patch-correctif-des-textes-pour-baldur-s-gate-2-et-tob-en-vf.html">Patch correctif des textes pour Baldur's Gate 2 (et ToB)</a>.
+- Importation des correctifs des textes du <a href="https://github.com/Gibberlings3/EE_Fixpack">EEfixpack</a>.
 - Importation des corrections de la traduction française officielle du patch 2.6.
 - Ajout des versions féminines manquantes et suppression des versions féminines inadéquates.
 - Ajout des onomatopées, actions et interjections dans les « sous-titres » des répliques doublées pour les malentendants (Aïe !, Hmmmm..., \*soupire\*, etc.).
