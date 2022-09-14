@@ -58,7 +58,7 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 #### Ordre d'installation
 
-Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced Edition » avant tout autre mod, Enhanced Edition Trilogy (EET).
+Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced Edition » avant tout autre mod, notamment Enhanced Edition Trilogy (EET).
 
 #### Language du doublage vidéo et audio
 
