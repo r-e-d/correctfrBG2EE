@@ -108,6 +108,8 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME2 @102
 	BUT_ONLY_IF_IT_CHANGES
 
+	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
+
 BEGIN @3 DESIGNATED 30 // Patch audio et video francais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
