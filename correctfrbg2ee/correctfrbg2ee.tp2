@@ -20,18 +20,15 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	INCLUDE ~correctfrbg2ee/lib/bg2ee.tph~
 
-BEGIN @2 DESIGNATED 20 // Correction de la description des objets
-	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
-	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~10~ @10 // Necessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition"
-
 	// Correction de la description de la Hallebarde elfe noir +3
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679
 	BUT_ONLY_IF_IT_CHANGES
 
-	// Correction de la description de la Lame de Suryris +2
+	// Correction du nom de la Hallebarde +2
 	COPY_EXISTING ~HALBSHA.ITM~ ~override~
-		WRITE_LONG 0x54 7344
+		WRITE_LONG 0x0c 96055
+		WRITE_ASCII 0x3a ~IHALB07~ #8
 	BUT_ONLY_IF_IT_CHANGES
 
 	// Correction du nom de la Hache +3 (Arme enchantée)
@@ -102,6 +99,13 @@ BEGIN @2 DESIGNATED 20 // Correction de la description des objets
 	// Correction du nom du parchemin du sort Protection contre l'électricité
 	COPY_EXISTING ~SCRL5T.ITM~ ~override~
 		WRITE_LONG 0x0c 7571
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom car personnage masculin
+	COPY_EXISTING ~PIRCOR03.CRE~ ~override~
+				  ~SARPROVM.CRE~ ~override~
+		SAY NAME1 @102
+		SAY NAME2 @102
 	BUT_ONLY_IF_IT_CHANGES
 
 BEGIN @3 DESIGNATED 30 // Patch audio et video francais
