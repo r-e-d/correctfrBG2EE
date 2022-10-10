@@ -104,6 +104,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Correction des fautes de frappe, d'orthographe, de conjugaison et de grammaire.
 - Uniformisation du cartouche des objets et des sorts.
 - Uniformisation de la casse et de la ponctuation (?, !, :, ;, «, », ', -, etc.).
+- Uniformisation des textes partagés entre BG:EE et BG2:EE (objets, sorts, interface utilisateur, etc.).
 - Suppression des whitespaces et des caractères spéciaux inadéquats.
 - Amélioration de la « qualité de vie » (espaces insécables, 10 000, 2 365, etc.).
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
