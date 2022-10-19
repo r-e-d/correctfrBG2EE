@@ -29,6 +29,17 @@ Nécessite :
  5 en Force
 
 Poids : 8~
-
 // (PIRCOR03.CRE / SARPROVM.CRE)
 @102 = ~Courtisan~
+// Armure de plates complète elfe noir +5 (DWPLAT01.ITM)
+@103 = ~L'armure de plates complète est la meilleure armure qu'un combattant puisse acquérir, tant en termes d'apparence que de protection. Les plaques, parfaitement ajustées et imbriquées les unes dans les autres, sont courbées de manière à dévier les coups et les projectiles. Les armures de plates complètes sont généralement décorées de riches gravures et de détails en relief.
+
+Comme pour la plupart des équipements elfes noirs, cet objet est fait d'adamantium, un alliage d'adamantite qui se transforme rapidement en poussière s'il quitte l'Ombre-Terre.
+
+PARAMÈTRES :
+
+Classe d'armure : 1 (-2 contre les armes perforantes et les projectiles, -3 contre les armes tranchantes)
+Nécessite :
+ 15 en Force
+
+Poids : 70~

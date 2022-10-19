@@ -107,6 +107,11 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @102
 		SAY NAME2 @102
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction de la description de l'Armure de plates complète elfe noir +5
+	COPY_EXISTING ~DWPLAT01.ITM~ ~override~
+		SAY UNIDENTIFIED_DESC @103
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
