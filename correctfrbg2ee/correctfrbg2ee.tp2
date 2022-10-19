@@ -229,7 +229,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 
 BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
-	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @11 // Necessite le composant "Patch audio et video francais"
+	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @10 // Necessite le composant "Patch audio et video francais"
 	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
