@@ -107,10 +107,15 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @102
 		SAY NAME2 @102
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction de la description de l'Armure de plates complète elfe noir +5
+	COPY_EXISTING ~DWPLAT01.ITM~ ~override~
+		SAY UNIDENTIFIED_DESC @103
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
-BEGIN @3 DESIGNATED 30 // Patch audio et video francais
+BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	COPY ~%MOD_FOLDER%/data~ ~lang/fr_fr/data~
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
@@ -222,9 +227,9 @@ BEGIN @3 DESIGNATED 30 // Patch audio et video francais
 		STR_VAR cd_name = "MALE8"
 	END
 
-BEGIN @4 DESIGNATED 40 // Suppression des doublages en anglais
+BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
-	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @11 // Necessite le composant "Patch audio et video francais"
+	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~30~ @10 // Necessite le composant "Patch audio et video francais"
 	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~

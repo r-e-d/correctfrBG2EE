@@ -65,13 +65,13 @@ Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced
 « Correction de la traduction de Baldur's Gate II : Enhanced Edition » vous offre 3 options au sujet du doublage vidéo et audio :
 
 - __VF+VO__ ; Doublage français corrigé, doublage anglais par défaut du contenu Enhanced Edition conservé :
-	- Nécessite le composant __[30] Patch audio et vidéo français.__
+	- Nécessite le composant __[20] Patch audio et vidéo français.__
 	
 - __VF__ ; Doublage français corrigé uniquement, bruitage du contenu Enhanced Edition conservé :
-	- Nécessite les composants __[30] Patch audio et vidéo français__ + __[40] Suppression des doublages en anglais.__
+	- Nécessite les composants __[20] Patch audio et vidéo français__ + __[30] Suppression des doublages en anglais.__
 	
 - __VO__ ; Doublage en anglais uniquement :
-	- N'installez pas les composants __[30] Patch audio et vidéo français__ et __[40] Suppression des doublages en anglais.__
+	- N'installez pas les composants __[20] Patch audio et vidéo français__ et __[30] Suppression des doublages en anglais.__
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -110,38 +110,36 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 - Réduction des mots-clés inutiles ou inadéquats (\<GABBER\>, \<HESHE\>, \<GIRLBOY\>, etc.).
+- Correction (et/ou ajout) de références de ligne des objets (noms, infobulles, descriptions, icônes, etc.) :
+	- Correction du nom de l'Armure d'écailles de dragon blanc.
+	- Correction du nom de l'Armure d'écailles de dragon bleu.
+	- Correction du nom de l'Armure d'écailles de dragon d'ombre.
+	- Correction de la description de l'Épée courte +4 (Figurine de Shakti).
+	- Correction du nom de la Cotte de mailles elfe noir +3.
+	- Correction du nom de la Cotte de mailles elfe noir +5.
+	- Correction du nom de la Hache +3 (Arme enchantée).
+	- Correction de la description de la Hallebarde elfe noir +3.
+	- Correction de la description de la Lame de Suryris +2.
+	- Correction de la description de l'Armure de plates complète elfe noir +5.
+	- Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant.
+	- Correction du nom et de la description du Symbole sacré de Heaum.
+	- Correction du nom et de la description du Symbole sacré de Lathandre.
+	- Correction du nom et de la description du Symbole sacré de Shar.
+	- Correction du nom et de la description du Symbole sacré de Talos.
+	- Correction du nom et de la description du Symbole sacré de Tempus.
+	- Correction du nom et de la description du Symbole sacré de Tyr.
+	- Correction du nom et de la description de la Cotte de mailles elfe noir +1.
+	- Correction du nom du parchemin du sort Protection contre le feu.
+	- Correction du nom du parchemin du sort Protection contre le froid.
+	- Correction du nom du parchemin du sort Protection contre l'acide.
+	- Correction du nom du parchemin du sort Protection contre l'électricité.
+- Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
+	- PIRCOR03.CRE (Courtisan).
+	- SARPROVM.CRE (Courtisan).
 
 ##
 
-#### [20] Correction de la description des objets (nécessite le composant "Correction de la traduction de Baldur's Gate II : Enhanced Edition")
-
-Ce composant corrige les références de ligne de divers objets, ou en ajoute de nouvelles si nécessaire.
-
-- Correction du nom de l'Armure d'écailles de dragon blanc.
-- Correction du nom de l'Armure d'écailles de dragon bleu.
-- Correction du nom de l'Armure d'écailles de dragon d'ombre.
-- Correction de la description de l'Épée courte +4 (Figurine de Shakti).
-- Correction du nom de la Cotte de mailles elfe noir +3.
-- Correction du nom de la Cotte de mailles elfe noir +5.
-- Correction du nom de la Hache +3 (Arme enchantée).
-- Correction de la description de la Hallebarde elfe noir +3.
-- Correction de la description de la Lame de Suryris +2.
-- Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant.
-- Correction du nom et de la description du Symbole sacré de Heaum.
-- Correction du nom et de la description du Symbole sacré de Lathandre.
-- Correction du nom et de la description du Symbole sacré de Shar.
-- Correction du nom et de la description du Symbole sacré de Talos.
-- Correction du nom et de la description du Symbole sacré de Tempus.
-- Correction du nom et de la description du Symbole sacré de Tyr.
-- Correction du nom et de la description de la Cotte de mailles elfe noir +1.
-- Correction du nom du parchemin du sort Protection contre le feu.
-- Correction du nom du parchemin du sort Protection contre le froid.
-- Correction du nom du parchemin du sort Protection contre l'acide.
-- Correction du nom du parchemin du sort Protection contre l'électricité.
-
-##
-
-#### [30] Patch audio et vidéo français
+#### [20] Patch audio et vidéo français
 
 Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 
@@ -157,7 +155,7 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 
 ##
 
-#### [40] Suppression des doublages en anglais (nécessite le composant "Patch audio et vidéo français")
+#### [30] Suppression des doublages en anglais (nécessite le composant "Patch audio et vidéo français")
 
 Ce composant supprime les doublages anglais restants.
 
