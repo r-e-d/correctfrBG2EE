@@ -121,6 +121,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Correction de la description de la Hallebarde elfe noir +3.
 	- Correction de la description de la Lame de Suryris +2.
 	- Correction de la description de l'Armure de plates complète elfe noir +5.
+	- Correction du nom de la Cape de Montolio +1.
 	- Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant.
 	- Correction du nom et de la description du Symbole sacré de Heaum.
 	- Correction du nom et de la description du Symbole sacré de Lathandre.
