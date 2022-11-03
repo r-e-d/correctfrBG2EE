@@ -137,6 +137,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
 	- PIRCOR03.CRE (Courtisan).
 	- SARPROVM.CRE (Courtisan).
+	- REMAGE01.CRE (Magicienne esclavagiste).
+	- REMAGE02.CRE (Magicienne esclavagiste).
 
 ##
 
