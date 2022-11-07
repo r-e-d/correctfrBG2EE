@@ -140,6 +140,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- REMAGE01.CRE (Magicienne esclavagiste).
 	- REMAGE02.CRE (Magicienne esclavagiste).
 	- BEGGAR3.CRE (Mendiante).
+	- BMTHIEF.CRE (Voleuse du marché noir).
 
 ##
 
