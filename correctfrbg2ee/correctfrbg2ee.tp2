@@ -130,6 +130,24 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @106
 		SAY NAME2 @106
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Voleuse du marché noir)
+	COPY_EXISTING ~BMTHIEF.CRE~ ~override~
+		SAY NAME1 @107
+		SAY NAME2 @107
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Vendeuse)
+	COPY_EXISTING ~SLSHOP02.CRE~ ~override~
+		SAY NAME1 @108
+		SAY NAME2 @108
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Servante)
+	COPY_EXISTING ~AMIA.CRE~ ~override~
+		SAY NAME1 @109
+		SAY NAME2 @109
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
