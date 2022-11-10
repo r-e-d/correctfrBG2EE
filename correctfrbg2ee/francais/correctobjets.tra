@@ -55,3 +55,5 @@ Poids : 70~
 @108 = ~Vendeuse~
 // (AMIA.CRE)
 @109 = ~Servante~
+// (DELTOW02.CRE / WCUST04.CRE)
+@110 = ~Cliente~

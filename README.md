@@ -143,6 +143,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- BMTHIEF.CRE (Voleuse du marché noir).
 	- SLSHOP02.CRE (Vendeuse).
 	- AMIA.CRE (Servante).
+	- DELTOW02.CRE (Cliente).
+	- WCUST04.CRE (Cliente).
 
 ##
 
