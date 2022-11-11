@@ -145,6 +145,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- AMIA.CRE (Servante).
 	- DELTOW02.CRE (Cliente).
 	- WCUST04.CRE (Cliente).
+	- PRIS01.CRE (Prisonnière).
 
 ##
 
