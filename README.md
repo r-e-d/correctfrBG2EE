@@ -146,6 +146,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- DELTOW02.CRE (Cliente).
 	- WCUST04.CRE (Cliente).
 	- PRIS01.CRE (Prisonnière).
+	- QCIRC02.CRE (Employée du cirque).
 
 ##
 
