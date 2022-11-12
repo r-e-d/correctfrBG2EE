@@ -339,6 +339,10 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.16 &nbsp;(12 novembre 2022)
+  - Uniformisation BGEE et BG2EE.
+  - Corrections diverses.
+
 #### Version 0.15 &nbsp;(9 octobre 2022)
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Uniformisation BGEE et BG2EE.
