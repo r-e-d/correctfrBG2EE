@@ -142,11 +142,16 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- BEGGAR3.CRE (Mendiante).
 	- BMTHIEF.CRE (Voleuse du marché noir).
 	- SLSHOP02.CRE (Vendeuse).
+	- BSHOP02.CRE (Vendeuse).
 	- AMIA.CRE (Servante).
 	- DELTOW02.CRE (Cliente).
 	- WCUST04.CRE (Cliente).
 	- PRIS01.CRE (Prisonnière).
 	- QCIRC02.CRE (Employée du cirque).
+	- FFCUST03.CRE (Cliente de la taverne).
+	- FFCUST05.CRE (Cliente de la taverne).
+	- FTOWN7.CRE (Cliente de la taverne).
+	- TRTAVP03.CRE (Cliente de la taverne).
 
 ##
 

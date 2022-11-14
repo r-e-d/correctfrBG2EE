@@ -51,7 +51,7 @@ Poids : 70~
 @106 = ~Mendiante~
 // (BMTHIEF.CRE)
 @107 = ~Voleuse du marché noir~
-// (SLSHOP02.CRE)
+// (SLSHOP02.CRE / BSHOP02.CRE)
 @108 = ~Vendeuse~
 // (AMIA.CRE)
 @109 = ~Servante~
@@ -61,3 +61,5 @@ Poids : 70~
 @111 = ~Prisonnière~
 // (QCIRC02.CRE)
 @112 = ~Employée du cirque~
+// (FFCUST03.CRE / FFCUST05.CRE / FTOWN7.CRE / TRTAVP03.CRE)
+@113 = ~Cliente de la taverne~
