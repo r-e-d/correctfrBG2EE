@@ -152,6 +152,9 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- FFCUST05.CRE (Cliente de la taverne).
 	- FTOWN7.CRE (Cliente de la taverne).
 	- TRTAVP03.CRE (Cliente de la taverne).
+	- AMMGRD02.CRE (Moniale).
+	- AMMONK05.CRE (Moniale).
+	- AMMONK08.CRE (Moniale).
 
 ##
 

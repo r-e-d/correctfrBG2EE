@@ -177,6 +177,14 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @113
 		SAY NAME2 @113
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale)
+	COPY_EXISTING ~AMMGRD02.CRE~ ~override~
+				  ~AMMONK05.CRE~ ~override~
+				  ~AMMONK08.CRE~ ~override~
+		SAY NAME1 @114
+		SAY NAME2 @114
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
