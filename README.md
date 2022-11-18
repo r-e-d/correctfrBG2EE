@@ -169,6 +169,10 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- UDDROW19.CRE (Elfe noire).
 	- UDDROW29.CRE (Elfe noire).
 	- UDDROW31.CRE (Elfe noire).
+	- DROW02.CRE (Guerrière elfe noire).
+	- UDDROW33.CRE (Guerrière elfe noire).
+	- DADROW10.CRE (Bourrelle elfe noire).
+	- DADROW11.CRE (Bourrelle elfe noire).
 
 ##
 
