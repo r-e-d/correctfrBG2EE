@@ -155,6 +155,36 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- AMMGRD02.CRE (Moniale).
 	- AMMONK05.CRE (Moniale).
 	- AMMONK08.CRE (Moniale).
+	- DADROW14.CRE (Elfe noire).
+	- DADROW22.CRE (Elfe noire).
+	- DADROW23.CRE (Elfe noire).
+	- DROFOD02.CRE (Elfe noire).
+	- DROW05.CRE (Elfe noire).
+	- SENDRO02.CRE (Elfe noire).
+	- SENFOD02.CRE (Elfe noire).
+	- UDDOOR03.CRE (Elfe noire).
+	- UDDROW12.CRE (Elfe noire).
+	- UDDROW14.CRE (Elfe noire).
+	- UDDROW15.CRE (Elfe noire).
+	- UDDROW19.CRE (Elfe noire).
+	- UDDROW29.CRE (Elfe noire).
+	- UDDROW31.CRE (Elfe noire).
+	- DROW02.CRE (Guerrière elfe noire).
+	- UDDROW33.CRE (Guerrière elfe noire).
+	- DADROW10.CRE (Bourrelle elfe noire).
+	- DADROW11.CRE (Bourrelle elfe noire).
+	- GENTH02.CRE (Voleuse).
+	- MAEGUY02.CRE (Voleuse).
+	- OHHGHST1.CRE (Voleuse).
+	- OHHGHST2.CRE (Voleuse).
+	- OHHGHST3.CRE (Voleuse).
+	- C6EXTR03.CRE (Guerrière elfe).
+	- CHGOOD05.CRE (Guerrière elfe).
+	- M05ELF2.CRE (Guerrière elfe).
+	- SUDEAD02.CRE (Guerrière elfe).
+	- SUELF8.CRE (Guerrière elfe).
+	- SUENDEL2.CRE (Guerrière elfe).
+	- SUENDEL8.CRE (Guerrière elfe).
 
 ##
 

@@ -185,6 +185,61 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @114
 		SAY NAME2 @114
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Elfe noire)
+	COPY_EXISTING ~DADROW14.CRE~ ~override~
+				  ~DADROW22.CRE~ ~override~
+				  ~DADROW23.CRE~ ~override~
+				  ~DROFOD02.CRE~ ~override~
+				  ~DROW05.CRE~ ~override~
+				  ~SENDRO02.CRE~ ~override~
+				  ~SENFOD02.CRE~ ~override~
+				  ~UDDOOR03.CRE~ ~override~
+				  ~UDDROW12.CRE~ ~override~
+				  ~UDDROW14.CRE~ ~override~
+				  ~UDDROW15.CRE~ ~override~
+				  ~UDDROW19.CRE~ ~override~
+				  ~UDDROW29.CRE~ ~override~
+				  ~UDDROW31.CRE~ ~override~
+		SAY NAME1 @115
+		SAY NAME2 @115
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Guerrière elfe noire)
+	COPY_EXISTING ~DROW02.CRE~ ~override~
+				  ~UDDROW33.CRE~ ~override~
+		SAY NAME1 @116
+		SAY NAME2 @116
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Bourrelle elfe noire)
+	COPY_EXISTING ~DADROW10.CRE~ ~override~
+				  ~DADROW11.CRE~ ~override~
+		SAY NAME1 @117
+		SAY NAME2 @117
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Voleuse)
+	COPY_EXISTING ~GENTH02.CRE~ ~override~
+				  ~MAEGUY02.CRE~ ~override~
+				  ~OHHGHST1.CRE~ ~override~
+				  ~OHHGHST2.CRE~ ~override~
+				  ~OHHGHST3.CRE~ ~override~
+		SAY NAME1 @118
+		SAY NAME2 @118
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Guerrière elfe)
+	COPY_EXISTING ~C6EXTR03.CRE~ ~override~
+				  ~CHGOOD05.CRE~ ~override~
+				  ~M05ELF2.CRE~ ~override~
+				  ~SUDEAD02.CRE~ ~override~
+				  ~SUELF8.CRE~ ~override~
+				  ~SUENDEL2.CRE~ ~override~
+				  ~SUENDEL8.CRE~ ~override~
+		SAY NAME1 @119
+		SAY NAME2 @119
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
