@@ -173,6 +173,18 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- UDDROW33.CRE (Guerrière elfe noire).
 	- DADROW10.CRE (Bourrelle elfe noire).
 	- DADROW11.CRE (Bourrelle elfe noire).
+	- GENTH02.CRE (Voleuse).
+	- MAEGUY02.CRE (Voleuse).
+	- OHHGHST1.CRE (Voleuse).
+	- OHHGHST2.CRE (Voleuse).
+	- OHHGHST3.CRE (Voleuse).
+	- C6EXTR03.CRE (Guerrière elfe).
+	- CHGOOD05.CRE (Guerrière elfe).
+	- M05ELF2.CRE (Guerrière elfe).
+	- SUDEAD02.CRE (Guerrière elfe).
+	- SUELF8.CRE (Guerrière elfe).
+	- SUENDEL2.CRE (Guerrière elfe).
+	- SUENDEL8.CRE (Guerrière elfe).
 
 ##
 
