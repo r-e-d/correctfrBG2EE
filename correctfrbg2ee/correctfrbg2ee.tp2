@@ -37,9 +37,9 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x0c 71038
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom de l'Armure d'écailles de dragon d'ombre
 	// Correction du nom de l'Armure d'écailles de dragon blanc
 	// Correction du nom de l'Armure d'écailles de dragon bleu
-	// Correction du nom de l'Armure d'écailles de dragon d'ombre
 	COPY_EXISTING ~LEAT19.ITM~ ~override~
 				  ~CHAN20.ITM~ ~override~
 				  ~PLAT20.ITM~ ~override~
@@ -53,13 +53,13 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x08 6146
 	BUT_ONLY_IF_IT_CHANGES
 
-	// Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant
-	// Correction du nom et de la description du Symbole sacré de Heaum
 	// Correction du nom et de la description du Symbole sacré de Lathandre
-	// Correction du nom et de la description du Symbole sacré de Shar
+	// Correction du nom et de la description du Symbole sacré de Heaum
 	// Correction du nom et de la description du Symbole sacré de Talos
-	// Correction du nom et de la description du Symbole sacré de Tempus
+	// Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant
+	// Correction du nom et de la description du Symbole sacré de Shar
 	// Correction du nom et de la description du Symbole sacré de Tyr
+	// Correction du nom et de la description du Symbole sacré de Tempus
 	COPY_EXISTING ~BELT12.ITM~ ~override~
 				  ~BELT13.ITM~ ~override~
 				  ~BELT14.ITM~ ~override~

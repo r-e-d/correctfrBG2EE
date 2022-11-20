@@ -110,81 +110,49 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 - Réduction des mots-clés inutiles ou inadéquats (\<GABBER\>, \<HESHE\>, \<GIRLBOY\>, etc.).
+
 - Correction (et/ou ajout) de références de ligne des objets (noms, infobulles, descriptions, icônes, etc.) :
-	- Correction du nom de l'Armure d'écailles de dragon blanc.
-	- Correction du nom de l'Armure d'écailles de dragon bleu.
-	- Correction du nom de l'Armure d'écailles de dragon d'ombre.
-	- Correction de la description de l'Épée courte +4 (Figurine de Shakti).
-	- Correction du nom de la Cotte de mailles elfe noir +3.
-	- Correction du nom de la Cotte de mailles elfe noir +5.
-	- Correction du nom de la Hache +3 (Arme enchantée).
-	- Correction de la description de la Hallebarde elfe noir +3.
-	- Correction de la description de la Lame de Suryris +2.
-	- Correction de la description de l'Armure de plates complète elfe noir +5.
-	- Correction du nom de la Cape de Montolio +1.
-	- Correction du nom et de la description du Symbole sacré de Baervan Ermiterrant.
-	- Correction du nom et de la description du Symbole sacré de Heaum.
-	- Correction du nom et de la description du Symbole sacré de Lathandre.
-	- Correction du nom et de la description du Symbole sacré de Shar.
-	- Correction du nom et de la description du Symbole sacré de Talos.
-	- Correction du nom et de la description du Symbole sacré de Tempus.
-	- Correction du nom et de la description du Symbole sacré de Tyr.
-	- Correction du nom et de la description de la Cotte de mailles elfe noir +1.
-	- Correction du nom du parchemin du sort Protection contre le feu.
-	- Correction du nom du parchemin du sort Protection contre le froid.
-	- Correction du nom du parchemin du sort Protection contre l'acide.
-	- Correction du nom du parchemin du sort Protection contre l'électricité.
+	- Armure d'écailles de dragon blanc (CHAN20.ITM).
+	- Armure d'écailles de dragon bleu (PLAT20.ITM).
+	- Armure d'écailles de dragon d'ombre (LEAT19.ITM).
+	- Épée courte +4 - Figurine de Shakti (SHAKTI1.ITM).
+	- Cotte de mailles elfe noir +3 (DWCHAN01.ITM).
+	- Cotte de mailles elfe noir +5 (DWCHAN02.ITM).
+	- Hache +3 - Arme enchantée (ENSW2H.ITM).
+	- Hallebarde elfe noir +3 (DWHALB01.ITM).
+	- Hallebarde +2 (HALBSHA.ITM).
+	- Armure de plates complète elfe noir +5 (DWPLAT01.ITM).
+	- Cape de Montolio +1 (CLCK32.ITM).
+	- Symbole sacré de Baervan Ermiterrant (beltbw.ITM).
+	- Symbole sacré de Heaum (BELT13.ITM).
+	- Symbole sacré de Lathandre (BELT12.ITM).
+	- Symbole sacré de Shar (beltsh.ITM).
+	- Symbole sacré de Talos (BELT14.ITM).
+	- Symbole sacré de Tempus (OHTEMPUS.ITM).
+	- Symbole sacré de Tyr (beltty.ITM).
+	- Cotte de mailles elfe noir +1 (CLOLTH.ITM).
+	- Protection contre le feu (SCRL6H.ITM).
+	- Protection contre le froid (SCRL6I.ITM).
+	- Protection contre l'acide (SCRL6Y.ITM).
+	- Protection contre l'électricité (SCRL5T.ITM).
+
 - Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
-	- PIRCOR03.CRE (Courtisan).
-	- SARPROVM.CRE (Courtisan).
-	- REMAGE01.CRE (Magicienne esclavagiste).
-	- REMAGE02.CRE (Magicienne esclavagiste).
-	- BEGGAR3.CRE (Mendiante).
-	- BMTHIEF.CRE (Voleuse du marché noir).
-	- SLSHOP02.CRE (Vendeuse).
-	- BSHOP02.CRE (Vendeuse).
-	- AMIA.CRE (Servante).
-	- DELTOW02.CRE (Cliente).
-	- WCUST04.CRE (Cliente).
-	- PRIS01.CRE (Prisonnière).
-	- QCIRC02.CRE (Employée du cirque).
-	- FFCUST03.CRE (Cliente de la taverne).
-	- FFCUST05.CRE (Cliente de la taverne).
-	- FTOWN7.CRE (Cliente de la taverne).
-	- TRTAVP03.CRE (Cliente de la taverne).
-	- AMMGRD02.CRE (Moniale).
-	- AMMONK05.CRE (Moniale).
-	- AMMONK08.CRE (Moniale).
-	- DADROW14.CRE (Elfe noire).
-	- DADROW22.CRE (Elfe noire).
-	- DADROW23.CRE (Elfe noire).
-	- DROFOD02.CRE (Elfe noire).
-	- DROW05.CRE (Elfe noire).
-	- SENDRO02.CRE (Elfe noire).
-	- SENFOD02.CRE (Elfe noire).
-	- UDDOOR03.CRE (Elfe noire).
-	- UDDROW12.CRE (Elfe noire).
-	- UDDROW14.CRE (Elfe noire).
-	- UDDROW15.CRE (Elfe noire).
-	- UDDROW19.CRE (Elfe noire).
-	- UDDROW29.CRE (Elfe noire).
-	- UDDROW31.CRE (Elfe noire).
-	- DROW02.CRE (Guerrière elfe noire).
-	- UDDROW33.CRE (Guerrière elfe noire).
-	- DADROW10.CRE (Bourrelle elfe noire).
-	- DADROW11.CRE (Bourrelle elfe noire).
-	- GENTH02.CRE (Voleuse).
-	- MAEGUY02.CRE (Voleuse).
-	- OHHGHST1.CRE (Voleuse).
-	- OHHGHST2.CRE (Voleuse).
-	- OHHGHST3.CRE (Voleuse).
-	- C6EXTR03.CRE (Guerrière elfe).
-	- CHGOOD05.CRE (Guerrière elfe).
-	- M05ELF2.CRE (Guerrière elfe).
-	- SUDEAD02.CRE (Guerrière elfe).
-	- SUELF8.CRE (Guerrière elfe).
-	- SUENDEL2.CRE (Guerrière elfe).
-	- SUENDEL8.CRE (Guerrière elfe).
+	- Courtisan (PIRCOR03.CRE, SARPROVM.CRE).
+	- Magicienne esclavagiste (REMAGE01.CRE, REMAGE02.CRE).
+	- Mendiante (BEGGAR3.CRE).
+	- Voleuse du marché noir (BMTHIEF.CRE).
+	- Vendeuse (SLSHOP02.CRE, BSHOP02.CRE).
+	- Servante (AMIA.CRE).
+	- Cliente (DELTOW02.CRE, WCUST04.CRE).
+	- Prisonnière (PRIS01.CRE).
+	- Employée du cirque (QCIRC02.CRE).
+	- Cliente de la taverne (FFCUST03.CRE, FFCUST05.CRE, FTOWN7.CRE, TRTAVP03.CRE).
+	- Moniale (AMMGRD02.CRE, AMMONK05.CRE, AMMONK08.CRE).
+	- Elfe noire (DADROW14.CRE, DADROW22.CRE, DADROW23.CRE, DROFOD02.CRE, DROW05.CRE, SENDRO02.CRE, SENFOD02.CRE, UDDOOR03.CRE, UDDROW12.CRE, UDDROW14.CRE, UDDROW15.CRE, UDDROW19.CRE, UDDROW29.CRE, UDDROW31.CRE).
+	- Guerrière elfe noire (DROW02.CRE, UDDROW33.CRE).
+	- Bourrelle elfe noire (DADROW10.CRE, DADROW11.CRE).
+	- Voleuse (GENTH02.CRE, MAEGUY02.CRE, OHHGHST1.CRE, OHHGHST2.CRE, OHHGHST3.CRE).
+	- Guerrière elfe (C6EXTR03.CRE, CHGOOD05.CRE, M05ELF2.CRE, SUDEAD02.CRE, SUELF8.CRE, SUENDEL2.CRE, SUENDEL8.CRE).
 
 ##
 
@@ -198,8 +166,10 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 - Réduction des artefacts de compression des cinématiques.
 - Réduction des grésillements et autres bruits indésirables des doublages.
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
+
 - Correction (et/ou ajout) des répliques doublées :
 	- [3AMONK08], [AERI2518], [AERIE91], [AERIEC8], [AERIED5], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [bdtptol], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KELD2508], [KELDOR45], [KELDOR68], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [YOSHIM44], [YOSHIM49].
+
 - Les répliques non doublées en français sont conservées.
 
 ##
