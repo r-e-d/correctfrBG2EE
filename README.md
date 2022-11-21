@@ -66,10 +66,10 @@ Veuillez installer « Correction de la traduction de Baldur's Gate II : Enhanced
 
 - __VF+VO__ ; Doublage français corrigé, doublage anglais par défaut du contenu Enhanced Edition conservé :
 	- Nécessite le composant __[20] Patch audio et vidéo français.__
-	
+
 - __VF__ ; Doublage français corrigé uniquement, bruitage du contenu Enhanced Edition conservé :
 	- Nécessite les composants __[20] Patch audio et vidéo français__ + __[30] Suppression des doublages en anglais.__
-	
+
 - __VO__ ; Doublage en anglais uniquement :
 	- N'installez pas les composants __[20] Patch audio et vidéo français__ et __[30] Suppression des doublages en anglais.__
 
@@ -110,7 +110,6 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Réduction du nombre de majuscules dans les noms communs (Tante, Elfe Noir, le Très Noble Ordre des Chevaliers du Cœur Radieux, etc.).
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 - Réduction des mots-clés inutiles ou inadéquats (\<GABBER\>, \<HESHE\>, \<GIRLBOY\>, etc.).
-
 - Correction (et/ou ajout) de références de ligne des objets (noms, infobulles, descriptions, icônes, etc.) :
 	- Armure d'écailles de dragon blanc (CHAN20.ITM).
 	- Armure d'écailles de dragon bleu (PLAT20.ITM).
@@ -135,7 +134,6 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Protection contre le froid (SCRL6I.ITM).
 	- Protection contre l'acide (SCRL6Y.ITM).
 	- Protection contre l'électricité (SCRL5T.ITM).
-
 - Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
 	- Courtisan (PIRCOR03.CRE, SARPROVM.CRE).
 	- Magicienne esclavagiste (REMAGE01.CRE, REMAGE02.CRE).
@@ -153,6 +151,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Bourrelle elfe noire (DADROW10.CRE, DADROW11.CRE).
 	- Voleuse (GENTH02.CRE, MAEGUY02.CRE, OHHGHST1.CRE, OHHGHST2.CRE, OHHGHST3.CRE).
 	- Guerrière elfe (C6EXTR03.CRE, CHGOOD05.CRE, M05ELF2.CRE, SUDEAD02.CRE, SUELF8.CRE, SUENDEL2.CRE, SUENDEL8.CRE).
+	- Naine de Rocheprofonde (ohrdws03.CRE).
+	- Archère (AR18ARCH.CRE, MGKETG02.CRE, VAKG02.CRE, YARMY02.CRE).
 
 ##
 
@@ -166,10 +166,8 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 - Réduction des artefacts de compression des cinématiques.
 - Réduction des grésillements et autres bruits indésirables des doublages.
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
-
 - Correction (et/ou ajout) des répliques doublées :
 	- [3AMONK08], [AERI2518], [AERIE91], [AERIEC8], [AERIED5], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [bdtptol], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KELD2508], [KELDOR45], [KELDOR68], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [YOSHIM44], [YOSHIM49].
-
 - Les répliques non doublées en français sont conservées.
 
 ##
@@ -348,43 +346,51 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 ## <a name="versions" id="versions"></a>Historique des versions
 
 #### Version 0.16 &nbsp;(12 novembre 2022)
+
   - Uniformisation BGEE et BG2EE.
   - Corrections diverses.
 
 #### Version 0.15 &nbsp;(9 octobre 2022)
+
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Uniformisation BGEE et BG2EE.
   - Corrections diverses.
 
 #### Version 0.14 &nbsp;(14 août 2022)
+
   - Importation des correctifs des textes du EEfixpack.
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Correction de fichiers audio.
   - Corrections diverses.
 
 #### Version 0.13 &nbsp;(11 juillet 2022)
+
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Correction de fichiers audio.
   - Corrections diverses.
 
 #### Version 0.12 &nbsp;(5 juin 2022)
+
   - Relecture des dialogues avec les nouveaux personnages de l'Enhanced Edition.
   - Réduction des mots-clés inutiles ou inadéquats.
   - Correction de fichiers audio.
   - Corrections diverses.
 
 #### Version 0.11 &nbsp;(18 avril 2022)
+
   - Relecture et corrections des épilogues.
   - Relecture des textes des familiers.
   - Correction de fichiers audio.
   - Corrections diverses.
 
 #### Version 0.10 &nbsp;(5 février 2022)
+
   - Correction de fichiers audio.
   - Importation des corrections de la traduction française officielle du patch 2.6.
   - Relecture et uniformisation.
 
 #### Version 0.9 &nbsp;(7 janvier 2022)
+
   - Correction de fichiers audio.
   - Correction accords féminins.
   - Importation des corrections de la traduction française officielle du patch 2.6.
