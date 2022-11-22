@@ -153,6 +153,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Guerrière elfe (C6EXTR03.CRE, CHGOOD05.CRE, M05ELF2.CRE, SUDEAD02.CRE, SUELF8.CRE, SUENDEL2.CRE, SUENDEL8.CRE).
 	- Naine de Rocheprofonde (ohrdws03.CRE).
 	- Archère (AR18ARCH.CRE, MGKETG02.CRE, VAKG02.CRE, YARMY02.CRE).
+	- Voleuse de l'ombre (DSBODY01.CRE, REPTHF3.CRE, THIEF3.CRE, VVDEAD3.CRE, VVMADMAN.CRE, VVSHAD10.CRE, VVSHAD3.CRE, VVSHAD7.CRE, VVSHAD9.CRE, ARNWAR09.CRE, FLYFGT04.CRE).
+	- Cliente elfe noire (UDCOM03.CRE).
 
 ##
 
