@@ -83,3 +83,23 @@ Poids : 70~
 @122 = ~Voleuse de l'ombre~
 // (UDCOM03.CRE)
 @123 = ~Cliente elfe noire~
+// (PIRSAL02.CRE / BARSAIL2.CRE / BSAILOR3.CRE)
+@124 = ~Navigatrice~
+// (AMTCLE01.CRE / AMTCLER0.CRE / C6CLER1.CRE)
+@125 = ~Prêtresse de Lathandre~
+// (ALUFIE01.CRE / ALUFIE02.CRE / GORALU01.CRE / TELALU1.CRE / TELSUC1.CRE)
+@126 = ~Alu-fiélonne~
+// (OHDPPET.CRE / ohdtree6.CRE / ohdtree7.CRE / ohdtree8.CRE)
+@127 = ~Guerrière de Tyr~
+// (ohnthkn2.CRE)
+@128 = ~Guerrière thayenne~
+// (BOUNHA03.CRE)
+@129 = ~Chasseuse de primes~
+// (C6CLER3.CRE / YSSOLD16.CRE)
+@130 = ~Prêtresse de Talos~
+// (ZILARC01.CRE)
+@131 = ~Chasseuse sombre~
+// (COWENF3.CRE / COWENF4.CRE)
+@132 = ~Exécutrice cagoulée~
+// (DAGHAUN1.CRE)
+@133 = ~Grande prêtresse de Ghaunadaur~

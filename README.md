@@ -155,6 +155,16 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Archère (AR18ARCH.CRE, MGKETG02.CRE, VAKG02.CRE, YARMY02.CRE).
 	- Voleuse de l'ombre (DSBODY01.CRE, REPTHF3.CRE, THIEF3.CRE, VVDEAD3.CRE, VVMADMAN.CRE, VVSHAD10.CRE, VVSHAD3.CRE, VVSHAD7.CRE, VVSHAD9.CRE, ARNWAR09.CRE, FLYFGT04.CRE).
 	- Cliente elfe noire (UDCOM03.CRE).
+	- Navigatrice (PIRSAL02.CRE, BARSAIL2.CRE, BSAILOR3.CRE).
+	- Prêtresse de Lathandre (AMTCLE01.CRE, AMTCLER0.CRE, C6CLER1.CRE).
+	- Alu-fiélonne (ALUFIE01.CRE, ALUFIE02.CRE, GORALU01.CRE, TELALU1.CRE, TELSUC1.CRE).
+	- Guerrière de Tyr (OHDPPET.CRE, ohdtree6.CRE, ohdtree7.CRE, ohdtree8.CRE).
+	- Guerrière thayenne (ohnthkn2.CRE).
+	- Chasseuse de primes (BOUNHA03.CRE).
+	- Prêtresse de Talos (C6CLER3.CRE, YSSOLD16.CRE).
+	- Chasseuse sombre (ZILARC01.CRE).
+	- Exécutrice cagoulée (COWENF3.CRE, COWENF4.CRE).
+	- Grande prêtresse de Ghaunadaur (DAGHAUN1.CRE).
 
 ##
 
