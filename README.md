@@ -165,6 +165,12 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Chasseuse sombre (ZILARC01.CRE).
 	- Exécutrice cagoulée (COWENF3.CRE, COWENF4.CRE).
 	- Grande prêtresse de Ghaunadaur (DAGHAUN1.CRE).
+	- Prêtresse de Ghaunadaur (DAGHAUN2.CRE).
+	- Aventurière (DEADB02.CRE, TANADV02.CRE, TANADV05.CRE).
+	- Placeuse (FFUSHER2.CRE).
+	- Tieffeline (GORCAMB2.CRE, GORCAMB3.CRE, TELTIEF2.CRE, TELTIEF3.CRE).
+	- Soldate d'Il-Khan (GROMG03.CRE, GROMG04.CRE, GROMG11.CRE, GROMG12.CRE).
+	- Chevaleresse de l'Ordre (HEARTG2.CRE).
 
 ##
 

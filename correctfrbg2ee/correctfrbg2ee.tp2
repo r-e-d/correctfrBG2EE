@@ -350,6 +350,50 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @133
 		SAY NAME2 @133
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Prêtresse de Ghaunadaur)
+	COPY_EXISTING ~DAGHAUN2.CRE~ ~override~
+		SAY NAME1 @134
+		SAY NAME2 @134
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Aventurière)
+	COPY_EXISTING ~DEADB02.CRE~ ~override~
+				  ~TANADV02.CRE~ ~override~
+				  ~TANADV05.CRE~ ~override~
+		SAY NAME1 @135
+		SAY NAME2 @135
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Placeuse)
+	COPY_EXISTING ~FFUSHER2.CRE~ ~override~
+		SAY NAME1 @136
+		SAY NAME2 @136
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Tieffeline)
+	COPY_EXISTING ~GORCAMB2.CRE~ ~override~
+				  ~GORCAMB3.CRE~ ~override~
+				  ~TELTIEF2.CRE~ ~override~
+				  ~TELTIEF3.CRE~ ~override~
+		SAY NAME1 @137
+		SAY NAME2 @137
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Soldate d'Il-Khan)
+	COPY_EXISTING ~GROMG03.CRE~ ~override~
+				  ~GROMG04.CRE~ ~override~
+				  ~GROMG11.CRE~ ~override~
+				  ~GROMG12.CRE~ ~override~
+		SAY NAME1 @138
+		SAY NAME2 @138
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Chevaleresse de l'Ordre)
+	COPY_EXISTING ~HEARTG2.CRE~ ~override~
+		SAY NAME1 @139
+		SAY NAME2 @139
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
