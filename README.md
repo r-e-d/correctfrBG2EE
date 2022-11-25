@@ -171,6 +171,17 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Tieffeline (GORCAMB2.CRE, GORCAMB3.CRE, TELTIEF2.CRE, TELTIEF3.CRE).
 	- Soldate d'Il-Khan (GROMG03.CRE, GROMG04.CRE, GROMG11.CRE, GROMG12.CRE).
 	- Chevaleresse de l'Ordre (HEARTG2.CRE).
+	- Ménestrelle (JAHEI1.CRE, JAREV1.CRE).
+	- Contrebandière (KAYSMG04.CRE).
+	- Citoyenne (KPFARM02.CRE).
+	- Usurière (KPLEND02.CRE).
+	- Pleureur (MOURNER5.CRE).
+	- Mage cagoulée (MAGE18A.CRE, MAGE16C.CRE).
+	- Danseuse (ohbdanc1.CRE, ohbdanc2.CRE).
+	- Assassine (IRETHF05.CRE, ISHTHF02.CRE, PLASS02.CRE).
+	- Soldate de Roenal (KPROEN05.CRE).
+	- Chevaleresse du matin (LATKNI02.CRE).
+	- Croyante de Bhaal (ohbbclt2.CRE).
 
 ##
 
