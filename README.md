@@ -182,6 +182,9 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Soldate de Roenal (KPROEN05.CRE).
 	- Chevaleresse du matin (LATKNI02.CRE).
 	- Croyante de Bhaal (ohbbclt2.CRE).
+	- Enfant perdue (DLOST.CRE).
+	- Sorcière Rouge (ohbrw01.CRE, ohnredw4.CRE, ohnrwt3.CRE).
+	- Mercenaire thayenne (ohnfmer1.CRE, ohnmerc3.CRE, ohnrwme2.CRE).
 
 ##
 
