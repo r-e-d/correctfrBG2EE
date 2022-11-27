@@ -465,6 +465,28 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @150
 		SAY NAME2 @150
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Enfant perdue)
+	COPY_EXISTING ~DLOST.CRE~ ~override~
+		SAY NAME1 @151
+		SAY NAME2 @151
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Sorcière Rouge)
+	COPY_EXISTING ~ohbrw01.CRE~ ~override~
+				  ~ohnredw4.CRE~ ~override~
+				  ~ohnrwt3.CRE~ ~override~
+		SAY NAME1 @152
+		SAY NAME2 @152
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Mercenaire thayenne)
+	COPY_EXISTING ~ohnfmer1.CRE~ ~override~
+				  ~ohnmerc3.CRE~ ~override~
+				  ~ohnrwme2.CRE~ ~override~
+		SAY NAME1 @153
+		SAY NAME2 @153
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
