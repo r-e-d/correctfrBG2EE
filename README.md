@@ -185,6 +185,13 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Enfant perdue (DLOST.CRE).
 	- Sorcière Rouge (ohbrw01.CRE, ohnredw4.CRE, ohnrwt3.CRE).
 	- Mercenaire thayenne (ohnfmer1.CRE, ohnmerc3.CRE, ohnrwme2.CRE).
+	- Moniale sharrane (ohrshr20.CRE).
+	- Croisée sharrane (ohrshcru.CRE).
+	- Contremaîtresse sharrane (ohrovs2.CRE).
+	- Assassine sharrane (ohrfass2.CRE, ohrfassa.CRE, ohrshrn1.CRE).
+	- Magicienne esclave (ohbthr02.CRE).
+	- Invitée du mariage (OHDGUES2.CRE).
+	- Croisée (OHDCRU01.CRE, OHDCRU04.CRE, ohdlufcl.CRE, ohdlufpl.CRE).
 
 ##
 

@@ -487,6 +487,53 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @153
 		SAY NAME2 @153
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale sharrane)
+	COPY_EXISTING ~ohrshr20.CRE~ ~override~
+		SAY NAME1 @154
+		SAY NAME2 @154
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Croisée sharrane)
+	COPY_EXISTING ~ohrshcru.CRE~ ~override~
+		SAY NAME1 @155
+		SAY NAME2 @155
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Contremaîtresse sharrane)
+	COPY_EXISTING ~ohrovs2.CRE~ ~override~
+		SAY NAME1 @156
+		SAY NAME2 @156
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Assassine sharrane)
+	COPY_EXISTING ~ohrfass2.CRE~ ~override~
+				  ~ohrfassa.CRE~ ~override~
+				  ~ohrshrn1.CRE~ ~override~
+		SAY NAME1 @157
+		SAY NAME2 @157
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Magicienne esclave)
+	COPY_EXISTING ~ohbthr02.CRE~ ~override~
+		SAY NAME1 @158
+		SAY NAME2 @158
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Invitée du mariage)
+	COPY_EXISTING ~OHDGUES2.CRE~ ~override~
+		SAY NAME1 @159
+		SAY NAME2 @159
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Croisée)
+	COPY_EXISTING ~OHDCRU01.CRE~ ~override~
+				  ~OHDCRU04.CRE~ ~override~
+				  ~ohdlufcl.CRE~ ~override~
+				  ~ohdlufpl.CRE~ ~override~
+		SAY NAME1 @160
+		SAY NAME2 @160
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 
