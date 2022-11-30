@@ -534,6 +534,50 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @160
 		SAY NAME2 @160
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale de la Lune Noire)
+	COPY_EXISTING ~ohbdmnk2.CRE~ ~override~
+				  ~ohrshm9.CRE~ ~override~
+				  ~ohrshr30.CRE~ ~override~
+				  ~ohrshram.CRE~ ~override~
+				  ~ohrshrn6.CRE~ ~override~
+		SAY NAME1 @161
+		SAY NAME2 @161
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale de la Conscience Solaire)
+	COPY_EXISTING ~ohbsmnk2.CRE~ ~override~
+		SAY NAME1 @162
+		SAY NAME2 @162
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Paladine de Tyr)
+	COPY_EXISTING ~OHDDEF02.CRE~ ~override~
+				  ~OHDNEO01.CRE~ ~override~
+				  ~OHDTREE2.CRE~ ~override~
+				  ~OHDTREE3.CRE~ ~override~
+		SAY NAME1 @163
+		SAY NAME2 @163
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Prêtresse de Tyr)
+	COPY_EXISTING ~OHDNEO03.CRE~ ~override~
+				  ~OHDPPE01.CRE~ ~override~
+		SAY NAME1 @164
+		SAY NAME2 @164
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale de la Lune Claire)
+	COPY_EXISTING ~ohrbmm.CRE~ ~override~
+		SAY NAME1 @165
+		SAY NAME2 @165
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Moniale hôtesse de la Pénitence)
+	COPY_EXISTING ~ohrphm.CRE~ ~override~
+		SAY NAME1 @166
+		SAY NAME2 @166
+	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
 

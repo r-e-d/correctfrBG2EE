@@ -157,3 +157,15 @@ Poids : 70~
 @159 = ~Invitée du mariage~
 // (OHDCRU01.CRE / OHDCRU04.CRE / ohdlufcl.CRE / ohdlufpl.CRE)
 @160 = ~Croisée~
+// (ohbdmnk2.CRE / ohrshm9.CRE / ohrshr30.CRE / ohrshram.CRE / ohrshrn6.CRE)
+@161 = ~Moniale de la Lune Noire~
+// (ohbsmnk2.CRE)
+@162 = ~Moniale de la Conscience Solaire~
+// (OHDDEF02.CRE / OHDNEO01.CRE / OHDTREE2.CRE / OHDTREE3.CRE)
+@163 = ~Paladine de Tyr~
+// (OHDNEO03.CRE / OHDPPE01.CRE)
+@164 = ~Prêtresse de Tyr~
+// (ohrbmm.CRE)
+@165 = ~Moniale de la Lune Claire~
+// (ohrphm.CRE)
+@166 = ~Moniale hôtesse de la Pénitence~

@@ -192,6 +192,12 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Magicienne esclave (ohbthr02.CRE).
 	- Invitée du mariage (OHDGUES2.CRE).
 	- Croisée (OHDCRU01.CRE, OHDCRU04.CRE, ohdlufcl.CRE, ohdlufpl.CRE).
+	- Moniale de la Lune Noire (ohbdmnk2.CRE, ohrshm9.CRE, ohrshr30.CRE, ohrshram.CRE, ohrshrn6.CRE).
+	- Moniale de la Conscience Solaire (ohbsmnk2.CRE).
+	- Paladine de Tyr (OHDDEF02.CRE, OHDNEO01.CRE, OHDTREE2.CRE, OHDTREE3.CRE).
+	- Prêtresse de Tyr (OHDNEO03.CRE, OHDPPE01.CRE).
+	- Moniale de la Lune Claire (ohrbmm.CRE).
+	- Moniale hôtesse de la Pénitence (ohrphm.CRE).
 
 ##
 
