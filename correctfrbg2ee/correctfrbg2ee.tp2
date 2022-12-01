@@ -140,6 +140,7 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 	// Correction du nom car personnage féminin (Vendeuse)
 	COPY_EXISTING ~SLSHOP02.CRE~ ~override~
 				  ~BSHOP02.CRE~ ~override~
+				  ~SHOP2.CRE~ ~override~
 		SAY NAME1 @108
 		SAY NAME2 @108
 	BUT_ONLY_IF_IT_CHANGES
@@ -577,6 +578,31 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 	COPY_EXISTING ~ohrphm.CRE~ ~override~
 		SAY NAME1 @166
 		SAY NAME2 @166
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Magicienne pirate)
+	COPY_EXISTING ~PPMAG01.CRE~ ~override~
+		SAY NAME1 @167
+		SAY NAME2 @167
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Prophétesse)
+	COPY_EXISTING ~PROPHET1.CRE~ ~override~
+		SAY NAME1 @168
+		SAY NAME2 @168
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Chevaleresse de l'orage)
+	COPY_EXISTING ~TALKNI02.CRE~ ~override~
+		SAY NAME1 @169
+		SAY NAME2 @169
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Chevaleresse Vigilante)
+	COPY_EXISTING ~SHUGMG01.CRE~ ~override~
+				  ~SHUGPR01.CRE~ ~override~
+		SAY NAME1 @170
+		SAY NAME2 @170
 	BUT_ONLY_IF_IT_CHANGES
 
 	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~

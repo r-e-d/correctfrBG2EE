@@ -51,7 +51,7 @@ Poids : 70~
 @106 = ~Mendiante~
 // (BMTHIEF.CRE)
 @107 = ~Voleuse du marché noir~
-// (SLSHOP02.CRE / BSHOP02.CRE)
+// (SLSHOP02.CRE / BSHOP02.CRE / SHOP2.CRE)
 @108 = ~Vendeuse~
 // (AMIA.CRE)
 @109 = ~Servante~
@@ -169,3 +169,11 @@ Poids : 70~
 @165 = ~Moniale de la Lune Claire~
 // (ohrphm.CRE)
 @166 = ~Moniale hôtesse de la Pénitence~
+// (PPMAG01.CRE)
+@167 = ~Magicienne pirate~
+// (PROPHET1.CRE)
+@168 = ~Prophétesse~
+// (TALKNI02.CRE)
+@169 = ~Chevaleresse de l'orage~
+// (SHUGMG01.CRE / SHUGPR01.CRE)
+@170 = ~Chevaleresse Vigilante~
