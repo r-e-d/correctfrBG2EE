@@ -202,6 +202,9 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Prophétesse (PROPHET1.CRE).
 	- Chevaleresse de l'orage (TALKNI02.CRE).
 	- Chevaleresse Vigilante (SHUGMG01.CRE, SHUGPR01.CRE).
+	- Cuisinière (SCOOK.CRE).
+	- Voyageuse (RERAK03.CRE, RERAK05.CRE, RERAK06.CRE).
+	- Malfaitrice (REBAND04.CRE, TANTUG02.CRE).
 
 ##
 
