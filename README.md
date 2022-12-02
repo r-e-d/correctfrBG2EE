@@ -139,7 +139,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Magicienne esclavagiste (REMAGE01.CRE, REMAGE02.CRE).
 	- Mendiante (BEGGAR3.CRE).
 	- Voleuse du marché noir (BMTHIEF.CRE).
-	- Vendeuse (SLSHOP02.CRE, BSHOP02.CRE).
+	- Vendeuse (SLSHOP02.CRE, BSHOP02.CRE, SHOP2.CRE).
 	- Servante (AMIA.CRE).
 	- Cliente (DELTOW02.CRE, WCUST04.CRE).
 	- Prisonnière (PRIS01.CRE).
@@ -185,6 +185,26 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Enfant perdue (DLOST.CRE).
 	- Sorcière Rouge (ohbrw01.CRE, ohnredw4.CRE, ohnrwt3.CRE).
 	- Mercenaire thayenne (ohnfmer1.CRE, ohnmerc3.CRE, ohnrwme2.CRE).
+	- Moniale sharrane (ohrshr20.CRE).
+	- Croisée sharrane (ohrshcru.CRE).
+	- Contremaîtresse sharrane (ohrovs2.CRE).
+	- Assassine sharrane (ohrfass2.CRE, ohrfassa.CRE, ohrshrn1.CRE).
+	- Magicienne esclave (ohbthr02.CRE).
+	- Invitée du mariage (OHDGUES2.CRE).
+	- Croisée (OHDCRU01.CRE, OHDCRU04.CRE, ohdlufcl.CRE, ohdlufpl.CRE).
+	- Moniale de la Lune Noire (ohbdmnk2.CRE, ohrshm9.CRE, ohrshr30.CRE, ohrshram.CRE, ohrshrn6.CRE).
+	- Moniale de la Conscience Solaire (ohbsmnk2.CRE).
+	- Paladine de Tyr (OHDDEF02.CRE, OHDNEO01.CRE, OHDTREE2.CRE, OHDTREE3.CRE).
+	- Prêtresse de Tyr (OHDNEO03.CRE, OHDPPE01.CRE).
+	- Moniale de la Lune Claire (ohrbmm.CRE).
+	- Moniale hôtesse de la Pénitence (ohrphm.CRE).
+	- Magicienne pirate (PPMAG01.CRE).
+	- Prophétesse (PROPHET1.CRE).
+	- Chevaleresse de l'orage (TALKNI02.CRE).
+	- Chevaleresse Vigilante (SHUGMG01.CRE, SHUGPR01.CRE).
+	- Cuisinière (SCOOK.CRE).
+	- Voyageuse (RERAK03.CRE, RERAK05.CRE, RERAK06.CRE).
+	- Malfaitrice (REBAND04.CRE, TANTUG02.CRE).
 
 ##
 

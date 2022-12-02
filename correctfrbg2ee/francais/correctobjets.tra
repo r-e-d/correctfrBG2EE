@@ -51,7 +51,7 @@ Poids : 70~
 @106 = ~Mendiante~
 // (BMTHIEF.CRE)
 @107 = ~Voleuse du marché noir~
-// (SLSHOP02.CRE / BSHOP02.CRE)
+// (SLSHOP02.CRE / BSHOP02.CRE / SHOP2.CRE)
 @108 = ~Vendeuse~
 // (AMIA.CRE)
 @109 = ~Servante~
@@ -143,3 +143,43 @@ Poids : 70~
 @152 = ~Sorcière Rouge~
 // (ohnfmer1.CRE / ohnmerc3.CRE / ohnrwme2.CRE)
 @153 = ~Mercenaire thayenne~
+// (ohrshr20.CRE)
+@154 = ~Moniale sharrane~
+// (ohrshcru.CRE)
+@155 = ~Croisée sharrane~
+// (ohrovs2.CRE)
+@156 = ~Contremaîtresse sharrane~
+// (ohrfass2.CRE / ohrfassa.CRE / ohrshrn1.CRE)
+@157 = ~Assassine sharrane~
+// (ohbthr02.CRE)
+@158 = ~Magicienne esclave~
+// (OHDGUES2.CRE)
+@159 = ~Invitée du mariage~
+// (OHDCRU01.CRE / OHDCRU04.CRE / ohdlufcl.CRE / ohdlufpl.CRE)
+@160 = ~Croisée~
+// (ohbdmnk2.CRE / ohrshm9.CRE / ohrshr30.CRE / ohrshram.CRE / ohrshrn6.CRE)
+@161 = ~Moniale de la Lune Noire~
+// (ohbsmnk2.CRE)
+@162 = ~Moniale de la Conscience Solaire~
+// (OHDDEF02.CRE / OHDNEO01.CRE / OHDTREE2.CRE / OHDTREE3.CRE)
+@163 = ~Paladine de Tyr~
+// (OHDNEO03.CRE / OHDPPE01.CRE)
+@164 = ~Prêtresse de Tyr~
+// (ohrbmm.CRE)
+@165 = ~Moniale de la Lune Claire~
+// (ohrphm.CRE)
+@166 = ~Moniale hôtesse de la Pénitence~
+// (PPMAG01.CRE)
+@167 = ~Magicienne pirate~
+// (PROPHET1.CRE)
+@168 = ~Prophétesse~
+// (TALKNI02.CRE)
+@169 = ~Chevaleresse de l'orage~
+// (SHUGMG01.CRE / SHUGPR01.CRE)
+@170 = ~Chevaleresse Vigilante~
+// (SCOOK.CRE)
+@171 = ~Cuisinière~
+// (RERAK03.CRE / RERAK05.CRE / RERAK06.CRE)
+@172 = ~Voyageuse~
+// (REBAND04.CRE / TANTUG02.CRE)
+@173 = ~Malfaitrice~
