@@ -1,19 +1,13 @@
-// Épée courte +4 (SHAKTI1.ITM)
-@100 = ~Cette épée courte a été forgée par un artisan extrêmement talentueux, qui devait être aussi un puissant magicien. Aucune faiblesse ne gâte sa lame. En combat, elle irradie de magie et augmente fortement les capacités de son porteur.
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correctifs objets                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-PARAMÈTRES :
-
-TAC0 : +4
-Dégâts : 1d6 +4 (perforant)
-Facteur de vitesse : 1
-Type de compétence : épée courte
-Type : arme à une main
-Nécessite :
- 5 en Force
-
-Poids : 2~
 // Cotte de mailles elfe noir +1 (CLOLTH.ITM)
-@101 = ~Tissée par les meilleurs artisans elfes noirs, cette cotte de mailles semble faite de tissu plutôt que de métal. Sans doute portée pour des attaques à la surface, elle a été soigneusement couverte d'une étrange laque noire qui l'empêche probablement de se dissoudre sous l'effet des rayons solaires. Elle peut être portée quasiment sans pénalités par les voleurs et les guerriers-mages... mais est très inconfortable pour ceux qui ne sont pas voués au mal.
+@100 = ~Tissée par les meilleurs artisans elfes noirs, cette cotte de mailles semble faite de tissu plutôt que de métal. Sans doute portée pour des attaques à la surface, elle a été soigneusement couverte d'une étrange laque noire qui l'empêche probablement de se dissoudre sous l'effet des rayons solaires. Elle peut être portée quasiment sans pénalités par les voleurs et les guerriers-mages... mais est très inconfortable pour ceux qui ne sont pas voués au mal.
 
 PARAMÈTRES :
 
@@ -29,10 +23,9 @@ Nécessite :
  5 en Force
 
 Poids : 8~
-// (PIRCOR03.CRE / SARPROVM.CRE)
-@102 = ~Courtisan~
+
 // Armure de plates complète elfe noir +5 (DWPLAT01.ITM)
-@103 = ~L'armure de plates complète est la meilleure armure qu'un combattant puisse acquérir, tant en termes d'apparence que de protection. Les plaques, parfaitement ajustées et imbriquées les unes dans les autres, sont courbées de manière à dévier les coups et les projectiles. Les armures de plates complètes sont généralement décorées de riches gravures et de détails en relief.
+@101 = ~L'armure de plates complète est la meilleure armure qu'un combattant puisse acquérir, tant en termes d'apparence que de protection. Les plaques, parfaitement ajustées et imbriquées les unes dans les autres, sont courbées de manière à dévier les coups et les projectiles. Les armures de plates complètes sont généralement décorées de riches gravures et de détails en relief.
 
 Comme pour la plupart des équipements elfes noirs, cet objet est fait d'adamantium, un alliage d'adamantite qui se transforme rapidement en poussière s'il quitte l'Ombre-Terre.
 
@@ -43,143 +36,6 @@ Nécessite :
  15 en Force
 
 Poids : 70~
+
 // Cape de Montolio +1 (CLCK32.ITM)
-@104 = ~Cape de Montolio +1~
-// (REMAGE01.CRE / REMAGE02.CRE)
-@105 = ~Magicienne esclavagiste~
-// (BEGGAR3.CRE)
-@106 = ~Mendiante~
-// (BMTHIEF.CRE)
-@107 = ~Voleuse du marché noir~
-// (SLSHOP02.CRE / BSHOP02.CRE / SHOP2.CRE)
-@108 = ~Vendeuse~
-// (AMIA.CRE)
-@109 = ~Servante~
-// (DELTOW02.CRE / WCUST04.CRE)
-@110 = ~Cliente~
-// (PRIS01.CRE)
-@111 = ~Prisonnière~
-// (QCIRC02.CRE)
-@112 = ~Employée du cirque~
-// (FFCUST03.CRE / FFCUST05.CRE / FTOWN7.CRE / TRTAVP03.CRE)
-@113 = ~Cliente de la taverne~
-// (AMMGRD02.CRE / AMMONK05.CRE / AMMONK08.CRE)
-@114 = ~Moniale~
-// (DADROW14.CRE / DADROW22.CRE / DADROW23.CRE / DROFOD02.CRE / DROW05.CRE / SENDRO02.CRE / SENFOD02.CRE / UDDOOR03.CRE / UDDROW12.CRE / UDDROW14.CRE / UDDROW15.CRE / UDDROW19.CRE / UDDROW29.CRE / UDDROW31.CRE)
-@115 = ~Elfe noire~
-// (DROW02.CRE / UDDROW33.CRE)
-@116 = ~Guerrière elfe noire~
-// (DADROW10.CRE / DADROW11.CRE)
-@117 = ~Bourrelle elfe noire~
-// (GENTH02.CRE / MAEGUY02.CRE / OHHGHST1.CRE / OHHGHST2.CRE / OHHGHST3.CRE)
-@118 = ~Voleuse~
-// (C6EXTR03.CRE / CHGOOD05.CRE / M05ELF2.CRE / SUDEAD02.CRE / SUELF8.CRE / SUENDEL2.CRE / SUENDEL8.CRE)
-@119 = ~Guerrière elfe~
-// (ohrdws03.CRE)
-@120 = ~Naine de Rocheprofonde~
-// (AR18ARCH.CRE / MGKETG02.CRE / VAKG02.CRE / YARMY02.CRE)
-@121 = ~Archère~
-// (DSBODY01.CRE / REPTHF3.CRE / THIEF3.CRE / VVDEAD3.CRE / VVMADMAN.CRE / VVSHAD10.CRE / VVSHAD3.CRE / VVSHAD7.CRE / VVSHAD9.CRE / ARNWAR09.CRE / FLYFGT04.CRE)
-@122 = ~Voleuse de l'ombre~
-// (UDCOM03.CRE)
-@123 = ~Cliente elfe noire~
-// (PIRSAL02.CRE / BARSAIL2.CRE / BSAILOR3.CRE)
-@124 = ~Navigatrice~
-// (AMTCLE01.CRE / AMTCLER0.CRE / C6CLER1.CRE)
-@125 = ~Prêtresse de Lathandre~
-// (ALUFIE01.CRE / ALUFIE02.CRE / GORALU01.CRE / TELALU1.CRE / TELSUC1.CRE)
-@126 = ~Alu-fiélonne~
-// (OHDPPET.CRE / ohdtree6.CRE / ohdtree7.CRE / ohdtree8.CRE)
-@127 = ~Guerrière de Tyr~
-// (ohnthkn2.CRE)
-@128 = ~Guerrière thayenne~
-// (BOUNHA03.CRE)
-@129 = ~Chasseuse de primes~
-// (C6CLER3.CRE / YSSOLD16.CRE)
-@130 = ~Prêtresse de Talos~
-// (ZILARC01.CRE)
-@131 = ~Chasseuse sombre~
-// (COWENF3.CRE / COWENF4.CRE)
-@132 = ~Exécutrice cagoulée~
-// (DAGHAUN1.CRE)
-@133 = ~Grande prêtresse de Ghaunadaur~
-// (DAGHAUN2.CRE)
-@134 = ~Prêtresse de Ghaunadaur~
-// (DEADB02.CRE / TANADV02.CRE / TANADV05.CRE)
-@135 = ~Aventurière~
-// (FFUSHER2.CRE)
-@136 = ~Placeuse~
-// (GORCAMB2.CRE / GORCAMB3.CRE / TELTIEF2.CRE / TELTIEF3.CRE)
-@137 = ~Tieffeline~
-// (GROMG03.CRE / GROMG04.CRE / GROMG11.CRE / GROMG12.CRE)
-@138 = ~Soldate d'Il-Khan~
-// (HEARTG2.CRE)
-@139 = ~Chevaleresse de l'Ordre~
-// (JAHEI1.CRE / JAREV1.CRE)
-@140 = ~Ménestrelle~
-// (KAYSMG04.CRE)
-@141 = ~Contrebandière~
-// (KPFARM02.CRE)
-@142 = ~Citoyenne~
-// (KPLEND02.CRE)
-@143 = ~Usurière~
-// (MOURNER5.CRE)
-@144 = ~Pleureur~
-// (MAGE18A.CRE / MAGE16C.CRE)
-@145 = ~Mage cagoulée~
-// (ohbdanc1.CRE / ohbdanc2.CRE)
-@146 = ~Danseuse~
-// (IRETHF05.CRE / ISHTHF02.CRE / PLASS02.CRE)
-@147 = ~Assassine~
-// (KPROEN05.CRE)
-@148 = ~Soldate de Roenal~
-// (LATKNI02.CRE)
-@149 = ~Chevaleresse du matin~
-// (ohbbclt2.CRE)
-@150 = ~Croyante de Bhaal~
-// (DLOST.CRE)
-@151 = ~Enfant perdue~
-// (ohbrw01.CRE / ohnredw4.CRE / ohnrwt3.CRE)
-@152 = ~Sorcière Rouge~
-// (ohnfmer1.CRE / ohnmerc3.CRE / ohnrwme2.CRE)
-@153 = ~Mercenaire thayenne~
-// (ohrshr20.CRE)
-@154 = ~Moniale sharrane~
-// (ohrshcru.CRE)
-@155 = ~Croisée sharrane~
-// (ohrovs2.CRE)
-@156 = ~Contremaîtresse sharrane~
-// (ohrfass2.CRE / ohrfassa.CRE / ohrshrn1.CRE)
-@157 = ~Assassine sharrane~
-// (ohbthr02.CRE)
-@158 = ~Magicienne esclave~
-// (OHDGUES2.CRE)
-@159 = ~Invitée du mariage~
-// (OHDCRU01.CRE / OHDCRU04.CRE / ohdlufcl.CRE / ohdlufpl.CRE)
-@160 = ~Croisée~
-// (ohbdmnk2.CRE / ohrshm9.CRE / ohrshr30.CRE / ohrshram.CRE / ohrshrn6.CRE)
-@161 = ~Moniale de la Lune Noire~
-// (ohbsmnk2.CRE)
-@162 = ~Moniale de la Conscience Solaire~
-// (OHDDEF02.CRE / OHDNEO01.CRE / OHDTREE2.CRE / OHDTREE3.CRE)
-@163 = ~Paladine de Tyr~
-// (OHDNEO03.CRE / OHDPPE01.CRE)
-@164 = ~Prêtresse de Tyr~
-// (ohrbmm.CRE)
-@165 = ~Moniale de la Lune Claire~
-// (ohrphm.CRE)
-@166 = ~Moniale hôtesse de la Pénitence~
-// (PPMAG01.CRE)
-@167 = ~Magicienne pirate~
-// (PROPHET1.CRE)
-@168 = ~Prophétesse~
-// (TALKNI02.CRE)
-@169 = ~Chevaleresse de l'orage~
-// (SHUGMG01.CRE / SHUGPR01.CRE)
-@170 = ~Chevaleresse Vigilante~
-// (SCOOK.CRE)
-@171 = ~Cuisinière~
-// (RERAK03.CRE / RERAK05.CRE / RERAK06.CRE)
-@172 = ~Voyageuse~
-// (REBAND04.CRE / TANTUG02.CRE)
-@173 = ~Malfaitrice~
+@102 = ~Cape de Montolio +1~

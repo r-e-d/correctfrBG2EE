@@ -1,0 +1,217 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correctifs créatures                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+// (PIRCOR03.CRE / SARPROVM.CRE)
+@200 = ~Courtisan~
+
+// (REMAGE01.CRE / REMAGE02.CRE)
+@201 = ~Magicienne esclavagiste~
+
+// (BEGGAR3.CRE)
+@202 = ~Mendiante~
+
+// (BMTHIEF.CRE)
+@203 = ~Voleuse du marché noir~
+
+// (SLSHOP02.CRE / BSHOP02.CRE / SHOP2.CRE)
+@204 = ~Vendeuse~
+
+// (AMIA.CRE)
+@205 = ~Servante~
+
+// (DELTOW02.CRE / WCUST04.CRE)
+@206 = ~Cliente~
+
+// (PRIS01.CRE)
+@207 = ~Prisonnière~
+
+// (QCIRC02.CRE)
+@208 = ~Employée du cirque~
+
+// (FFCUST03.CRE / FFCUST05.CRE / FTOWN7.CRE / TRTAVP03.CRE)
+@209 = ~Cliente de la taverne~
+
+// (AMMGRD02.CRE / AMMONK05.CRE / AMMONK08.CRE)
+@210 = ~Moniale~
+
+// (DADROW14.CRE / DADROW22.CRE / DADROW23.CRE / DROFOD02.CRE / DROW05.CRE / SENDRO02.CRE / SENFOD02.CRE / UDDOOR03.CRE / UDDROW12.CRE / UDDROW14.CRE / UDDROW15.CRE / UDDROW19.CRE / UDDROW29.CRE / UDDROW31.CRE)
+@211 = ~Elfe noire~
+
+// (DROW02.CRE / UDDROW33.CRE)
+@212 = ~Guerrière elfe noire~
+
+// (DADROW10.CRE / DADROW11.CRE)
+@213 = ~Bourrelle elfe noire~
+
+// (GENTH02.CRE / MAEGUY02.CRE / OHHGHST1.CRE / OHHGHST2.CRE / OHHGHST3.CRE)
+@214 = ~Voleuse~
+
+// (C6EXTR03.CRE / CHGOOD05.CRE / M05ELF2.CRE / SUDEAD02.CRE / SUELF8.CRE / SUENDEL2.CRE / SUENDEL8.CRE)
+@215 = ~Guerrière elfe~
+
+// (ohrdws03.CRE)
+@216 = ~Naine de Rocheprofonde~
+
+// (AR18ARCH.CRE / MGKETG02.CRE / VAKG02.CRE / YARMY02.CRE)
+@217 = ~Archère~
+
+// (DSBODY01.CRE / REPTHF3.CRE / THIEF3.CRE / VVDEAD3.CRE / VVMADMAN.CRE / VVSHAD10.CRE / VVSHAD3.CRE / VVSHAD7.CRE / VVSHAD9.CRE / ARNWAR09.CRE / FLYFGT04.CRE)
+@218 = ~Voleuse de l'ombre~
+
+// (UDCOM03.CRE)
+@219 = ~Cliente elfe noire~
+
+// (PIRSAL02.CRE / BARSAIL2.CRE / BSAILOR3.CRE)
+@220 = ~Navigatrice~
+
+// (AMTCLE01.CRE / AMTCLER0.CRE / C6CLER1.CRE)
+@221 = ~Prêtresse de Lathandre~
+
+// (ALUFIE01.CRE / ALUFIE02.CRE / GORALU01.CRE / TELALU1.CRE / TELSUC1.CRE)
+@222 = ~Alu-fiélonne~
+
+// (OHDPPET.CRE / ohdtree6.CRE / ohdtree7.CRE / ohdtree8.CRE)
+@223 = ~Guerrière de Tyr~
+
+// (ohnthkn2.CRE)
+@224 = ~Guerrière thayenne~
+
+// (BOUNHA03.CRE)
+@225 = ~Chasseuse de primes~
+
+// (C6CLER3.CRE / YSSOLD16.CRE)
+@226 = ~Prêtresse de Talos~
+
+// (ZILARC01.CRE)
+@227 = ~Chasseuse sombre~
+
+// (COWENF3.CRE / COWENF4.CRE)
+@228 = ~Exécutrice cagoulée~
+
+// (DAGHAUN1.CRE)
+@229 = ~Grande prêtresse de Ghaunadaur~
+
+// (DAGHAUN2.CRE)
+@230 = ~Prêtresse de Ghaunadaur~
+
+// (DEADB02.CRE / TANADV02.CRE / TANADV05.CRE)
+@231 = ~Aventurière~
+
+// (FFUSHER2.CRE)
+@232 = ~Placeuse~
+
+// (GORCAMB2.CRE / GORCAMB3.CRE / TELTIEF2.CRE / TELTIEF3.CRE)
+@233 = ~Tieffeline~
+
+// (GROMG03.CRE / GROMG04.CRE / GROMG11.CRE / GROMG12.CRE)
+@234 = ~Soldate d'Il-Khan~
+
+// (HEARTG2.CRE)
+@235 = ~Chevaleresse de l'Ordre~
+
+// (JAHEI1.CRE / JAREV1.CRE)
+@236 = ~Ménestrelle~
+
+// (KAYSMG04.CRE)
+@237 = ~Contrebandière~
+
+// (KPFARM02.CRE)
+@238 = ~Citoyenne~
+
+// (KPLEND02.CRE)
+@239 = ~Usurière~
+
+// (MOURNER5.CRE)
+@240 = ~Pleureur~
+
+// (MAGE18A.CRE / MAGE16C.CRE)
+@241 = ~Mage cagoulée~
+
+// (ohbdanc1.CRE / ohbdanc2.CRE)
+@242 = ~Danseuse~
+
+// (IRETHF05.CRE / ISHTHF02.CRE / PLASS02.CRE)
+@243 = ~Assassine~
+
+// (KPROEN05.CRE)
+@244 = ~Soldate de Roenal~
+
+// (LATKNI02.CRE)
+@245 = ~Chevaleresse du matin~
+
+// (ohbbclt2.CRE)
+@246 = ~Croyante de Bhaal~
+
+// (DLOST.CRE)
+@247 = ~Enfant perdue~
+
+// (ohbrw01.CRE / ohnredw4.CRE / ohnrwt3.CRE)
+@248 = ~Sorcière Rouge~
+
+// (ohnfmer1.CRE / ohnmerc3.CRE / ohnrwme2.CRE)
+@249 = ~Mercenaire thayenne~
+
+// (ohrshr20.CRE)
+@250 = ~Moniale sharrane~
+
+// (ohrshcru.CRE)
+@251 = ~Croisée sharrane~
+
+// (ohrovs2.CRE)
+@252 = ~Contremaîtresse sharrane~
+
+// (ohrfass2.CRE / ohrfassa.CRE / ohrshrn1.CRE)
+@253 = ~Assassine sharrane~
+
+// (ohbthr02.CRE)
+@254 = ~Magicienne esclave~
+
+// (OHDGUES2.CRE)
+@255 = ~Invitée du mariage~
+
+// (OHDCRU01.CRE / OHDCRU04.CRE / ohdlufcl.CRE / ohdlufpl.CRE)
+@256 = ~Croisée~
+
+// (ohbdmnk2.CRE / ohrshm9.CRE / ohrshr30.CRE / ohrshram.CRE / ohrshrn6.CRE)
+@257 = ~Moniale de la Lune Noire~
+
+// (ohbsmnk2.CRE)
+@258 = ~Moniale de la Conscience Solaire~
+
+// (OHDDEF02.CRE / OHDNEO01.CRE / OHDTREE2.CRE / OHDTREE3.CRE)
+@259 = ~Paladine de Tyr~
+
+// (OHDNEO03.CRE / OHDPPE01.CRE)
+@260 = ~Prêtresse de Tyr~
+
+// (ohrbmm.CRE)
+@261 = ~Moniale de la Lune Claire~
+
+// (ohrphm.CRE)
+@262 = ~Moniale hôtesse de la Pénitence~
+
+// (PPMAG01.CRE)
+@263 = ~Magicienne pirate~
+
+// (PROPHET1.CRE)
+@264 = ~Prophétesse~
+
+// (TALKNI02.CRE)
+@265 = ~Chevaleresse de l'orage~
+
+// (SHUGMG01.CRE / SHUGPR01.CRE)
+@266 = ~Chevaleresse Vigilante~
+
+// (SCOOK.CRE)
+@267 = ~Cuisinière~
+
+// (RERAK03.CRE / RERAK05.CRE / RERAK06.CRE)
+@268 = ~Voyageuse~
+
+// (REBAND04.CRE / TANTUG02.CRE)
+@269 = ~Malfaitrice~
