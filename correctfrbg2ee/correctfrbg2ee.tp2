@@ -14,27 +14,33 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/setup.tra~
          ~correctfrbg2ee/francais/correctfr.tra~
          ~correctfrbg2ee/francais/correctobjets.tra~
+         ~correctfrbg2ee/francais/correctcreatures.tra~
          ~correctfrbg2ee/francais/soundset.tra~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correction de la traduction de BG2:EE            \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enhanced Edition
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	INCLUDE ~correctfrbg2ee/lib/bg2ee.tph~
+	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correctifs objets                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 	// Correction de la description de la Hallebarde elfe noir +3
 	COPY_EXISTING ~DWHALB01.ITM~ ~override~
 		WRITE_LONG 0x50 46679
-	BUT_ONLY_IF_IT_CHANGES
-
-	// Correction du nom de la Hallebarde +2
-	COPY_EXISTING ~HALBSHA.ITM~ ~override~
-		WRITE_LONG 0x0c 96055
-		WRITE_ASCII 0x3a ~IHALB07~ #8
-	BUT_ONLY_IF_IT_CHANGES
-
-	// Correction du nom de la Hache +3 (Arme enchantée)
-	COPY_EXISTING ~ENSW2H.ITM~ ~override~
-		WRITE_LONG 0x08 71038
-		WRITE_LONG 0x0c 71038
 	BUT_ONLY_IF_IT_CHANGES
 
 	// Correction du nom de l'Armure d'écailles de dragon d'ombre
@@ -71,14 +77,9 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x50 17054
 	BUT_ONLY_IF_IT_CHANGES
 
-	// Correction de la description de l'Épée courte +4 (Figurine de Shakti)
-	COPY_EXISTING ~SHAKTI1.ITM~ ~override~
-		SAY DESC @100
-	BUT_ONLY_IF_IT_CHANGES
-
 	// Correction de la description de la Cotte de mailles elfe noir +1
 	COPY_EXISTING ~CLOLTH.ITM~ ~override~
-		SAY DESC @101
+		SAY DESC @100
 	BUT_ONLY_IF_IT_CHANGES
 
 	// Correction du nom du parchemin du sort Protection contre le feu
@@ -101,92 +102,100 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x0c 7571
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction de la description de l'Armure de plates complète elfe noir +5
+	COPY_EXISTING ~DWPLAT01.ITM~ ~override~
+		SAY UNIDENTIFIED_DESC @101
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom de la Cape de Montolio +1
+	COPY_EXISTING ~CLCK32.ITM~ ~override~
+		SAY NAME2 @102
+	BUT_ONLY_IF_IT_CHANGES
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correctifs créatures                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 	// Correction du nom car personnage masculin (Courtisan)
 	COPY_EXISTING ~PIRCOR03.CRE~ ~override~
 				  ~SARPROVM.CRE~ ~override~
-		SAY NAME1 @102
-		SAY NAME2 @102
+		SAY NAME1 @200
+		SAY NAME2 @200
 	BUT_ONLY_IF_IT_CHANGES
-	
-	// Correction de la description de l'Armure de plates complète elfe noir +5
-	COPY_EXISTING ~DWPLAT01.ITM~ ~override~
-		SAY UNIDENTIFIED_DESC @103
-	BUT_ONLY_IF_IT_CHANGES
-	
-	// Correction du nom de la Cape de Montolio +1
-	COPY_EXISTING ~CLCK32.ITM~ ~override~
-		SAY NAME2 @104
-	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Magicienne esclavagiste)
 	COPY_EXISTING ~REMAGE01.CRE~ ~override~
 				  ~REMAGE02.CRE~ ~override~
-		SAY NAME1 @105
-		SAY NAME2 @105
+		SAY NAME1 @201
+		SAY NAME2 @201
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Mendiante)
 	COPY_EXISTING ~BEGGAR3.CRE~ ~override~
-		SAY NAME1 @106
-		SAY NAME2 @106
+		SAY NAME1 @202
+		SAY NAME2 @202
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Voleuse du marché noir)
 	COPY_EXISTING ~BMTHIEF.CRE~ ~override~
-		SAY NAME1 @107
-		SAY NAME2 @107
+		SAY NAME1 @203
+		SAY NAME2 @203
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Vendeuse)
 	COPY_EXISTING ~SLSHOP02.CRE~ ~override~
 				  ~BSHOP02.CRE~ ~override~
 				  ~SHOP2.CRE~ ~override~
-		SAY NAME1 @108
-		SAY NAME2 @108
+		SAY NAME1 @204
+		SAY NAME2 @204
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Servante)
 	COPY_EXISTING ~AMIA.CRE~ ~override~
-		SAY NAME1 @109
-		SAY NAME2 @109
+		SAY NAME1 @205
+		SAY NAME2 @205
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Cliente)
 	COPY_EXISTING ~DELTOW02.CRE~ ~override~
 				  ~WCUST04.CRE~ ~override~
-		SAY NAME1 @110
-		SAY NAME2 @110
+		SAY NAME1 @206
+		SAY NAME2 @206
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prisonnière)
 	COPY_EXISTING ~PRIS01.CRE~ ~override~
-		SAY NAME1 @111
-		SAY NAME2 @111
+		SAY NAME1 @207
+		SAY NAME2 @207
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Employée du cirque)
 	COPY_EXISTING ~QCIRC02.CRE~ ~override~
-		SAY NAME1 @112
-		SAY NAME2 @112
+		SAY NAME1 @208
+		SAY NAME2 @208
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Cliente de la taverne)
 	COPY_EXISTING ~FFCUST03.CRE~ ~override~
 				  ~FFCUST05.CRE~ ~override~
 				  ~FTOWN7.CRE~ ~override~
 				  ~TRTAVP03.CRE~ ~override~
-		SAY NAME1 @113
-		SAY NAME2 @113
+		SAY NAME1 @209
+		SAY NAME2 @209
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale)
 	COPY_EXISTING ~AMMGRD02.CRE~ ~override~
 				  ~AMMONK05.CRE~ ~override~
 				  ~AMMONK08.CRE~ ~override~
-		SAY NAME1 @114
-		SAY NAME2 @114
+		SAY NAME1 @210
+		SAY NAME2 @210
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Elfe noire)
 	COPY_EXISTING ~DADROW14.CRE~ ~override~
 				  ~DADROW22.CRE~ ~override~
@@ -202,34 +211,34 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 				  ~UDDROW19.CRE~ ~override~
 				  ~UDDROW29.CRE~ ~override~
 				  ~UDDROW31.CRE~ ~override~
-		SAY NAME1 @115
-		SAY NAME2 @115
+		SAY NAME1 @211
+		SAY NAME2 @211
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Guerrière elfe noire)
 	COPY_EXISTING ~DROW02.CRE~ ~override~
 				  ~UDDROW33.CRE~ ~override~
-		SAY NAME1 @116
-		SAY NAME2 @116
+		SAY NAME1 @212
+		SAY NAME2 @212
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Bourrelle elfe noire)
 	COPY_EXISTING ~DADROW10.CRE~ ~override~
 				  ~DADROW11.CRE~ ~override~
-		SAY NAME1 @117
-		SAY NAME2 @117
+		SAY NAME1 @213
+		SAY NAME2 @213
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Voleuse)
 	COPY_EXISTING ~GENTH02.CRE~ ~override~
 				  ~MAEGUY02.CRE~ ~override~
 				  ~OHHGHST1.CRE~ ~override~
 				  ~OHHGHST2.CRE~ ~override~
 				  ~OHHGHST3.CRE~ ~override~
-		SAY NAME1 @118
-		SAY NAME2 @118
+		SAY NAME1 @214
+		SAY NAME2 @214
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Guerrière elfe)
 	COPY_EXISTING ~C6EXTR03.CRE~ ~override~
 				  ~CHGOOD05.CRE~ ~override~
@@ -238,25 +247,25 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 				  ~SUELF8.CRE~ ~override~
 				  ~SUENDEL2.CRE~ ~override~
 				  ~SUENDEL8.CRE~ ~override~
-		SAY NAME1 @119
-		SAY NAME2 @119
+		SAY NAME1 @215
+		SAY NAME2 @215
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Naine de Rocheprofonde)
 	COPY_EXISTING ~ohrdws03.CRE~ ~override~
-		SAY NAME1 @120
-		SAY NAME2 @120
+		SAY NAME1 @216
+		SAY NAME2 @216
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Archère)
 	COPY_EXISTING ~AR18ARCH.CRE~ ~override~
 				  ~MGKETG02.CRE~ ~override~
 				  ~VAKG02.CRE~ ~override~
 				  ~YARMY02.CRE~ ~override~
-		SAY NAME1 @121
-		SAY NAME2 @121
+		SAY NAME1 @217
+		SAY NAME2 @217
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Voleuse de l'ombre)
 	COPY_EXISTING ~DSBODY01.CRE~ ~override~
 				  ~REPTHF3.CRE~ ~override~
@@ -269,364 +278,370 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 				  ~VVSHAD9.CRE~ ~override~
 				  ~ARNWAR09.CRE~ ~override~
 				  ~FLYFGT04.CRE~ ~override~
-		SAY NAME1 @122
-		SAY NAME2 @122
+		SAY NAME1 @218
+		SAY NAME2 @218
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Cliente elfe noire)
 	COPY_EXISTING ~UDCOM03.CRE~ ~override~
-		SAY NAME1 @123
-		SAY NAME2 @123
+		SAY NAME1 @219
+		SAY NAME2 @219
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Navigatrice)
 	COPY_EXISTING ~PIRSAL02.CRE~ ~override~
 				  ~BARSAIL2.CRE~ ~override~
 				  ~BSAILOR3.CRE~ ~override~
-		SAY NAME1 @124
-		SAY NAME2 @124
+		SAY NAME1 @220
+		SAY NAME2 @220
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prêtresse de Lathandre)
 	COPY_EXISTING ~AMTCLE01.CRE~ ~override~
 				  ~AMTCLER0.CRE~ ~override~
 				  ~C6CLER1.CRE~ ~override~
-		SAY NAME1 @125
-		SAY NAME2 @125
+		SAY NAME1 @221
+		SAY NAME2 @221
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Alu-fiélonne)
 	COPY_EXISTING ~ALUFIE01.CRE~ ~override~
 				  ~ALUFIE02.CRE~ ~override~
 				  ~GORALU01.CRE~ ~override~
 				  ~TELALU1.CRE~ ~override~
 				  ~TELSUC1.CRE~ ~override~
-		SAY NAME1 @126
-		SAY NAME2 @126
+		SAY NAME1 @222
+		SAY NAME2 @222
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Guerrière de Tyr)
 	COPY_EXISTING ~OHDPPET.CRE~ ~override~
 				  ~ohdtree6.CRE~ ~override~
 				  ~ohdtree7.CRE~ ~override~
 				  ~ohdtree8.CRE~ ~override~
-		SAY NAME1 @127
-		SAY NAME2 @127
+		SAY NAME1 @223
+		SAY NAME2 @223
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Guerrière thayenne)
 	COPY_EXISTING ~ohnthkn2.CRE~ ~override~
-		SAY NAME1 @128
-		SAY NAME2 @128
+		SAY NAME1 @224
+		SAY NAME2 @224
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chasseuse de primes)
 	COPY_EXISTING ~BOUNHA03.CRE~ ~override~
-		SAY NAME1 @129
-		SAY NAME2 @129
+		SAY NAME1 @225
+		SAY NAME2 @225
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prêtresse de Talos)
 	COPY_EXISTING ~C6CLER3.CRE~ ~override~
 				  ~YSSOLD16.CRE~ ~override~
-		SAY NAME1 @130
-		SAY NAME2 @130
+		SAY NAME1 @226
+		SAY NAME2 @226
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chasseuse sombre)
 	COPY_EXISTING ~ZILARC01.CRE~ ~override~
-		SAY NAME1 @131
-		SAY NAME2 @131
+		SAY NAME1 @227
+		SAY NAME2 @227
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Exécutrice cagoulée)
 	COPY_EXISTING ~COWENF3.CRE~ ~override~
 				  ~COWENF4.CRE~ ~override~
-		SAY NAME1 @132
-		SAY NAME2 @132
+		SAY NAME1 @228
+		SAY NAME2 @228
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Grande prêtresse de Ghaunadaur)
 	COPY_EXISTING ~DAGHAUN1.CRE~ ~override~
-		SAY NAME1 @133
-		SAY NAME2 @133
+		SAY NAME1 @229
+		SAY NAME2 @229
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prêtresse de Ghaunadaur)
 	COPY_EXISTING ~DAGHAUN2.CRE~ ~override~
-		SAY NAME1 @134
-		SAY NAME2 @134
+		SAY NAME1 @230
+		SAY NAME2 @230
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Aventurière)
 	COPY_EXISTING ~DEADB02.CRE~ ~override~
 				  ~TANADV02.CRE~ ~override~
 				  ~TANADV05.CRE~ ~override~
-		SAY NAME1 @135
-		SAY NAME2 @135
+		SAY NAME1 @231
+		SAY NAME2 @231
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Placeuse)
 	COPY_EXISTING ~FFUSHER2.CRE~ ~override~
-		SAY NAME1 @136
-		SAY NAME2 @136
+		SAY NAME1 @232
+		SAY NAME2 @232
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Tieffeline)
 	COPY_EXISTING ~GORCAMB2.CRE~ ~override~
 				  ~GORCAMB3.CRE~ ~override~
 				  ~TELTIEF2.CRE~ ~override~
 				  ~TELTIEF3.CRE~ ~override~
-		SAY NAME1 @137
-		SAY NAME2 @137
+		SAY NAME1 @233
+		SAY NAME2 @233
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Soldate d'Il-Khan)
 	COPY_EXISTING ~GROMG03.CRE~ ~override~
 				  ~GROMG04.CRE~ ~override~
 				  ~GROMG11.CRE~ ~override~
 				  ~GROMG12.CRE~ ~override~
-		SAY NAME1 @138
-		SAY NAME2 @138
+		SAY NAME1 @234
+		SAY NAME2 @234
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chevaleresse de l'Ordre)
 	COPY_EXISTING ~HEARTG2.CRE~ ~override~
-		SAY NAME1 @139
-		SAY NAME2 @139
+		SAY NAME1 @235
+		SAY NAME2 @235
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Ménestrelle)
 	COPY_EXISTING ~JAHEI1.CRE~ ~override~
 				  ~JAREV1.CRE~ ~override~
-		SAY NAME1 @140
-		SAY NAME2 @140
+		SAY NAME1 @236
+		SAY NAME2 @236
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Contrebandière)
 	COPY_EXISTING ~KAYSMG04.CRE~ ~override~
-		SAY NAME1 @141
-		SAY NAME2 @141
+		SAY NAME1 @237
+		SAY NAME2 @237
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Citoyenne)
 	COPY_EXISTING ~KPFARM02.CRE~ ~override~
-		SAY NAME1 @142
-		SAY NAME2 @142
+		SAY NAME1 @238
+		SAY NAME2 @238
 	BUT_ONLY_IF_IT_CHANGES
 
 	// Correction du nom car personnage féminin (Usurière)
 	COPY_EXISTING ~KPLEND02.CRE~ ~override~
-		SAY NAME1 @143
-		SAY NAME2 @143
+		SAY NAME1 @239
+		SAY NAME2 @239
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage masculin (Pleureur)
 	COPY_EXISTING ~MOURNER5.CRE~ ~override~
-		SAY NAME1 @144
-		SAY NAME2 @144
+		SAY NAME1 @240
+		SAY NAME2 @240
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Mage cagoulée)
 	COPY_EXISTING ~MAGE18A.CRE~ ~override~
 				  ~MAGE16C.CRE~ ~override~
-		SAY NAME1 @145
-		SAY NAME2 @145
+		SAY NAME1 @241
+		SAY NAME2 @241
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Danseuse)
 	COPY_EXISTING ~ohbdanc1.CRE~ ~override~
 				  ~ohbdanc2.CRE~ ~override~
-		SAY NAME1 @146
-		SAY NAME2 @146
+		SAY NAME1 @242
+		SAY NAME2 @242
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Assassine)
 	COPY_EXISTING ~IRETHF05.CRE~ ~override~
 				  ~ISHTHF02.CRE~ ~override~
 				  ~PLASS02.CRE~ ~override~
-		SAY NAME1 @147
-		SAY NAME2 @147
+		SAY NAME1 @243
+		SAY NAME2 @243
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Soldate de Roenal)
 	COPY_EXISTING ~KPROEN05.CRE~ ~override~
-		SAY NAME1 @148
-		SAY NAME2 @148
+		SAY NAME1 @244
+		SAY NAME2 @244
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chevaleresse du matin)
 	COPY_EXISTING ~LATKNI02.CRE~ ~override~
-		SAY NAME1 @149
-		SAY NAME2 @149
+		SAY NAME1 @245
+		SAY NAME2 @245
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Croyante de Bhaal)
 	COPY_EXISTING ~ohbbclt2.CRE~ ~override~
-		SAY NAME1 @150
-		SAY NAME2 @150
+		SAY NAME1 @246
+		SAY NAME2 @246
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Enfant perdue)
 	COPY_EXISTING ~DLOST.CRE~ ~override~
-		SAY NAME1 @151
-		SAY NAME2 @151
+		SAY NAME1 @247
+		SAY NAME2 @247
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Sorcière Rouge)
 	COPY_EXISTING ~ohbrw01.CRE~ ~override~
 				  ~ohnredw4.CRE~ ~override~
 				  ~ohnrwt3.CRE~ ~override~
-		SAY NAME1 @152
-		SAY NAME2 @152
+		SAY NAME1 @248
+		SAY NAME2 @248
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Mercenaire thayenne)
 	COPY_EXISTING ~ohnfmer1.CRE~ ~override~
 				  ~ohnmerc3.CRE~ ~override~
 				  ~ohnrwme2.CRE~ ~override~
-		SAY NAME1 @153
-		SAY NAME2 @153
+		SAY NAME1 @249
+		SAY NAME2 @249
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale sharrane)
 	COPY_EXISTING ~ohrshr20.CRE~ ~override~
-		SAY NAME1 @154
-		SAY NAME2 @154
+		SAY NAME1 @250
+		SAY NAME2 @250
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Croisée sharrane)
 	COPY_EXISTING ~ohrshcru.CRE~ ~override~
-		SAY NAME1 @155
-		SAY NAME2 @155
+		SAY NAME1 @251
+		SAY NAME2 @251
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Contremaîtresse sharrane)
 	COPY_EXISTING ~ohrovs2.CRE~ ~override~
-		SAY NAME1 @156
-		SAY NAME2 @156
+		SAY NAME1 @252
+		SAY NAME2 @252
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Assassine sharrane)
 	COPY_EXISTING ~ohrfass2.CRE~ ~override~
 				  ~ohrfassa.CRE~ ~override~
 				  ~ohrshrn1.CRE~ ~override~
-		SAY NAME1 @157
-		SAY NAME2 @157
+		SAY NAME1 @253
+		SAY NAME2 @253
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Magicienne esclave)
 	COPY_EXISTING ~ohbthr02.CRE~ ~override~
-		SAY NAME1 @158
-		SAY NAME2 @158
+		SAY NAME1 @254
+		SAY NAME2 @254
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Invitée du mariage)
 	COPY_EXISTING ~OHDGUES2.CRE~ ~override~
-		SAY NAME1 @159
-		SAY NAME2 @159
+		SAY NAME1 @255
+		SAY NAME2 @255
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Croisée)
 	COPY_EXISTING ~OHDCRU01.CRE~ ~override~
 				  ~OHDCRU04.CRE~ ~override~
 				  ~ohdlufcl.CRE~ ~override~
 				  ~ohdlufpl.CRE~ ~override~
-		SAY NAME1 @160
-		SAY NAME2 @160
+		SAY NAME1 @256
+		SAY NAME2 @256
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale de la Lune Noire)
 	COPY_EXISTING ~ohbdmnk2.CRE~ ~override~
 				  ~ohrshm9.CRE~ ~override~
 				  ~ohrshr30.CRE~ ~override~
 				  ~ohrshram.CRE~ ~override~
 				  ~ohrshrn6.CRE~ ~override~
-		SAY NAME1 @161
-		SAY NAME2 @161
+		SAY NAME1 @257
+		SAY NAME2 @257
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale de la Conscience Solaire)
 	COPY_EXISTING ~ohbsmnk2.CRE~ ~override~
-		SAY NAME1 @162
-		SAY NAME2 @162
+		SAY NAME1 @258
+		SAY NAME2 @258
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Paladine de Tyr)
 	COPY_EXISTING ~OHDDEF02.CRE~ ~override~
 				  ~OHDNEO01.CRE~ ~override~
 				  ~OHDTREE2.CRE~ ~override~
 				  ~OHDTREE3.CRE~ ~override~
-		SAY NAME1 @163
-		SAY NAME2 @163
+		SAY NAME1 @259
+		SAY NAME2 @259
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prêtresse de Tyr)
 	COPY_EXISTING ~OHDNEO03.CRE~ ~override~
 				  ~OHDPPE01.CRE~ ~override~
-		SAY NAME1 @164
-		SAY NAME2 @164
+		SAY NAME1 @260
+		SAY NAME2 @260
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale de la Lune Claire)
 	COPY_EXISTING ~ohrbmm.CRE~ ~override~
-		SAY NAME1 @165
-		SAY NAME2 @165
+		SAY NAME1 @261
+		SAY NAME2 @261
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Moniale hôtesse de la Pénitence)
 	COPY_EXISTING ~ohrphm.CRE~ ~override~
-		SAY NAME1 @166
-		SAY NAME2 @166
+		SAY NAME1 @262
+		SAY NAME2 @262
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Magicienne pirate)
 	COPY_EXISTING ~PPMAG01.CRE~ ~override~
-		SAY NAME1 @167
-		SAY NAME2 @167
+		SAY NAME1 @263
+		SAY NAME2 @263
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Prophétesse)
 	COPY_EXISTING ~PROPHET1.CRE~ ~override~
-		SAY NAME1 @168
-		SAY NAME2 @168
+		SAY NAME1 @264
+		SAY NAME2 @264
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chevaleresse de l'orage)
 	COPY_EXISTING ~TALKNI02.CRE~ ~override~
-		SAY NAME1 @169
-		SAY NAME2 @169
+		SAY NAME1 @265
+		SAY NAME2 @265
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Chevaleresse Vigilante)
 	COPY_EXISTING ~SHUGMG01.CRE~ ~override~
 				  ~SHUGPR01.CRE~ ~override~
-		SAY NAME1 @170
-		SAY NAME2 @170
+		SAY NAME1 @266
+		SAY NAME2 @266
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Cuisinière)
 	COPY_EXISTING ~SCOOK.CRE~ ~override~
-		SAY NAME1 @171
-		SAY NAME2 @171
+		SAY NAME1 @267
+		SAY NAME2 @267
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Voyageuse)
 	COPY_EXISTING ~RERAK03.CRE~ ~override~
 				  ~RERAK05.CRE~ ~override~
 				  ~RERAK06.CRE~ ~override~
-		SAY NAME1 @172
-		SAY NAME2 @172
+		SAY NAME1 @268
+		SAY NAME2 @268
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Malfaitrice)
 	COPY_EXISTING ~REBAND04.CRE~ ~override~
 				  ~TANTUG02.CRE~ ~override~
-		SAY NAME1 @173
-		SAY NAME2 @173
+		SAY NAME1 @269
+		SAY NAME2 @269
 	BUT_ONLY_IF_IT_CHANGES
 
-	COPY ~%MOD_FOLDER%/extra/L_fr_FR.LUA~ ~override/L_fr_FR.LUA~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Patch audio et video francais                    \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
@@ -635,6 +650,14 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
 	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Importation des ensembles de voix françaises BG1 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
 	LAF cd_add_soundset
@@ -739,6 +762,14 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@1113) //  m
 		STR_VAR cd_name = "MALE8"
 	END
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Suppression des doublages en anglais             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
