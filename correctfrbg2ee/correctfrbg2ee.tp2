@@ -17,6 +17,7 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/correctcreatures.tra~
          ~correctfrbg2ee/francais/soundset.tra~
 
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -651,6 +652,63 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
 	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
 
+	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Affichage du nom des ensembles de voix           \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~M_cdsnd.lua~ BEGIN
+		<<<<<<<< ./inlined/M_fr.lua
+>>>>>>>>
+		COPY ~./inlined/M_fr.lua~ ~override~
+	END
+
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@900)
+		STR_VAR cd_name = "DEFAULT"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@901)
+		STR_VAR cd_name = "FEMALE1"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@902)
+		STR_VAR cd_name = "FEMALE2"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@903)
+		STR_VAR cd_name = "FEMALE3"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@904)
+		STR_VAR cd_name = "FEMALE4"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@905)
+		STR_VAR cd_name = "MALE1"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@906)
+		STR_VAR cd_name = "MALE2"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@907)
+		STR_VAR cd_name = "MALE3"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@908)
+		STR_VAR cd_name = "MALE4"
+	END
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@909)
+		STR_VAR cd_name = "MALE5"
+	END
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -659,9 +717,9 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
 	LAF cd_add_soundset
 		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@1000)
 			cd_battlecry1         = RESOLVE_STR_REF(@1001) //  a
 			cd_leader1            = RESOLVE_STR_REF(@1002) //  b
 			cd_tired1             = RESOLVE_STR_REF(@1003) //  c
@@ -679,6 +737,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	END
 	LAF cd_add_soundset
 		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@1020)
 			cd_battlecry1         = RESOLVE_STR_REF(@1021) //  a
 			cd_leader1            = RESOLVE_STR_REF(@1022) //  b
 			cd_tired1             = RESOLVE_STR_REF(@1023) //  c
@@ -696,6 +755,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	END
 	LAF cd_add_soundset
 		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@1040)
 			cd_battlecry1         = RESOLVE_STR_REF(@1041) //  a
 			cd_leader1            = RESOLVE_STR_REF(@1042) //  b
 			cd_tired1             = RESOLVE_STR_REF(@1043) //  c
@@ -713,6 +773,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	END
 	LAF cd_add_soundset
 		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@1060)
 			cd_battlecry1         = RESOLVE_STR_REF(@1061) //  a
 			cd_leader1            = RESOLVE_STR_REF(@1062) //  b
 			cd_tired1             = RESOLVE_STR_REF(@1063) //  c
@@ -726,41 +787,79 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_action3            = RESOLVE_STR_REF(@1071) //  k
 			cd_damage1            = RESOLVE_STR_REF(@1072) //  l
 			cd_dying1             = RESOLVE_STR_REF(@1073) //  m
+		STR_VAR cd_name = "FEMALE8"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@2000)
+			cd_battlecry1         = RESOLVE_STR_REF(@2001) //  a
+			cd_leader1            = RESOLVE_STR_REF(@2002) //  b
+			cd_tired1             = RESOLVE_STR_REF(@2003) //  c
+			cd_bored1             = RESOLVE_STR_REF(@2004) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@2005) //  e
+			cd_common1            = RESOLVE_STR_REF(@2006) //  f
+			cd_common2            = RESOLVE_STR_REF(@2007) //  g
+			cd_common3            = RESOLVE_STR_REF(@2008) //  h
+			cd_action1            = RESOLVE_STR_REF(@2009) //  i
+			cd_action2            = RESOLVE_STR_REF(@2010) //  j
+			cd_action3            = RESOLVE_STR_REF(@2011) //  k
+			cd_damage1            = RESOLVE_STR_REF(@2012) //  l
+			cd_dying1             = RESOLVE_STR_REF(@2013) //  m
 		STR_VAR cd_name = "MALE6"
 	END
 	LAF cd_add_soundset
 		INT_VAR
-			cd_battlecry1         = RESOLVE_STR_REF(@1081) //  a
-			cd_leader1            = RESOLVE_STR_REF(@1082) //  b
-			cd_tired1             = RESOLVE_STR_REF(@1083) //  c
-			cd_bored1             = RESOLVE_STR_REF(@1084) //  d
-			cd_hurt1              = RESOLVE_STR_REF(@1085) //  e
-			cd_common1            = RESOLVE_STR_REF(@1086) //  f
-			cd_common2            = RESOLVE_STR_REF(@1087) //  g
-			cd_common3            = RESOLVE_STR_REF(@1088) //  h
-			cd_action1            = RESOLVE_STR_REF(@1089) //  i
-			cd_action2            = RESOLVE_STR_REF(@1090) //  j
-			cd_action3            = RESOLVE_STR_REF(@1091) //  k
-			cd_damage1            = RESOLVE_STR_REF(@1092) //  l
-			cd_dying1             = RESOLVE_STR_REF(@1093) //  m
+			cd_select_name        = RESOLVE_STR_REF(@2020)
+			cd_battlecry1         = RESOLVE_STR_REF(@2021) //  a
+			cd_leader1            = RESOLVE_STR_REF(@2022) //  b
+			cd_tired1             = RESOLVE_STR_REF(@2023) //  c
+			cd_bored1             = RESOLVE_STR_REF(@2024) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@2025) //  e
+			cd_common1            = RESOLVE_STR_REF(@2026) //  f
+			cd_common2            = RESOLVE_STR_REF(@2027) //  g
+			cd_common3            = RESOLVE_STR_REF(@2028) //  h
+			cd_action1            = RESOLVE_STR_REF(@2029) //  i
+			cd_action2            = RESOLVE_STR_REF(@2030) //  j
+			cd_action3            = RESOLVE_STR_REF(@2031) //  k
+			cd_damage1            = RESOLVE_STR_REF(@2032) //  l
+			cd_dying1             = RESOLVE_STR_REF(@2033) //  m
 		STR_VAR cd_name = "MALE7"
 	END
 	LAF cd_add_soundset
 		INT_VAR
-			cd_battlecry1         = RESOLVE_STR_REF(@1101) //  a
-			cd_leader1            = RESOLVE_STR_REF(@1102) //  b
-			cd_tired1             = RESOLVE_STR_REF(@1103) //  c
-			cd_bored1             = RESOLVE_STR_REF(@1104) //  d
-			cd_hurt1              = RESOLVE_STR_REF(@1105) //  e
-			cd_common1            = RESOLVE_STR_REF(@1106) //  f
-			cd_common2            = RESOLVE_STR_REF(@1107) //  g
-			cd_common3            = RESOLVE_STR_REF(@1108) //  h
-			cd_action1            = RESOLVE_STR_REF(@1109) //  i
-			cd_action2            = RESOLVE_STR_REF(@1110) //  j
-			cd_action3            = RESOLVE_STR_REF(@1111) //  k
-			cd_damage1            = RESOLVE_STR_REF(@1112) //  l
-			cd_dying1             = RESOLVE_STR_REF(@1113) //  m
+			cd_select_name        = RESOLVE_STR_REF(@2040)
+			cd_battlecry1         = RESOLVE_STR_REF(@2041) //  a
+			cd_leader1            = RESOLVE_STR_REF(@2042) //  b
+			cd_tired1             = RESOLVE_STR_REF(@2043) //  c
+			cd_bored1             = RESOLVE_STR_REF(@2044) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@2045) //  e
+			cd_common1            = RESOLVE_STR_REF(@2046) //  f
+			cd_common2            = RESOLVE_STR_REF(@2047) //  g
+			cd_common3            = RESOLVE_STR_REF(@2048) //  h
+			cd_action1            = RESOLVE_STR_REF(@2049) //  i
+			cd_action2            = RESOLVE_STR_REF(@2050) //  j
+			cd_action3            = RESOLVE_STR_REF(@2051) //  k
+			cd_damage1            = RESOLVE_STR_REF(@2052) //  l
+			cd_dying1             = RESOLVE_STR_REF(@2053) //  m
 		STR_VAR cd_name = "MALE8"
+	END
+	LAF cd_add_soundset
+		INT_VAR
+			cd_select_name        = RESOLVE_STR_REF(@2060)
+			cd_battlecry1         = RESOLVE_STR_REF(@2061) //  a
+			cd_leader1            = RESOLVE_STR_REF(@2062) //  b
+			cd_tired1             = RESOLVE_STR_REF(@2063) //  c
+			cd_bored1             = RESOLVE_STR_REF(@2064) //  d
+			cd_hurt1              = RESOLVE_STR_REF(@2065) //  e
+			cd_common1            = RESOLVE_STR_REF(@2066) //  f
+			cd_common2            = RESOLVE_STR_REF(@2067) //  g
+			cd_common3            = RESOLVE_STR_REF(@2068) //  h
+			cd_action1            = RESOLVE_STR_REF(@2069) //  i
+			cd_action2            = RESOLVE_STR_REF(@2070) //  j
+			cd_action3            = RESOLVE_STR_REF(@2071) //  k
+			cd_damage1            = RESOLVE_STR_REF(@2072) //  l
+			cd_dying1             = RESOLVE_STR_REF(@2073) //  m
+		STR_VAR cd_name = "MALE9"
 	END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
