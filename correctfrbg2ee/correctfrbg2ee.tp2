@@ -17,7 +17,6 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/correctcreatures.tra~
          ~correctfrbg2ee/francais/soundset.tra~
 
-
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -662,7 +661,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-	ACTION_IF NOT FILE_EXISTS_IN_GAME ~M_cdsnd.lua~ BEGIN
+	ACTION_IF NOT FILE_EXISTS_IN_GAME ~M_fr.lua~ BEGIN
 		<<<<<<<< ./inlined/M_fr.lua
 >>>>>>>>
 		COPY ~./inlined/M_fr.lua~ ~override~
