@@ -111,6 +111,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 - Réduction des anglicismes (ok, hello, ranger, yeah, etc.).
 - Réduction des mots-clés inutiles ou inadéquats (\<GABBER\>, \<HESHE\>, \<GIRLBOY\>, etc.).
 - Correction (et/ou ajout) de références de ligne des objets (noms, infobulles, descriptions, icônes, etc.) :
+	<details><summary>Cliquez ici pour afficher les corrections.</summary>
+	<pre>
 	- Armure d'écailles de dragon blanc (CHAN20.ITM).
 	- Armure d'écailles de dragon bleu (PLAT20.ITM).
 	- Armure d'écailles de dragon d'ombre (LEAT19.ITM).
@@ -131,7 +133,11 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Protection contre le froid (SCRL6I.ITM).
 	- Protection contre l'acide (SCRL6Y.ITM).
 	- Protection contre l'électricité (SCRL5T.ITM).
+	</pre>
+	</details>
 - Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
+	<details><summary>Cliquez ici pour afficher les corrections.</summary>
+	<pre>
 	- Courtisan (PIRCOR03.CRE, SARPROVM.CRE).
 	- Magicienne esclavagiste (REMAGE01.CRE, REMAGE02.CRE).
 	- Mendiante (BEGGAR3.CRE).
@@ -202,6 +208,8 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Cuisinière (SCOOK.CRE).
 	- Voyageuse (RERAK03.CRE, RERAK05.CRE, RERAK06.CRE).
 	- Malfaitrice (REBAND04.CRE, TANTUG02.CRE).
+	</pre>
+	</details>
 
 ##
 
