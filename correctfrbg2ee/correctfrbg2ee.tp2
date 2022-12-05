@@ -662,14 +662,14 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME1 @272
 		SAY NAME2 @272
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Magicienne elfe)
 	COPY_EXISTING ~DAELF.CRE~ ~override~
 				  ~DAELF2.CRE~ ~override~
 		SAY NAME1 @273
 		SAY NAME2 @273
 	BUT_ONLY_IF_IT_CHANGES
-	
+
 	// Correction du nom car personnage féminin (Magicienne de Yaga-Shura)
 	COPY_EXISTING ~YSMAGE02.CRE~ ~override~
 		SAY NAME1 @274
