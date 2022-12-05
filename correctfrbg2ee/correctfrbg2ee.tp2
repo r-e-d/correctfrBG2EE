@@ -436,7 +436,7 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME2 @240
 	BUT_ONLY_IF_IT_CHANGES
 
-	// Correction du nom car personnage féminin (Mage cagoulée)
+	// Correction du nom car personnage féminin (Magicienne cagoulée)
 	COPY_EXISTING ~MAGE18A.CRE~ ~override~
 				  ~MAGE16C.CRE~ ~override~
 		SAY NAME1 @241
@@ -633,6 +633,47 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 				  ~TANTUG02.CRE~ ~override~
 		SAY NAME1 @269
 		SAY NAME2 @269
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom car personnage féminin (Ouvrière)
+	COPY_EXISTING ~WORKER02.CRE~ ~override~
+		SAY NAME1 @270
+		SAY NAME2 @270
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom car personnage féminin (Lieutenante magicienne)
+	COPY_EXISTING ~YAGA02.CRE~ ~override~
+		SAY NAME1 @271
+		SAY NAME2 @271
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom car personnage féminin (Magicienne)
+	COPY_EXISTING ~CUTAMMAG.CRE~ ~override~
+				  ~DGMAG01.CRE~ ~override~
+				  ~FSMAGE01.CRE~ ~override~
+				  ~FSMAGE02.CRE~ ~override~
+				  ~FSMAGE03.CRE~ ~override~
+				  ~FSMAGE04.CRE~ ~override~
+				  ~MAGCLE20.CRE~ ~override~
+				  ~MAGETEST.CRE~ ~override~
+				  ~SARGRD06.CRE~ ~override~
+				  ~TANWIZ02.CRE~ ~override~
+				  ~TOLMAG02.CRE~ ~override~
+		SAY NAME1 @272
+		SAY NAME2 @272
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Magicienne elfe)
+	COPY_EXISTING ~DAELF.CRE~ ~override~
+				  ~DAELF2.CRE~ ~override~
+		SAY NAME1 @273
+		SAY NAME2 @273
+	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction du nom car personnage féminin (Magicienne de Yaga-Shura)
+	COPY_EXISTING ~YSMAGE02.CRE~ ~override~
+		SAY NAME1 @274
+		SAY NAME2 @274
 	BUT_ONLY_IF_IT_CHANGES
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

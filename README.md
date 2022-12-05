@@ -179,7 +179,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Citoyenne (KPFARM02.CRE).
 	- Usurière (KPLEND02.CRE).
 	- Pleureur (MOURNER5.CRE).
-	- Mage cagoulée (MAGE18A.CRE, MAGE16C.CRE).
+	- Magicienne cagoulée (MAGE18A.CRE, MAGE16C.CRE).
 	- Danseuse (ohbdanc1.CRE, ohbdanc2.CRE).
 	- Assassine (IRETHF05.CRE, ISHTHF02.CRE, PLASS02.CRE).
 	- Soldate de Roenal (KPROEN05.CRE).
@@ -208,6 +208,11 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Cuisinière (SCOOK.CRE).
 	- Voyageuse (RERAK03.CRE, RERAK05.CRE, RERAK06.CRE).
 	- Malfaitrice (REBAND04.CRE, TANTUG02.CRE).
+	- Ouvrière (WORKER02.CRE).
+	- Lieutenante magicienne (YAGA02.CRE).
+	- Magicienne (CUTAMMAG.CRE, DGMAG01.CRE, FSMAGE01.CRE, FSMAGE02.CRE, FSMAGE03.CRE, FSMAGE04.CRE, MAGCLE20.CRE, MAGETEST.CRE, SARGRD06.CRE, TANWIZ02.CRE, TOLMAG02.CRE).
+	- Magicienne elfe (DAELF.CRE, DAELF2.CRE).
+	- Magicienne de Yaga-Shura (YSMAGE02.CRE).
 	</pre>
 	</details>
 
