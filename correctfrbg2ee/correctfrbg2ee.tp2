@@ -676,6 +676,71 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME2 @274
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom pour coller au lieu (Roturier elfe noir)
+	COPY_EXISTING ~UDCOM01.CRE~ ~override~
+		SAY NAME1 @275
+		SAY NAME2 @275
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour coller au lieu (Roturière elfe noire)
+	COPY_EXISTING ~UDCOM02.CRE~ ~override~
+		SAY NAME1 @276
+		SAY NAME2 @276
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom car personnage féminin (Ensorceleuse sharrane)
+	COPY_EXISTING ~ohrshr23.CRE~ ~override~
+		WRITE_LONG 0x08 84585
+		WRITE_LONG 0x0c 84585
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour coller au dialogue (Aubergiste)
+	COPY_EXISTING ~VVSTAND2.CRE~ ~override~
+		WRITE_LONG 0x08 12343
+		WRITE_LONG 0x0c 12330
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour coller au lieu (Roturier)
+	COPY_EXISTING ~BMTOWN1.CRE~ ~override~
+				  ~BMTOWN2.CRE~ ~override~
+				  ~BMTOWN3.CRE~ ~override~
+				  ~DMTOWN1.CRE~ ~override~
+				  ~DMTOWN2.CRE~ ~override~
+				  ~FFCROWD3.CRE~ ~override~
+				  ~MTOWN1.CRE~ ~override~
+				  ~MTOWN2.CRE~ ~override~
+				  ~MTOWN3.CRE~ ~override~
+				  ~MTOWN4.CRE~ ~override~
+				  ~SLUMM1.CRE~ ~override~
+				  ~SLUMM2.CRE~ ~override~
+				  ~SLUMM3.CRE~ ~override~
+				  ~SLUMM4.CRE~ ~override~
+				  ~VVSTAND1.CRE~ ~override~
+				  ~BDAUD01.CRE~ ~override~
+				  ~WPCUST1.CRE~ ~override~
+		WRITE_LONG 0x08 9429
+		WRITE_LONG 0x0c 9429
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour coller au lieu (Roturière)
+	COPY_EXISTING ~BDAUD02.CRE~ ~override~
+				  ~POSTUL3.CRE~ ~override~
+				  ~POSTUL5.CRE~ ~override~
+				  ~SARFEM01.CRE~ ~override~
+				  ~SARFEM02.CRE~ ~override~
+				  ~SARFEM03.CRE~ ~override~
+				  ~SARFEM04.CRE~ ~override~
+				  ~VVSTAND3.CRE~ ~override~
+		WRITE_LONG 0x08 9428
+		WRITE_LONG 0x0c 9428
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour coller au dialogue (Dame)
+	COPY_EXISTING ~TRFTOW02.CRE~ ~override~
+		WRITE_LONG 0x08 9420
+		WRITE_LONG 0x0c 9421
+	BUT_ONLY_IF_IT_CHANGES
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
