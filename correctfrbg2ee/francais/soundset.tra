@@ -66,8 +66,8 @@
 @1069 = ~En effet.~ [Female8i]
 @1070 = ~Voilà qui est fait.~ [Female8j]
 @1071 = ~Certainement.~ [Female8k]
-@1072 = ~~ [Female8l]
-@1073 = ~~ [Female8m]
+@1072 = ~Ouuuh !~ [Female8l]
+@1073 = ~Oooooh ! Ouuuh, ahhhh...~ [Female8m]
 
 @2000 = ~BG1 Homme 1~
 @2001 = ~Crevez tous !~ [Male6a]
@@ -126,5 +126,5 @@
 @2069 = ~Ce sera fait.~ [Male9i]
 @2070 = ~Aucun problème.~ [Male9j]
 @2071 = ~À l'aise.~ [Male9k]
-@2072 = ~~ [Male9l]
-@2073 = ~~ [Male9m]
+@2072 = ~Ah !~ [Male9l]
+@2073 = ~Aaaaah ! Oaah, eugh... euuuhhhh...~ [Male9m]
