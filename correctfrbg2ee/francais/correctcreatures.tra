@@ -130,7 +130,7 @@
 @240 = ~Pleureur~
 
 // (MAGE18A.CRE / MAGE16C.CRE)
-@241 = ~Mage cagoulée~
+@241 = ~Magicienne cagoulée~
 
 // (ohbdanc1.CRE / ohbdanc2.CRE)
 @242 = ~Danseuse~
@@ -215,3 +215,24 @@
 
 // (REBAND04.CRE / TANTUG02.CRE)
 @269 = ~Malfaitrice~
+
+// (WORKER02.CRE)
+@270 = ~Ouvrière~
+
+// (YAGA02.CRE)
+@271 = ~Lieutenante magicienne~
+
+// (CUTAMMAG.CRE / DGMAG01.CRE / FSMAGE01.CRE / FSMAGE02.CRE / FSMAGE03.CRE / FSMAGE04.CRE / MAGCLE20.CRE / MAGETEST.CRE / SARGRD06.CRE / TANWIZ02.CRE / TOLMAG02.CRE)
+@272 = ~Magicienne~
+
+// (DAELF.CRE / DAELF2.CRE)
+@273 = ~Magicienne elfe~
+
+// (YSMAGE02.CRE)
+@274 = ~Magicienne de Yaga-Shura~
+
+// (UDCOM01.CRE)
+@275 = ~Roturier elfe noir~
+
+// (UDCOM02.CRE)
+@276 = ~Roturière elfe noire~
