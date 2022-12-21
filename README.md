@@ -254,7 +254,7 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 - Correction (et/ou ajout) des ensembles de voix :
 	<details><summary>Cliquez ici pour afficher les corrections.</summary>
 	<pre>
-	- [bdtptol], [Female1a], [Female1m].
+	- [bdtptol], [Female1_], [Female10], [Female18], [Female19], [Female1a], [Female1m], [Female2_], [Female20], [Female28], [Female29], [Female3_], [Female30], [Female38], [Female39], [Female4_], [Female40], [Female48], [Female49], [Male1_], [Male10], [Male18], [Male19], [Male2_], [Male20], [Male28], [Male29], [Male3_], [Male30], [Male38], [Male39], [Male4_], [Male40], [Male48], [Male49], [Male5_], [Male50], [Male58], [Male59].
 	</pre>
 	</details>
 - Les répliques non doublées en français sont conservées.
