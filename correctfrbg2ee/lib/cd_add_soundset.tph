@@ -14,7 +14,7 @@ DEFINE_ACTION_FUNCTION cd_add_soundset
     cd_action5           = "-1" //  t
     cd_action6           = "-1" //  u
     cd_action7           = "-1" //  v
-    cd_action_rare1      = "-1" //  x
+    cd_action_rare1      = "-1" //  x jazira : _
     cd_action_rare2      = "-1" //  y
     cd_attack1           = "-1" //  c_ (unofficial)
     cd_attack2           = "-1" //  d_ (unofficial)
@@ -33,8 +33,8 @@ DEFINE_ACTION_FUNCTION cd_add_soundset
     cd_common2           = "-1" //  g
     cd_common3           = "-1" //  h
     cd_common4           = "-1" //  0
-    cd_common5           = "-1" //  k_ (unofficial)
-    cd_common6           = "-1" //  l_ (unofficial, letter)
+    cd_common5           = "-1" //  k_ (unofficial) jazira : x
+    cd_common6           = "-1" //  l_ (unofficial, letter) jazira : y
     cd_common7           = "-1" //  m_ (unofficial)
     cd_criticalhit       = "-1" //  z
     cd_criticalmiss      = "-1" //  1  (number)

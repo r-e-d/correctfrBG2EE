@@ -220,6 +220,16 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Roturier (BMTOWN1.CRE, BMTOWN2.CRE, BMTOWN3.CRE, DMTOWN1.CRE, DMTOWN2.CRE, FFCROWD3.CRE, MTOWN1.CRE, MTOWN2.CRE, MTOWN3.CRE, MTOWN4.CRE, SLUMM1.CRE, SLUMM2.CRE, SLUMM3.CRE, SLUMM4.CRE, VVSTAND1.CRE, BDAUD01.CRE, WPCUST1.CRE).
 	- Roturière (BDAUD02.CRE, POSTUL3.CRE, POSTUL5.CRE, SARFEM01.CRE, SARFEM02.CRE, SARFEM03.CRE, SARFEM04.CRE, VVSTAND3.CRE).
 	- Dame (TRFTOW02.CRE).
+	- Machine de Lum le Fou (GORLUM.CRE).
+	- Kobold fulgurant (KOBSWI01.CRE).
+	- Amplificateur kobold (KOBAMP01.CRE, KOBSOU01.CRE, KOBTAR01.CRE).
+	- Âme torturée (LIFE01.CRE, LIFE02.CRE, LIFE03.CRE, LIFE04.CRE).
+	- Stirv le dompteur de créatures (ohbstirv.CRE).
+	- Dolrassa (OHDDDOLR.CRE).
+	- Ixthezzys (OHDDIXTH.CRE).
+	- Planétaire de la justice (ohdplanb.CRE, OHDPLANJ.CRE, OHDSPLAN.CRE).
+	- Dragomir le Rouge (ohhdrago.CRE).
+	- Goxxa l'alhoon (ohhgoxxa.CRE).
 	</pre>
 	</details>
 
@@ -229,14 +239,24 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 
 Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 
-- Inclusion des ensembles de voix doublées en français pour le personnage principal.
-- Inclusion des répliques doublées en français.
-- Inclusion des vidéos doublées en français.
-- Réduction des artefacts de compression des cinématiques.
+- Inclusion des ensembles de voix doublées en français de BG2 pour le personnage principal.
+- Inclusion des répliques doublées en français de BG2.
+- Inclusion des vidéos doublées en français de BG2.
+- Réduction des artefacts de compression et augmentation de la résolution des cinématiques.
 - Réduction des grésillements et autres bruits indésirables des doublages.
 - Importation des ensembles de voix doublées en français de BG1 pour le personnage principal.
 - Correction (et/ou ajout) des répliques doublées :
-	- [3AMONK08], [AERI2518], [AERIE91], [AERIEC8], [AERIED5], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [bdtptol], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KELD2508], [KELDOR45], [KELDOR68], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [YOSHIM44], [YOSHIM49].
+	<details><summary>Cliquez ici pour afficher les corrections.</summary>
+	<pre>
+	- [3AMONK08], [AERI2518], [AERIE91], [AERIEC8], [AERIED5], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CSCLER02], [CSCLER03], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN88], [FEMER01], [FFACT204], [GORTAN01], [HAER2508], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KELD2508], [KELDOR45], [KELDOR68], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [RIFTG08], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TRGENI09], [TRGENI10], [TRGENI11], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [YOSHIM44], [YOSHIM49].
+	</pre>
+	</details>
+- Correction (et/ou ajout) des ensembles de voix :
+	<details><summary>Cliquez ici pour afficher les corrections.</summary>
+	<pre>
+	- [bdtptol], [Female1a], [Female1m].
+	</pre>
+	</details>
 - Les répliques non doublées en français sont conservées.
 
 ##
