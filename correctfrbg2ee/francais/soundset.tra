@@ -1,14 +1,102 @@
-@900 = ~Défaut~
-@901 = ~Femme 1~
-@902 = ~Femme 2~
-@903 = ~Femme 3~
-@904 = ~Femme 4~
-@905 = ~Homme 1~
-@906 = ~Homme 2~
-@907 = ~Homme 3~
-@908 = ~Homme 4~
-@909 = ~Homme 5~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Affichage du nom des ensembles de voix           \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+@800 = ~Défaut~
+@801 = ~BG2 Femme 1~
+@802 = ~BG2 Femme 2~
+@803 = ~BG2 Femme 3~
+@804 = ~BG2 Femme 4~
+@805 = ~BG2 Homme 1~
+@806 = ~BG2 Homme 2~
+@807 = ~BG2 Homme 3~
+@808 = ~BG2 Homme 4~
+@809 = ~BG2 Homme 5~
+@810 = ~AoN Andrew (anglais)~
+@811 = ~AoN Alveus (anglais)~
+@812 = ~AoN Baeloth (anglais)~
+@813 = ~AoN Dan (anglais)~
+@814 = ~AoN Elyse (anglais)~
+@815 = ~AoN Sarah (anglais)~
+@816 = ~AoN Trent (anglais)~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correction des ensembles de voix françaises BG2  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+/*
+//BG2 Femme 1
+@900 = ~Tu vas regretter d'être vivant !~ [female18]
+@901 = ~Tu ne m'échapperas pas !~ [female19]
+@902 = ~Expose-moi ton plan.~ [female10]
+@903 = ~J'y vais.~ [female1_]
+
+//BG2 Femme 2
+@910 = ~Vous ne feriez pas de mal à une dame, n'est-ce pas ?!~ [Female28]
+@911 = ~Oh, voilà qui va être amusant !~ [Female29]
+@912 = ~*expire* Il suffit de demander.~ [Female20]
+@913 = ~Ce sera tout ?~ [Female2_]
+
+//BG2 Femme 3
+@920 = ~T'as quand même pas peur d'une pauvre femme, non ?!~ [Female38]
+@921 = ~Tu l'auras voulu !~ [Female39]
+@922 = ~Hhhmmm ?~ [Female30]
+@923 = ~J'y cours.~ [Female3_]
+
+//BG2 Femme 4
+@930 = ~Savoure tes derniers instants de vie !~ [Female48]
+@931 = ~Arrière, ou meurs !~ [Female49]
+@932 = ~J'attends vos instructions.~ [Female40]
+@933 = ~Je suis d'accord.~ [Female4_]
+
+//BG2 Homme 1
+@940 = ~Bats-toi tant qu'tu l'peux encore !~ [Male18]
+@941 = ~Tu vas mourir !~ [Male19]
+@942 = ~Heuhmm ?~ [Male10]
+@943 = ~Mmmsssmm.~ [Male1_]
+
+//BG2 Homme 2
+@950 = ~L'heure est venue, mon ami !~ [Male28]
+@951 = ~Épargne-moi tes cris de terreur !~ [Male29]
+@952 = ~Mmmmhh ?~ [Male20]
+@953 = ~Facile.~ [Male2_]
+
+//BG2 Homme 3
+@960 = ~Nul ne me résiste !~ [Male38]
+@961 = ~Que le meilleur l'emporte !~ [Male39]
+@962 = ~Je suis fin prêt.~ [Male30]
+@963 = ~Mmh, c'est un plaisir.~ [Male3_]
+
+//BG2 Homme 4
+@970 = ~Je ne céderai pas !~ [Male48]
+@971 = ~Par l'honneur, tu ne vivras pas un jour de plus !~ [Male49]
+@972 = ~Que voulez-vous ?~ [Male40]
+@973 = ~J'y cours.~ [Male4_]
+
+//BG2 Homme 5
+@980 = ~Je ne céderai pas !~ [Male58]
+@981 = ~Par l'honneur, tu ne vivras pas un jour de plus !~ [Male59]
+@982 = ~Que voulez-vous ?~ [Male50]
+@983 = ~J'y cours.~ [Male5_]
+*/
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Importation des ensembles de voix françaises BG1 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+//BG1 Femme 1
 @1000 = ~BG1 Femme 1~
 @1001 = ~Ils mourront tous !~ [Female5a]
 @1002 = ~Personne d'autre que moi ne mérite d'être ici.~ [Female5b]
@@ -24,6 +112,7 @@
 @1012 = ~Hoaghh... augh...~ [Female5l]
 @1013 = ~AAAAAHHH ! Aaaah ! Aahhhhh...~ [Female5m]
 
+//BG1 Femme 2
 @1020 = ~BG1 Femme 2~
 @1021 = ~Votre vie m'appartient !~ [Female6a]
 @1022 = ~Je mérite d'être le chef.~ [Female6b]
@@ -39,6 +128,7 @@
 @1032 = ~Oahh... ugh...~ [Female6l]
 @1033 = ~Argh... ahrr... oahh...~ [Female6m]
 
+//BG1 Femme 3
 @1040 = ~BG1 Femme 3~
 @1041 = ~Votre mort ne se fera pas attendre !~ [Female7a]
 @1042 = ~Personne ne convient mieux au poste que moi.~ [Female7b]
@@ -54,9 +144,10 @@
 @1052 = ~Ooooh ! Aaaah, aahhhhhh...~ [Female7l]
 @1053 = ~Eh ! Ah ! Ah non. Ohh, ohahhh...~ [Female7m]
 
+//BG1 Femme 4
 @1060 = ~BG1 Femme 4~
 @1061 = ~À l'attaque !~ [Female8a]
-@1062 = ~Voilà où je DEVRAIS être.~ [Female8b]
+@1062 = ~Voilà où je devrais être.~ [Female8b]
 @1063 = ~Ah, je fatigue !~ [Female8c]
 @1064 = ~Je devrais bouger.~ [Female8d]
 @1065 = ~Oh, il me faut de l'aide !~ [Female8e]
@@ -69,6 +160,7 @@
 @1072 = ~Ouuuh !~ [Female8l]
 @1073 = ~Oooooh ! Ouuuh, ahhhh...~ [Female8m]
 
+//BG1 Homme 1
 @2000 = ~BG1 Homme 1~
 @2001 = ~Crevez tous !~ [Male6a]
 @2002 = ~Comme il se doit.~ [Male6b]
@@ -84,6 +176,7 @@
 @2012 = ~Aaah !~ [Male6l]
 @2013 = ~Haargh... uhn... ugh... ahhh...~ [Male6m]
 
+//BG1 Homme 2
 @2020 = ~BG1 Homme 2~
 @2021 = ~Ta fin est proche.~ [Male7a]
 @2022 = ~Ça c'est la place que je mérite.~ [Male7b]
@@ -99,6 +192,7 @@
 @2032 = ~Euuugh !~ [Male7l]
 @2033 = ~Eugh ! Eugh... uhn... ughuhhh...~ [Male7m]
 
+//BG1 Homme 3
 @2040 = ~BG1 Homme 3~
 @2041 = ~Passons aux choses sérieuses maintenant !~ [Male8a]
 @2042 = ~Ha, ha ! J'vais bien les diriger !~ [Male8b]
@@ -114,6 +208,7 @@
 @2052 = ~Oh. Aaargh...~ [Male8l]
 @2053 = ~Ohh... Oh non. Agh. Ouah. Argh... ahrr...~ [Male8m]
 
+//BG1 Homme 4
 @2060 = ~BG1 Homme 4~
 @2061 = ~En avant !~ [Male9a]
 @2062 = ~Je sens que ça va me plaire !~ [Male9b]
@@ -126,5 +221,5 @@
 @2069 = ~Ce sera fait.~ [Male9i]
 @2070 = ~Aucun problème.~ [Male9j]
 @2071 = ~À l'aise.~ [Male9k]
-@2072 = ~Ah !~ [Male9l]
+@2072 = ~Oh !~ [Male9l]
 @2073 = ~Aaaaah ! Oaah, eugh... euuuhhhh...~ [Male9m]

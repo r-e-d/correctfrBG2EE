@@ -741,6 +741,63 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x0c 9421
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction de l'infobulle pour coller au nom (Machine de Lum le Fou)
+	COPY_EXISTING ~GORLUM.CRE~ ~override~
+		WRITE_LONG 0x0c 64156
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Kobold fulgurant)
+	COPY_EXISTING ~KOBSWI01.CRE~ ~override~
+		WRITE_LONG 0x0c 66644
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Amplificateur kobold)
+	COPY_EXISTING ~KOBAMP01.CRE~ ~override~
+				  ~KOBSOU01.CRE~ ~override~
+				  ~KOBTAR01.CRE~ ~override~
+		WRITE_LONG 0x0c 67809
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Âme torturée)
+	COPY_EXISTING ~LIFE01.CRE~ ~override~
+				  ~LIFE02.CRE~ ~override~
+				  ~LIFE03.CRE~ ~override~
+				  ~LIFE04.CRE~ ~override~
+		WRITE_LONG 0x0c 20069
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Stirv le dompteur de créatures)
+	COPY_EXISTING ~ohbstirv.CRE~ ~override~
+		WRITE_LONG 0x0c 100689
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Dolrassa)
+	COPY_EXISTING ~OHDDDOLR.CRE~ ~override~
+		WRITE_LONG 0x0c 90200
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Ixthezzys)
+	COPY_EXISTING ~OHDDIXTH.CRE~ ~override~
+		WRITE_LONG 0x0c 90199
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Planétaire de la justice)
+	COPY_EXISTING ~ohdplanb.CRE~ ~override~
+				  ~OHDPLANJ.CRE~ ~override~
+				  ~OHDSPLAN.CRE~ ~override~
+		WRITE_LONG 0x0c 93107
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Dragomir le Rouge)
+	COPY_EXISTING ~ohhdrago.CRE~ ~override~
+		WRITE_LONG 0x0c 81905
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction de l'infobulle pour coller au nom (Goxxa l'alhoon)
+	COPY_EXISTING ~ohhgoxxa.CRE~ ~override~
+		WRITE_LONG 0x0c 81897
+	BUT_ONLY_IF_IT_CHANGES
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -773,46 +830,207 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 		COPY ~./inlined/M_fr.lua~ ~override~
 	END
 
+	//Défaut
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@900)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@800)
 		STR_VAR cd_name = "DEFAULT"
 	END
+
+	//BG2 Femme 1
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@901)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@801)
 		STR_VAR cd_name = "FEMALE1"
 	END
+
+	//BG2 Femme 2
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@902)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@802)
 		STR_VAR cd_name = "FEMALE2"
 	END
+
+	//BG2 Femme 3
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@903)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@803)
 		STR_VAR cd_name = "FEMALE3"
 	END
+
+	//BG2 Femme 4
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@904)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@804)
 		STR_VAR cd_name = "FEMALE4"
 	END
+
+	//BG2 Homme 1
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@905)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@805)
 		STR_VAR cd_name = "MALE1"
 	END
+
+	//BG2 Homme 2
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@906)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@806)
 		STR_VAR cd_name = "MALE2"
 	END
+
+	//BG2 Homme 3
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@907)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@807)
 		STR_VAR cd_name = "MALE3"
 	END
+
+	//BG2 Homme 4
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@908)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@808)
 		STR_VAR cd_name = "MALE4"
 	END
+
+	//BG2 Homme 5
 	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@909)
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@809)
 		STR_VAR cd_name = "MALE5"
 	END
+
+	//AoN Andrew (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@810)
+		STR_VAR cd_name = "BDTPAG"
+	END
+
+	//AoN Alveus (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@811)
+		STR_VAR cd_name = "BDTPAM"
+	END
+
+	//AoN Baeloth (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@812)
+		STR_VAR cd_name = "BDTPBE"
+	END
+
+	//AoN Dan (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@813)
+		STR_VAR cd_name = "BDTPDG"
+	END
+
+	//AoN Elyse (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@814)
+		STR_VAR cd_name = "BDTPEH"
+	END
+
+	//AoN Sarah (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@815)
+		STR_VAR cd_name = "BDTPSD"
+	END
+
+	//AoN Trent (anglais)
+	LAF cd_add_soundset_name
+		INT_VAR cd_select_name = RESOLVE_STR_REF(@816)
+		STR_VAR cd_name = "BDTPTO"
+	END
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correction des ensembles de voix françaises BG2  \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+/*
+	//BG2 Femme 1
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@900) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@901) //  9
+			cd_common4            = RESOLVE_STR_REF(@902) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@903) //  x
+		STR_VAR cd_name = "FEMALE1"
+	END
+
+	//BG2 Femme 2
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@910) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@911) //  9
+			cd_common4            = RESOLVE_STR_REF(@912) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@913) //  x
+		STR_VAR cd_name = "FEMALE2"
+	END
+
+	//BG2 Femme 3
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@920) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@921) //  9
+			cd_common4            = RESOLVE_STR_REF(@922) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@923) //  x
+		STR_VAR cd_name = "FEMALE3"
+	END
+
+	//BG2 Femme 4
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@930) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@931) //  9
+			cd_common4            = RESOLVE_STR_REF(@932) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@933) //  x
+		STR_VAR cd_name = "FEMALE4"
+	END
+
+	//BG2 Homme 1
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@940) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@941) //  9
+			cd_common4            = RESOLVE_STR_REF(@942) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@943) //  x
+		STR_VAR cd_name = "MALE1"
+	END
+
+	//BG2 Homme 2
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@950) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@951) //  9
+			cd_common4            = RESOLVE_STR_REF(@952) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@953) //  x
+		STR_VAR cd_name = "MALE2"
+	END
+
+	//BG2 Homme 3
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@960) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@961) //  9
+			cd_common4            = RESOLVE_STR_REF(@962) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@963) //  x
+		STR_VAR cd_name = "MALE3"
+	END
+
+	//BG2 Homme 4
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@970) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@971) //  9
+			cd_common4            = RESOLVE_STR_REF(@972) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@973) //  x
+		STR_VAR cd_name = "MALE4"
+	END
+
+	//BG2 Homme 5
+	LAF cd_add_soundset
+		INT_VAR
+			cd_battlecry2         = RESOLVE_STR_REF(@980) //  8
+			cd_battlecry3         = RESOLVE_STR_REF(@981) //  9
+			cd_common4            = RESOLVE_STR_REF(@982) //  0
+			cd_action_rare1       = RESOLVE_STR_REF(@983) //  x
+		STR_VAR cd_name = "MALE5"
+	END
+*/
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -822,6 +1040,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+	//BG1 Femme 1
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@1000)
@@ -840,6 +1059,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@1013) //  m
 		STR_VAR cd_name = "FEMALE5"
 	END
+
+	//BG1 Femme 2
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@1020)
@@ -858,6 +1079,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@1033) //  m
 		STR_VAR cd_name = "FEMALE6"
 	END
+
+	//BG1 Femme 3
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@1040)
@@ -876,6 +1099,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@1053) //  m
 		STR_VAR cd_name = "FEMALE7"
 	END
+
+	//BG1 Femme 4
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@1060)
@@ -894,6 +1119,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@1073) //  m
 		STR_VAR cd_name = "FEMALE8"
 	END
+
+	//BG1 Homme 1
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@2000)
@@ -912,6 +1139,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@2013) //  m
 		STR_VAR cd_name = "MALE6"
 	END
+
+	//BG1 Homme 2
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@2020)
@@ -930,6 +1159,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@2033) //  m
 		STR_VAR cd_name = "MALE7"
 	END
+
+	//BG1 Homme 3
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@2040)
@@ -948,6 +1179,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 			cd_dying1             = RESOLVE_STR_REF(@2053) //  m
 		STR_VAR cd_name = "MALE8"
 	END
+
+	//BG1 Homme 4
 	LAF cd_add_soundset
 		INT_VAR
 			cd_select_name        = RESOLVE_STR_REF(@2060)
@@ -979,9 +1212,12 @@ BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
 	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~20~ @10 // Necessite le composant "Patch audio et video francais"
 	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
+
+	//AoN Andrew / Alveus / Baeloth / Dan / Elyse / Sarah / Trent (anglais)
 	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
 		DELETE ~%BASH_FOR_FILESPEC%~
 	END
+
 	COPY_EXISTING_REGEXP - ~^oh[0-9]+\.wav$~ ~inlined~
 		PATCH_IF
 		(NOT "%SOURCE_FILE%" STRING_EQUAL "OH74634.WAV") AND
