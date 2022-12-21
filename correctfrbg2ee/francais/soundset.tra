@@ -16,13 +16,6 @@
 @807 = ~BG2 Homme 3~
 @808 = ~BG2 Homme 4~
 @809 = ~BG2 Homme 5~
-@810 = ~AoN Andrew (anglais)~
-@811 = ~AoN Alveus (anglais)~
-@812 = ~AoN Baeloth (anglais)~
-@813 = ~AoN Dan (anglais)~
-@814 = ~AoN Elyse (anglais)~
-@815 = ~AoN Sarah (anglais)~
-@816 = ~AoN Trent (anglais)~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -32,12 +25,11 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-/*
 //BG2 Femme 1
-@900 = ~Tu vas regretter d'être vivant !~ [female18]
-@901 = ~Tu ne m'échapperas pas !~ [female19]
-@902 = ~Expose-moi ton plan.~ [female10]
-@903 = ~J'y vais.~ [female1_]
+@900 = ~Tu vas regretter d'être vivant !~ [Female18]
+@901 = ~Tu ne m'échapperas pas !~ [Female19]
+@902 = ~Expose-moi ton plan.~ [Female10]
+@903 = ~J'y vais.~ [Female1_]
 
 //BG2 Femme 2
 @910 = ~Vous ne feriez pas de mal à une dame, n'est-ce pas ?!~ [Female28]
@@ -86,7 +78,6 @@
 @981 = ~Par l'honneur, tu ne vivras pas un jour de plus !~ [Male59]
 @982 = ~Que voulez-vous ?~ [Male50]
 @983 = ~J'y cours.~ [Male5_]
-*/
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

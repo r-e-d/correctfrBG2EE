@@ -434,6 +434,10 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.17 &nbsp;(XX décembre 2022)
+
+  - TODO
+
 #### Version 0.16 &nbsp;(12 novembre 2022)
 
   - Uniformisation BGEE et BG2EE.

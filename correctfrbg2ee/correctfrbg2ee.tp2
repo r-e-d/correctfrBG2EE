@@ -1,6 +1,6 @@
 BACKUP ~correctfrbg2ee/backup~
 SUPPORT ~Lefreut et Jazira (https://www.baldursgateworld.fr)~
-VERSION ~0.16~
+VERSION ~0.17~
 README ~correctfrbg2ee/readme/readme-correctfrbg2ee.html~
 
 ALWAYS
@@ -890,48 +890,6 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 		STR_VAR cd_name = "MALE5"
 	END
 
-	//AoN Andrew (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@810)
-		STR_VAR cd_name = "BDTPAG"
-	END
-
-	//AoN Alveus (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@811)
-		STR_VAR cd_name = "BDTPAM"
-	END
-
-	//AoN Baeloth (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@812)
-		STR_VAR cd_name = "BDTPBE"
-	END
-
-	//AoN Dan (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@813)
-		STR_VAR cd_name = "BDTPDG"
-	END
-
-	//AoN Elyse (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@814)
-		STR_VAR cd_name = "BDTPEH"
-	END
-
-	//AoN Sarah (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@815)
-		STR_VAR cd_name = "BDTPSD"
-	END
-
-	//AoN Trent (anglais)
-	LAF cd_add_soundset_name
-		INT_VAR cd_select_name = RESOLVE_STR_REF(@816)
-		STR_VAR cd_name = "BDTPTO"
-	END
-
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -940,97 +898,75 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-/*
-	//BG2 Femme 1
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@900) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@901) //  9
-			cd_common4            = RESOLVE_STR_REF(@902) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@903) //  x
-		STR_VAR cd_name = "FEMALE1"
-	END
-
-	//BG2 Femme 2
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@910) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@911) //  9
-			cd_common4            = RESOLVE_STR_REF(@912) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@913) //  x
-		STR_VAR cd_name = "FEMALE2"
-	END
-
-	//BG2 Femme 3
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@920) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@921) //  9
-			cd_common4            = RESOLVE_STR_REF(@922) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@923) //  x
-		STR_VAR cd_name = "FEMALE3"
-	END
-
-	//BG2 Femme 4
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@930) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@931) //  9
-			cd_common4            = RESOLVE_STR_REF(@932) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@933) //  x
-		STR_VAR cd_name = "FEMALE4"
-	END
-
-	//BG2 Homme 1
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@940) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@941) //  9
-			cd_common4            = RESOLVE_STR_REF(@942) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@943) //  x
-		STR_VAR cd_name = "MALE1"
-	END
-
-	//BG2 Homme 2
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@950) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@951) //  9
-			cd_common4            = RESOLVE_STR_REF(@952) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@953) //  x
-		STR_VAR cd_name = "MALE2"
-	END
-
-	//BG2 Homme 3
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@960) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@961) //  9
-			cd_common4            = RESOLVE_STR_REF(@962) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@963) //  x
-		STR_VAR cd_name = "MALE3"
-	END
-
-	//BG2 Homme 4
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@970) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@971) //  9
-			cd_common4            = RESOLVE_STR_REF(@972) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@973) //  x
-		STR_VAR cd_name = "MALE4"
-	END
-
-	//BG2 Homme 5
-	LAF cd_add_soundset
-		INT_VAR
-			cd_battlecry2         = RESOLVE_STR_REF(@980) //  8
-			cd_battlecry3         = RESOLVE_STR_REF(@981) //  9
-			cd_common4            = RESOLVE_STR_REF(@982) //  0
-			cd_action_rare1       = RESOLVE_STR_REF(@983) //  x
-		STR_VAR cd_name = "MALE5"
-	END
-*/
+	COPY_EXISTING ~charsnd.2da~ ~override~
+		COUNT_2DA_COLS cols // amount of columns
+		FOR (i = 0; i < cols - 1; ++i) BEGIN // iterate over columns
+			READ_2DA_ENTRY 0 i (cols - 1) ~name~
+			//BG2 Femme 1
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE1~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@900) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@901) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@902) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@903) //  x
+			END
+			//BG2 Femme 2
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE2~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@910) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@911) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@912) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@913) //  x
+			END
+			//BG2 Femme 3
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE3~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@920) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@921) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@922) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@923) //  x
+			END
+			//BG2 Femme 4
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE4~ OR ~%name%~ STRING_EQUAL_CASE ~FEMALE~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@930) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@931) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@932) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@933) //  x
+			END
+			//BG2 Homme 1
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE1~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@940) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@941) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@942) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@943) //  x
+			END
+			//BG2 Homme 2
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE2~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@950) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@951) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@952) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@953) //  x
+			END
+			//BG2 Homme 3
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE3~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@960) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@961) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@962) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@963) //  x
+			END
+			//BG2 Homme 4
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE4~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@970) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@971) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@972) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@973) //  x
+			END
+			//BG2 Homme 5
+			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE5~ OR ~%name%~ STRING_EQUAL_CASE ~MALE~ BEGIN
+				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@980) //  8
+				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@981) //  9
+				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@982) //  0
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@983) //  x
+			END
+		END
+	BUT_ONLY
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
