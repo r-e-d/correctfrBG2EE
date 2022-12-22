@@ -15,7 +15,7 @@ DEFINE_ACTION_FUNCTION cd_add_soundset
     cd_action6           = "-1" //  u
     cd_action7           = "-1" //  v
     cd_action_rare1      = "-1" //  x jazira : _
-    cd_action_rare2      = "-1" //  y
+    cd_action_rare2      = "-1" //  y jazira : _
     cd_attack1           = "-1" //  c_ (unofficial)
     cd_attack2           = "-1" //  d_ (unofficial)
     cd_attack3           = "-1" //  e_ (unofficial)

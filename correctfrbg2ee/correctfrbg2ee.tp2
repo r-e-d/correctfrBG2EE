@@ -907,63 +907,90 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@900) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@901) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@902) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@903) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@903) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@904) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@905) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@905) //  _
 			END
 			//BG2 Femme 2
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE2~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@910) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@911) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@912) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@913) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@913) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@914) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@915) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@915) //  _
 			END
 			//BG2 Femme 3
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE3~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@920) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@921) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@922) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@923) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@923) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@924) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@925) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@925) //  _
 			END
 			//BG2 Femme 4
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~FEMALE4~ OR ~%name%~ STRING_EQUAL_CASE ~FEMALE~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@930) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@931) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@932) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@933) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@933) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@934) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@935) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@935) //  _
 			END
 			//BG2 Homme 1
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE1~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@940) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@941) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@942) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@943) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@943) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@944) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@945) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@945) //  _
 			END
 			//BG2 Homme 2
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE2~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@950) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@951) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@952) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@953) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@953) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@954) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@955) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@955) //  _
 			END
 			//BG2 Homme 3
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE3~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@960) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@961) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@962) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@963) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@963) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@964) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@965) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@965) //  _
 			END
 			//BG2 Homme 4
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE4~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@970) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@971) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@972) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@973) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@973) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@974) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@975) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@975) //  _
 			END
 			//BG2 Homme 5
 			PATCH_IF ~%name%~ STRING_EQUAL_CASE ~MALE5~ OR ~%name%~ STRING_EQUAL_CASE ~MALE~ BEGIN
 				SET_2DA_ENTRY  9 (i + 1) cols RESOLVE_STR_REF (@980) //  8
 				SET_2DA_ENTRY 10 (i + 1) cols RESOLVE_STR_REF (@981) //  9
 				SET_2DA_ENTRY 28 (i + 1) cols RESOLVE_STR_REF (@982) //  0
-				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@983) //  _
+				SET_2DA_ENTRY 29 (i + 1) cols RESOLVE_STR_REF (@983) //  x
+				SET_2DA_ENTRY 30 (i + 1) cols RESOLVE_STR_REF (@984) //  y
+				SET_2DA_ENTRY 62 (i + 1) cols RESOLVE_STR_REF (@985) //  _
+				SET_2DA_ENTRY 63 (i + 1) cols RESOLVE_STR_REF (@985) //  _
 			END
 		END
 	BUT_ONLY
