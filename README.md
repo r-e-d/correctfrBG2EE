@@ -265,9 +265,16 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 
 Ce composant supprime les doublages anglais restants.
 
-- Suppression des ensembles de voix en anglais de Adventurers of Neverwinter pour le personnage principal ajoutées par le patch 2.6.
 - Suppression des répliques non doublées en français.
 - Les doublages de type « bruitages » du contenu Enhanced Edition sont conservés.
+
+##
+
+#### [40] Suppression des ensembles de voix en anglais
+
+Ce composant supprime les ensembles de voix en anglais.
+
+- Suppression des ensembles de voix en anglais de Adventurers of Neverwinter pour le personnage principal ajoutées par le patch 2.6.
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 

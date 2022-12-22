@@ -1176,11 +1176,6 @@ BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 	REQUIRE_COMPONENT ~correctfrbg2ee/correctfrbg2ee.tp2~ ~20~ @10 // Necessite le composant "Patch audio et video francais"
 	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
 
-	//AoN Andrew / Alveus / Baeloth / Dan / Elyse / Sarah / Trent (anglais)
-	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
-		DELETE ~%BASH_FOR_FILESPEC%~
-	END
-
 	COPY_EXISTING_REGEXP - ~^oh[0-9]+\.wav$~ ~inlined~
 		PATCH_IF
 		(NOT "%SOURCE_FILE%" STRING_EQUAL "OH74634.WAV") AND
@@ -1246,3 +1241,19 @@ BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 			INNER_ACTION BEGIN COPY + ~%MOD_FOLDER%/override/NARR05.WAV~ ~%MOD_FOLDER%/tmp/%SOURCE_FILE%~ END
 		END
 	MAKE_BIFF ~noeevo~ BEGIN ~%MOD_FOLDER%/tmp~ ~^.*$~ END
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Suppression des ensembles de voix en anglais     \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @4 DESIGNATED 40 // Suppression des ensembles de voix en anglais
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @0 // Necessite Baldur's Gate II : Enhanced Edition ou EET (type de jeu incorrect)
+
+	//AoN Andrew / Alveus / Baeloth / Dan / Elyse / Sarah / Trent (anglais)
+	ACTION_BASH_FOR ~lang/en_us/sounds~ ~^bdtp.*\.wav$~ BEGIN
+		DELETE ~%BASH_FOR_FILESPEC%~
+	END
