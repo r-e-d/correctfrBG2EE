@@ -29,55 +29,73 @@
 @900 = ~Tu vas regretter d'être vivant !~ [Female18]
 @901 = ~Tu ne m'échapperas pas !~ [Female19]
 @902 = ~Expose-moi ton plan.~ [Female10]
-@903 = ~J'y vais.~ [Female1_]
+@903 = ~Oui ?~ [Female1x]
+@904 = ~Que puis-je faire ?~ [Female1y]
+@905 = ~J'y vais.~ [Female1_]
 
 //BG2 Femme 2
 @910 = ~Vous ne feriez pas de mal à une dame, n'est-ce pas ?!~ [Female28]
 @911 = ~Oh, voilà qui va être amusant !~ [Female29]
 @912 = ~*expire* Il suffit de demander.~ [Female20]
-@913 = ~Ce sera tout ?~ [Female2_]
+@913 = ~Que puis-je faire ?~ [Female2x]
+@914 = ~À qui le dis-tu ?~ [Female2y]
+@915 = ~Ce sera tout ?~ [Female2_]
 
 //BG2 Femme 3
 @920 = ~T'as quand même pas peur d'une pauvre femme, non ?!~ [Female38]
 @921 = ~Tu l'auras voulu !~ [Female39]
 @922 = ~Hhhmmm ?~ [Female30]
-@923 = ~J'y cours.~ [Female3_]
+@923 = ~Prête à partir.~ [Female3x]
+@924 = ~Vous n'avez qu'un mot à dire.~ [Female3y]
+@925 = ~J'y cours.~ [Female3_]
 
 //BG2 Femme 4
 @930 = ~Savoure tes derniers instants de vie !~ [Female48]
 @931 = ~Arrière, ou meurs !~ [Female49]
 @932 = ~J'attends vos instructions.~ [Female40]
-@933 = ~Je suis d'accord.~ [Female4_]
+@933 = ~Je vous écoute.~ [Female4x]
+@934 = ~Je suis à vos ordres.~ [Female4y]
+@935 = ~Je suis d'accord.~ [Female4_]
 
 //BG2 Homme 1
 @940 = ~Bats-toi tant qu'tu l'peux encore !~ [Male18]
 @941 = ~Tu vas mourir !~ [Male19]
 @942 = ~Heuhmm ?~ [Male10]
-@943 = ~Mmmsssmm.~ [Male1_]
+@943 = ~Que veux-tu ?~ [Male1x]
+@944 = ~Je suis prêt.~ [Male1y]
+@945 = ~Mmmsssmm.~ [Male1_]
 
 //BG2 Homme 2
 @950 = ~L'heure est venue, mon ami !~ [Male28]
 @951 = ~Épargne-moi tes cris de terreur !~ [Male29]
 @952 = ~Mmmmhh ?~ [Male20]
-@953 = ~Facile.~ [Male2_]
+@953 = ~J'suis prêt.~ [Male2x]
+@954 = ~Alors ?~ [Male2y]
+@955 = ~Facile.~ [Male2_]
 
 //BG2 Homme 3
 @960 = ~Nul ne me résiste !~ [Male38]
 @961 = ~Que le meilleur l'emporte !~ [Male39]
 @962 = ~Je suis fin prêt.~ [Male30]
-@963 = ~Mmh, c'est un plaisir.~ [Male3_]
+@963 = ~Comment puis-je te venir en aide ?~ [Male3x]
+@964 = ~Tu n'as qu'un mot à dire.~ [Male3y]
+@965 = ~Mmh, c'est un plaisir.~ [Male3_]
 
 //BG2 Homme 4
 @970 = ~Je ne céderai pas !~ [Male48]
 @971 = ~Par l'honneur, tu ne vivras pas un jour de plus !~ [Male49]
 @972 = ~Que voulez-vous ?~ [Male40]
-@973 = ~J'y cours.~ [Male4_]
+@973 = ~Hm ?~ [Male4x]
+@974 = ~Je n'attends qu'un mot de votre part.~ [Male4y]
+@975 = ~J'y cours.~ [Male4_]
 
 //BG2 Homme 5
 @980 = ~Je ne céderai pas !~ [Male58]
 @981 = ~Par l'honneur, tu ne vivras pas un jour de plus !~ [Male59]
 @982 = ~Que voulez-vous ?~ [Male50]
-@983 = ~J'y cours.~ [Male5_]
+@983 = ~Hmm ?~ [Male5x]
+@984 = ~Je n'attends qu'un mot de votre part.~ [Male5y]
+@985 = ~J'y cours.~ [Male5_]
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
