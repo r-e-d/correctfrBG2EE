@@ -441,9 +441,15 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
-#### Version 0.17 &nbsp;(XX décembre 2022)
+#### Version 0.17 &nbsp;(22 décembre 2022)
 
-  - TODO
+  - Correctifs créatures (féminisation / masculinisation, correction, uniformisation).
+  - Affichage du nom des ensembles de voix en français.
+  - Ajout de doublages supplémentaires pour les ensembles de voix françaises BG2 (doublages existants mais qui n'étaient pas activés).
+  - Ajout de deux ensembles de voix BG1 (un masculin et un féminin) qui avaient été oubliés.
+  - Séparation de la modification Suppression des ensembles de voix en anglais dans son propre composant.
+  - Relecture des biographies.
+  - Corrections diverses.
 
 #### Version 0.16 &nbsp;(12 novembre 2022)
 
