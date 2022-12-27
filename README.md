@@ -7,9 +7,9 @@
 </div><br>
 
 
-**Auteurs :** <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>
+**Auteurs :** <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a>
 
-**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/correction-de-la-traduction-de-baldur-s-gate-ii-enhanced-edition/">Correction de la traduction de Baldur's Gate II : Enhanced Edition</a>
+**Forum du mod :** <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Correction de la traduction de Baldur's Gate II : Enhanced Edition</a>
 
 <br>
 
@@ -38,7 +38,7 @@ Notre objectif est d'être aussi fidèle que possible aux textes originaux, sans
 
 Toute suggestion pour améliorer ce mod, ainsi que tout bénévole souhaitant apporter sa pierre à l'édifice, sont plus que bienvenus. Ce mod se veut être communautaire, n'hésitez pas à vous impliquer !
 
-Merci de nous signaler toute éventuelle faute à corriger sur le <a href="https://www.baldursgateworld.fr/lacouronne/correction-de-la-traduction-de-baldur-s-gate-ii-enhanced-edition/">Forum du mod</a>.
+Merci de nous signaler toute éventuelle faute à corriger sur le <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Forum du mod</a>.
 
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -54,7 +54,7 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 #### Compatibilité avec les autres mods
 
-« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> ou <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Jazira</a>, ou encore poster dans le <a href="https://www.baldursgateworld.fr/lacouronne/correction-de-la-traduction-de-baldur-s-gate-ii-enhanced-edition/">Forum du mod</a>.
+« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> ou <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a>, ou encore poster dans le <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Forum du mod</a>.
 
 #### Ordre d'installation
 
@@ -350,7 +350,7 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
 
-#### Auteurs : <a href="https://www.baldursgateworld.fr/lacouronne/members/lefreut.html">Lefreut</a> et <a href="https://www.baldursgateworld.fr/lacouronne/members/jazira.html">Clément « Jazira » Bizieau</a>
+#### Auteurs : <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Clément « Jazira » Bizieau</a>
 
 ##
 
