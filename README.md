@@ -371,6 +371,7 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 	- Sanctifer
 	- loupgris
 	- Streen
+	- coucoach
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
 	- Denis « Isaya » Ribayrol
