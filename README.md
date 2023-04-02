@@ -442,6 +442,13 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.19 &nbsp;(2 avril 2023)
+
+  - Relecture et corrections des sorts.
+  - Uniformisation BGEE et BG2EE.
+  - Mise à jour des vidéos doublées et ajout des vidéos manquantes en meilleur qualité.
+  - Uniformisation des espaces insécables.
+
 #### Version 0.18 &nbsp;(19 février 2023)
 
   - Uniformisation BGEE et BG2EE.
