@@ -447,6 +447,13 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.20 &nbsp;(8 juillet 2023)
+
+  - Relecture et corrections des sorts.
+  - Uniformisation BGEE et BG2EE.
+  - Relecture des biographies.
+  - Corrections diverses.
+
 #### Version 0.19 &nbsp;(2 avril 2023)
 
   - Relecture et corrections des sorts.
