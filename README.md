@@ -7,7 +7,7 @@
 </div><br>
 
 
-**Auteurs :** <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a>
+**Auteurs :** <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a>, <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=16326">Mera</a>
 
 **Forum du mod :** <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Correction de la traduction de Baldur's Gate II : Enhanced Edition</a>
 
@@ -54,7 +54,7 @@ Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » 
 
 #### Compatibilité avec les autres mods
 
-« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> ou <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a>, ou encore poster dans le <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Forum du mod</a>.
+« Correction de la traduction de Baldur's Gate II : Enhanced Edition » est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Si vous rencontrez des bugs, veuillez contacter <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a>, <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Jazira</a> ou <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=16326">Mera</a>, ou encore poster dans le <a href="https://www.baldursgateworld.fr/viewforum.php?f=755">Forum du mod</a>.
 
 #### Ordre d'installation
 
@@ -354,7 +354,7 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
 
-#### Auteurs : <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Clément « Jazira » Bizieau</a>
+#### Auteurs : <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=10748">Lefreut</a>, <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=12991">Clément « Jazira » Bizieau</a> et <a href="https://www.baldursgateworld.fr/memberlist.php?mode=viewprofile&u=16326">Mera</a>
 
 ##
 
@@ -365,7 +365,6 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 	- Tiffany « GrootIsntTree » Goalec
 	- Machiavélique
 	- Mickaël « Mickabouille » Leduque
-	- Mera
 	- JohnBob
 	- Freddy_Gwendo
 	- Deratiseur
@@ -420,8 +419,8 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 
 #### Information sur les droits d'auteur
 
-###### Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul Games, Beamdog ou Wizards of the Coast. Il a été développé par Lefreut et Jazira, et est basé sur le jeu Baldur's Gate II : Enhanced Edition.
-###### Tout le contenu du mod appartient à &copy; Lefreut et Jazira.
+###### Le mod « Correction de la traduction de Baldur's Gate II : Enhanced Edition » n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul Games, Beamdog ou Wizards of the Coast. Il a été développé par Lefreut, Jazira et Mera, et est basé sur le jeu Baldur's Gate II : Enhanced Edition.
+###### Tout le contenu du mod appartient à &copy; Lefreut, Jazira et Mera.
 ###### Baldur's Gate II : Les Ombres d'Amn et Baldur's Gate II : Trône de Bhaal appartiennent à &copy; TSR, Inc. Le moteur Infinity Engine appartient à &copy; BioWare Corp. Toutes les autres marques et droits d'auteur appartiennent à leurs propriétaires respectifs.
 
 ###### Ce mod a été créé pour être librement apprécié par tous les joueurs de Baldur's Gate II : Enhanced Edition. Cependant, il ne doit pas être vendu, publié, compilé ou redistribué sous une forme quelconque sans le consentement de ses auteurs.
