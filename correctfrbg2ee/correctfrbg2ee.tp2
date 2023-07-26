@@ -1239,9 +1239,9 @@ BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 		(NOT "%SOURCE_FILE%" STRING_EQUAL "OH102681.WAV") BEGIN
 			INNER_ACTION BEGIN COPY + ~%MOD_FOLDER%/override/NARR05.WAV~ ~%MOD_FOLDER%/tmp/%SOURCE_FILE%~ END
 		END
+	COPY ~%MOD_FOLDER%/override~ ~%MOD_FOLDER%/tmp~
 	MAKE_BIFF ~noeevo~ BEGIN ~%MOD_FOLDER%/tmp~ ~^.*$~ END
 
-	COPY ~%MOD_FOLDER%/override~ ~lang/fr_fr/override~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
