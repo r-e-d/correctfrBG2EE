@@ -1240,8 +1240,8 @@ BEGIN @3 DESIGNATED 30 // Suppression des doublages en anglais
 		(NOT FILE_EXISTS ~%MOD_FOLDER%/noeevo/%SOURCE_FILE%~) BEGIN
 			INNER_ACTION BEGIN COPY + ~%MOD_FOLDER%/extra/EMPTY.WAV~ ~%MOD_FOLDER%/noeevo/%SOURCE_FILE%~ END
 		END
-	MAKE_BIFF ~noeevo~ BEGIN ~%MOD_FOLDER%/noeevo~ ~^.*$~ END
 
+	MAKE_BIFF ~noeevo~ BEGIN ~%MOD_FOLDER%/noeevo~ ~^.*$~ END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
