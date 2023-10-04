@@ -447,6 +447,13 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.21 &nbsp;(4 octobre 2023)
+
+  - Corrections pour les sons utilisés dans des cutscene du composant Suppression des doublages en anglais.
+  - Début de la relecture et du dévouvoiment de Neera.
+  - Uniformisation BGEE et BG2EE.
+  - Corrections diverses.
+
 #### Version 0.20 &nbsp;(8 juillet 2023)
 
   - Relecture et corrections des sorts.
