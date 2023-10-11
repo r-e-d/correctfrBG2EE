@@ -1,0 +1,28 @@
+name: Merge Dialog Files
+
+on:
+  push:
+#    paths: 
+#      - "**.tra"
+  workflow_dispatch:
+
+jobs:
+  MergeDialogFiles:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    
+    steps:
+      - name: Initial setup
+        run: |
+          git lfs uninstall
+          git config --global core.autocrlf false
+          git config --global core.ignorecase true
+
+      - name: Clone repository using 'github.ref' from release
+        uses: actions/checkout@master
+
+      - name: Perform a diff between tra files and generate patching code
+        run: node dist/index.js
+
+      - name: Git add & commit
+        uses: EndBug/add-and-commit@v9.1.3
