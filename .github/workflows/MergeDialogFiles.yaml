@@ -8,9 +8,10 @@ on:
 
 jobs:
   MergeDialogFiles:
+    if: github.repository_owner == 'r-e-d'
     runs-on: ubuntu-latest
     permissions: write-all
-    
+
     steps:
       - name: Initial setup
         run: |
