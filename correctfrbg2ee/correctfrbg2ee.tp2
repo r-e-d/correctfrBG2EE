@@ -688,6 +688,13 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		SAY NAME2 @276
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom pour coller au dialogue (Poulet)
+	COPY_EXISTING ~GEMCH01.CRE~ ~override~
+				  ~GEMCH02.CRE~ ~override~
+		SAY NAME1 @277
+		SAY NAME2 @277
+	BUT_ONLY_IF_IT_CHANGES
+
 	// Correction du nom car personnage féminin (Ensorceleuse sharrane)
 	COPY_EXISTING ~ohrshr23.CRE~ ~override~
 		WRITE_LONG 0x08 84585

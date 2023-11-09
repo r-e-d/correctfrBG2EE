@@ -234,6 +234,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Planétaire de la justice (ohdplanb.CRE, OHDPLANJ.CRE, OHDSPLAN.CRE).
 	- Dragomir le Rouge (ohhdrago.CRE).
 	- Goxxa l'alhoon (ohhgoxxa.CRE).
+	- Poulet (GEMCH01.CRE, GEMCH02.CRE).
 	</pre>
 	</details>
 
