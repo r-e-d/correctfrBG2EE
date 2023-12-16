@@ -819,6 +819,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/sounds~ ~lang/fr_fr/sounds~
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
+	COPY ~%MOD_FOLDER%/extra/REPUP.WAV~ ~override/REPUP.WAV~
 	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
 
 	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
