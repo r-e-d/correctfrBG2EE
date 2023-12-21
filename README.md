@@ -137,6 +137,7 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Protection contre le froid (SCRL6I.ITM).
 	- Protection contre l'acide (SCRL6Y.ITM).
 	- Protection contre l'électricité (SCRL5T.ITM).
+	- Fronde +3 (SLNG03.ITM).
 	</pre>
 	</details>
 - Correction (et/ou ajout) de références de ligne des créatures (noms, infobulles, etc.) :
