@@ -387,15 +387,15 @@ img.image_left {
 /* ------------------ *
  *  Captures d'écran  *
  * ------------------ */
-.screen {background-size:contain;background-repeat:no-repeat}
+.screen {background-repeat:no-repeat}
 .screen img{max-width:100%; opacity:1;transition: opacity 1.25s ease-in-out;
 	-moz-transition: opacity 1.25s ease-in-out;
 	-webkit-transition: opacity 1.25s ease-in-out;
 }
 .screen img:hover{max-width:100%; opacity:0}
 
-.screen2 {background-size:contain;background-repeat:no-repeat}
-
+.screen2 {background-repeat:no-repeat}
+.screen2 img{max-width:100%}
 
 /*  ------------ *
  *  Ligne dorée  *
