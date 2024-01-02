@@ -111,6 +111,11 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 	COPY_EXISTING ~CLCK32.ITM~ ~override~
 		SAY NAME2 @102
 	BUT_ONLY_IF_IT_CHANGES
+	
+	// Correction de la description identifiée de la Fronde +3 (importée depuis BGEE)
+	COPY_EXISTING ~SLNG03.ITM~ ~override~
+		WRITE_LONG 0x54 71073
+	BUT_ONLY_IF_IT_CHANGES
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
