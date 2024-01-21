@@ -449,6 +449,13 @@ Soyez assez sympas avec vos collègues joueurs, moddeurs, traducteurs et relecte
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
+#### Version 0.22 &nbsp;(21 janvier 2024)
+
+  - Mise à jour des vidéos doublées.
+  - Relecture et dévouvoiment de Neera.
+  - Uniformisation BGEE et BG2EE.
+  - Corrections diverses.
+
 #### Version 0.21 &nbsp;(4 octobre 2023)
 
   - Corrections pour les sons utilisés dans des cutscene du composant Suppression des doublages en anglais.
