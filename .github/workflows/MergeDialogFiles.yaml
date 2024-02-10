@@ -2,8 +2,8 @@ name: Merge Dialog Files
 
 on:
   push:
-  #    paths:
-  #      - "**.tra"
+#    paths: 
+#      - "**.tra"
   workflow_dispatch:
 
 jobs:
@@ -26,4 +26,4 @@ jobs:
         run: node dist/index.js
 
       - name: Git add & commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9.1.3
