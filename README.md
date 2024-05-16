@@ -238,6 +238,14 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Poulet (GEMCH01.CRE, GEMCH02.CRE).
 	</pre>
 	</details>
+<!--
+- Correction (et/ou ajout) de références de ligne des sorts, capacités et parchemins (descriptions, etc.) :
+	<details><summary>Cliquez ici pour afficher les corrections.</summary>
+	<pre>
+	- xxx.
+	</pre>
+	</details>
+-->
 
 ##
 
