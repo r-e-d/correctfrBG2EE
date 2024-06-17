@@ -15,6 +15,7 @@ LANGUAGE ~Francais~
          ~correctfrbg2ee/francais/correctfr.tra~
          ~correctfrbg2ee/francais/correctobjets.tra~
          ~correctfrbg2ee/francais/correctcreatures.tra~
+		 ~correctfrbg2ee/francais/correctsorts.tra~
          ~correctfrbg2ee/francais/soundset.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -809,6 +810,15 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 	COPY_EXISTING ~ohhgoxxa.CRE~ ~override~
 		WRITE_LONG 0x0c 81897
 	BUT_ONLY_IF_IT_CHANGES
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Correctifs sorts, capacités et parchemins        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
