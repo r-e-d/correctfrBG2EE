@@ -835,6 +835,7 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
 	COPY ~%MOD_FOLDER%/extra/AMB_D05A.WAV~ ~override/AMB_D05A.WAV~
 	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
+	COPY ~%MOD_FOLDER%/extra/ERROR09.WAV~ ~override/ERROR09.WAV~
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH08.WAV~ ~override/NYMPH08.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH09.WAV~ ~override/NYMPH09.WAV~
