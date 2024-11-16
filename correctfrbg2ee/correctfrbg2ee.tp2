@@ -840,6 +840,8 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH08.WAV~ ~override/NYMPH08.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH09.WAV~ ~override/NYMPH09.WAV~
+	COPY ~%MOD_FOLDER%/extra/READR05.WAV~ ~override/READR05.WAV~
+	COPY ~%MOD_FOLDER%/extra/READR06.WAV~ ~override/READR06.WAV~
 	COPY ~%MOD_FOLDER%/extra/REPUP.WAV~ ~override/REPUP.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID01.WAV~ ~override/SSPID01.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID02.WAV~ ~override/SSPID02.WAV~
