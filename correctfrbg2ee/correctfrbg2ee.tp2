@@ -835,14 +835,21 @@ BEGIN @2 DESIGNATED 20 // Patch audio et video francais
 	COPY ~%MOD_FOLDER%/movies~ ~lang/fr_fr/movies~
 	COPY ~%MOD_FOLDER%/extra/AMB_D05A.WAV~ ~override/AMB_D05A.WAV~
 	COPY ~%MOD_FOLDER%/extra/bdtptol.WAV~ ~lang/en_us/sounds/bdtptol.WAV~
+	COPY ~%MOD_FOLDER%/extra/CARRN10.WAV~ ~override/CARRN10.WAV~
+	COPY ~%MOD_FOLDER%/extra/ERROR09.WAV~ ~override/ERROR09.WAV~
+	COPY ~%MOD_FOLDER%/extra/GAM_06.WAV~ ~override/GAM_06.WAV~
 	COPY ~%MOD_FOLDER%/extra/LEOPA05.WAV~ ~override/LEOPA05.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH08.WAV~ ~override/NYMPH08.WAV~
 	COPY ~%MOD_FOLDER%/extra/NYMPH09.WAV~ ~override/NYMPH09.WAV~
+	COPY ~%MOD_FOLDER%/extra/READR05.WAV~ ~override/READR05.WAV~
+	COPY ~%MOD_FOLDER%/extra/READR06.WAV~ ~override/READR06.WAV~
 	COPY ~%MOD_FOLDER%/extra/REPUP.WAV~ ~override/REPUP.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID01.WAV~ ~override/SSPID01.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID02.WAV~ ~override/SSPID02.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID03.WAV~ ~override/SSPID03.WAV~
 	COPY ~%MOD_FOLDER%/extra/SSPID06.WAV~ ~override/SSPID06.WAV~
+	COPY ~%MOD_FOLDER%/extra/TUTOR01.WAV~ ~override/TUTOR01.WAV~
+	COPY ~%MOD_FOLDER%/extra/TUTOR02.WAV~ ~override/TUTOR02.WAV~
 
 	INCLUDE ~%MOD_FOLDER%/lib/cd_add_soundset.tph~
 
