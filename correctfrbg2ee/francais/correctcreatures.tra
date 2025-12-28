@@ -239,3 +239,9 @@
 
 // (GEMCH01.CRE / GEMCH02.CRE)
 @277 = ~Poulet~
+
+// (ELEARPR3.CRE / ELEARSU4.CRE)
+@278 = ~Élémentaire de terre ancien~
+
+// (ELFIRPR3.CRE / ELFIRSU4.CRE)
+@279 = ~Élémentaire de feu ancien~

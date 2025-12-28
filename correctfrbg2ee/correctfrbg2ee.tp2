@@ -1,5 +1,5 @@
 BACKUP ~correctfrbg2ee/backup~
-SUPPORT ~Lefreut et Jazira (https://www.baldursgateworld.fr)~
+SUPPORT ~Lefreut, Jazira, Rivvers et Mera (https://www.baldursgateworld.fr)~
 VERSION ~0.23~
 README ~correctfrbg2ee/readme/readme-correctfrbg2ee.html~
 
@@ -811,6 +811,54 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 		WRITE_LONG 0x0c 81897
 	BUT_ONLY_IF_IT_CHANGES
 
+	// Correction du nom pour différencier la créature convoquée par les sorts profanes et druidiques Conjuration d'élémentaire de terre et la capacité de haut niveau Convocation d'élémentaires (Élémentaire de terre majeur)
+	COPY_EXISTING ~ELEARSU3.CRE~ ~override~
+				  ~ELEARPR2.CRE~ ~override~
+				  ~SWAEAR01.CRE~ ~override~
+		WRITE_LONG 0x08 2853
+		WRITE_LONG 0x0c 2856
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par les sorts profanes et druidique Conjuration d'élémentaire de terre (Élémentaire de terre ancien)
+	COPY_EXISTING ~ELEARPR3.CRE~ ~override~
+				  ~ELEARSU4.CRE~ ~override~
+		SAY NAME1 @278
+		SAY NAME2 @278
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par les sorts profanes et druidiques Conjuration d'élémentaire de feu et la capacité de haut niveau Convocation d'élémentaires (Élémentaire de feu majeur)
+	COPY_EXISTING ~ELFIRPR2.CRE~ ~override~
+				  ~ELFIRSU3.CRE~ ~override~
+				  ~SWAFIR01.CRE~ ~override~
+		WRITE_LONG 0x08 2876
+		WRITE_LONG 0x0c 2877
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par les sorts profanes et druidiques Conjuration d'élémentaire de feu (Élémentaire de feu ancien)
+	COPY_EXISTING ~ELFIRPR3.CRE~ ~override~
+				  ~ELFIRSU4.CRE~ ~override~
+		SAY NAME1 @279
+		SAY NAME2 @279
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par le sort profane Conjuration d'élémentaire de terre mineur (Élémentaire de terre mineur)
+	COPY_EXISTING ~ELEARSU1.CRE~ ~override~
+		WRITE_LONG 0x08 2850
+		WRITE_LONG 0x0c 2851
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par le sort profane Conjuration d'élémentaire de feu mineur (Élémentaire de feu mineur)
+	COPY_EXISTING ~ELFIRSU1.CRE~ ~override~
+		WRITE_LONG 0x08 2878
+		WRITE_LONG 0x0c 2879
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Correction du nom pour différencier la créature convoquée par la capacité de haut niveau Convocation d'élémentaires (Élémentaire d'air majeur)
+	COPY_EXISTING ~SWAAIR01.CRE~ ~override~
+		WRITE_LONG 0x08 2848
+		WRITE_LONG 0x0c 2849
+	BUT_ONLY_IF_IT_CHANGES
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -819,6 +867,25 @@ BEGIN @1 DESIGNATED 10 // Correction de la traduction de Baldur's Gate II : Enha
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+	// Ajout de la description du sort divin et druidique Vision lointaine
+	COPY_EXISTING ~SPPR415.SPL~ ~override~
+		SAY UNIDENTIFIED_DESC @300
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Ajout de la description du sort druidique Chaîne d'éclairs
+	COPY_EXISTING ~SPDR601.SPL~ ~override~
+		SAY UNIDENTIFIED_DESC @301
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Ajout de la description de la capacité Métamorphose en loup
+	COPY_EXISTING ~SPCL612.SPL~ ~override~
+		SAY UNIDENTIFIED_DESC @302
+	BUT_ONLY_IF_IT_CHANGES
+
+	// Ajout du nom de la capacité Nuage de gaz toxique
+	COPY_EXISTING ~SPIN642.SPL~ ~override~
+		SAY NAME1 @303
+	BUT_ONLY_IF_IT_CHANGES
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
