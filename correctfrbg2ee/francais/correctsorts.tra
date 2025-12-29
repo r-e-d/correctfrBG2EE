@@ -5,3 +5,58 @@
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+//SPPR415.SPL
+@300 = ~Vision lointaine
+(Divination, Non-offensif)
+
+Niveau : 4
+Sphère : divination
+Portée : 0
+Durée : 3 rounds + 1 round par niveau
+Temps d'incantation : 4
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun
+
+Lorsque ce sort est lancé, le lanceur est capable de voir en temps réel une zone inexplorée de la carte, similaire à son champ de vision. Le lanceur peut alors surveiller cette zone, voir les créatures et leurs mouvements ainsi que les fortifications qui s'y trouvent. À la fin de l'incantation du sort, interagissez sur la zone de la carte que vous désirez voir. Les effets de ce sort durent 3 rounds, plus 1 round par niveau d'expérience du lanceur, jusqu'à un maximum de 23 rounds au niveau 20, et ne peuvent pas être dissipés par une source extérieure.~
+
+//SPDR601.SPL
+@301 = ~Chaîne d'éclairs
+(Invocation, Dégâts offensifs)
+
+Niveau : 6
+Sphère : climat
+Portée : 12 mètres
+Durée : instantanée
+Temps d'incantation : 5
+Zone d'effet : les ennemis dans un rayon de 5 mètres autour de la cible
+Jet de sauvegarde : sorts (1/2)
+
+Lorsque le lanceur incante Chaîne d'éclairs, des arcs électriques jaillissent du bout de ses doigts, bondissant lentement mais sûrement vers la créature ciblée à une porté maximale de 12 mètres. Toutes les créatures ennemies présentes dans un rayon de 5 mètres autour de la créature ciblée subissent 1d6 points de dégâts électriques par tranche de 2 niveaux d'expérience du lanceur, jusqu'à un maximum de 10d6 points de dégâts électriques au niveau 20. Un jet de sauvegarde contre les sorts réussi permet de diviser par deux les dégâts subis. Les dégâts ainsi causés contournent les répliques illusoires des sorts profanes de 1er et 2ème niveau Image réfléchie et Image miroir. La résistance à la magie des créatures affectées ne rentre pas en ligne de compte.~
+
+//SPCL612.SPL
+@302 = ~Métamorphose en loup
+(Toutes écoles)
+
+Portée : 0
+Durée : permanente
+Temps d'incantation : 0
+Zone d'effet : le lanceur
+Jet de sauvegarde : aucun
+
+Force : 18
+Dextérité : 17
+
+Classe d'armure de base : 6
+Attaques par round : 2
+Dégâts : 1d8 (perforant), peut atteindre les créatures comme une arme de niveau d'enchantement +1
+
+Capacités spéciales :
+- Résistance au froid : 100 %
+- Résistance au froid magique : 100 %
+- Résistance à l'électricité : 50 %
+
+Cette capacité ne dispose d'aucune composante verbale et peut être jetée même si le lanceur est victime d'un effet de silence.~
+
+//SPIN642.SPL
+@303 = ~Nuage de gaz toxique~

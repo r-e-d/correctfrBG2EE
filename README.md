@@ -236,16 +236,24 @@ Ce composant apporte toutes les corrections nécessaires aux textes de BG2:EE.
 	- Dragomir le Rouge (ohhdrago.CRE).
 	- Goxxa l'alhoon (ohhgoxxa.CRE).
 	- Poulet (GEMCH01.CRE, GEMCH02.CRE).
+	- Élémentaire de terre mineur (ELEARSU1.CRE).
+	- Élémentaire de terre majeur (ELEARPR2.CRE, ELEARSU3.CRE, SWAEAR01.CRE).
+	- Élémentaire de terre ancien (ELEARPR3.CRE, ELEARSU4.CRE).
+	- Élémentaire de feu mineur (ELFIRSU1.CRE).
+	- Élémentaire de feu majeur (ELFIRPR2.CRE, ELFIRSU3.CRE, SWAFIR01.CRE).
+	- Élémentaire de feu ancien (ELFIRPR3.CRE, ELFIRSU4.CRE).
+	- Élémentaire d'air majeur (SWAAIR01.CRE).
 	</pre>
 	</details>
-<!--
-- Correction (et/ou ajout) de références de ligne des sorts, capacités et parchemins (descriptions, etc.) :
+- Correction (et/ou ajout) de références de ligne des sorts, capacités et parchemins (noms, descriptions, etc.) :
 	<details><summary>Cliquez ici pour afficher les corrections.</summary>
 	<pre>
-	- xxx.
+	- Vision lointaine (SPPR415.SPL).
+	- Chaîne d'éclairs (SPDR601.SPL).
+	- Métamorphose en loup (SPCL612.SPL).
+	- Nuage de gaz toxique (SPIN642.SPL).
 	</pre>
 	</details>
--->
 
 ##
 
@@ -262,7 +270,7 @@ Ce composant ajoute (et corrige) les doublages et les vidéos en français.
 - Correction (et/ou ajout) des répliques doublées :
 	<details><summary>Cliquez ici pour afficher les corrections.</summary>
 	<pre>
-	- [1AMERC09], [1AMERC10], [2AMERC10], [2LOVE03], [3AMONK08], [AERI2510], [AERI2518], [AERI2530], [AERIE91], [AERIEC8], [AERIED5], [AMB_D05A], [AMCLER03], [AMMAYO12], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN81], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [BODHIX15], [BODHIX17], [BODHIX40], [CARRN10], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CHAPT03B], [CSCLER02], [CSCLER03], [CSCOW101], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN84], [EDWIN88], [ERROR09], [FEMER01], [FFACT204], [GAELEN33], [GAM_06], [GAM_47], [GHOUL01], [GORTAN01], [HAER2508], [HAER2516], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HGNYA12], [HUMAN05], [IMOEN74], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KAYLXX08], [KELD2508], [KELD2514], [KELDOR45], [KELDOR68], [KELDOR87], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [NYMPH08], [NYMPH09], [OLIVE04], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [PPSAEM23], [RAELIS19], [READR05], [READR06], [REPUP], [REVEN01], [RIELEV07], [RIFTG08], [SAREVO01], [SAREVO75], [SAREVO81], [SARKIS07], [SARKIS08], [SARKIS09], [SARKIS10], [SARKIS14], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSPID01], [SSPID02], [SSPID03], [SSPID06], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TANNER08], [TEOSXX08], [TRGENI09], [TRGENI10], [TRGENI11], [TUTOR01], [TUTOR02], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [WOLFF01], [WOLFF04], [YOSHIM44], [YOSHIM49].
+	- [1AMERC09], [1AMERC10], [2AMERC10], [2LOVE03], [3AMONK08], [AERI2510], [AERI2518], [AERI2530], [AERIE91], [AERIEC8], [AERIED5], [AMB_D05A], [AMCLER03], [AMMAYO12], [ANOM2517], [ANOM2536], [ANOMEN52], [ANOMEN81], [ANOMEN82], [ANOMENC7], [ARAN09], [BARONP06], [BAZDR310], [BDHIGG13], [BDHIGG14], [BODHIX15], [BODHIX17], [BODHIX40], [CARRN10], [CEFALD13], [CELOGA10], [CERND68], [CERND70], [CERND81], [CHAPT03B], [CSCLER02], [CSCLER03], [CSCOW101], [CSIMO67], [DPJON119], [EDWIN46], [EDWIN84], [EDWIN88], [ERROR09], [FEMER01], [FFACT204], [GAELEN33], [GAM_06], [GAM_47], [GHOUL01], [GORTAN01], [HAER2508], [HAER2516], [HAERDA54], [HELFEA11], [HELGRE07], [HELPRI03], [HELPRI16], [HGNYA12], [HUMAN05], [IMOEN74], [IRENIC43], [IRENIC66], [JAHEIR52], [JAHEIRB2], [JAHEIRBX], [JANJAN57], [JANJAN68], [KAYLXX08], [KELD2508], [KELD2514], [KELDOR45], [KELDOR68], [KELDOR87], [KORGAN18], [KORGAN36], [KORGAN44], [KORGAN59], [KORGAN66], [KORGAN70], [LEOPA05], [MINS2507], [MINSC67], [NALIA57], [NALIA63], [NALIA79], [NALIA82], [NYMPH08], [NYMPH09], [OLIVE04], [PEASM305], [PPBHAA03], [PPBHAA06], [PPBHAA07], [PPBHAA08], [PPSAEM23], [RAELIS19], [READR05], [READR06], [REPUP], [REVEN01], [RIELEV07], [RIFTG08], [SAREVO01], [SAREVO75], [SAREVO81], [SARKIS07], [SARKIS08], [SARKIS09], [SARKIS10], [SARKIS14], [SOLAR22], [SOLAR29], [SOLAR30], [SOLAR32], [SOLAR39], [SOLAR43], [SOLAR61], [SOLAR72], [SOLAR77], [SOLAR82], [SOLAR84], [SOLAR85], [SOLAR89], [SOLAR99], [SOLAR100], [SOLF06], [SOLF07], [SOLF08], [SSPID01], [SSPID02], [SSPID03], [SSPID06], [SSWORD13], [SSWORD21], [SSWORD27], [SSWORD52], [SSWORD53], [SSWORD54], [SSWORD60], [SSWORD66], [SSWORD68], [TANNER08], [TEOSXX08], [TRGENI09], [TRGENI10], [TRGENI11], [TUTOR01], [TUTOR02], [VALYGA15], [VALYGA78], [VALYGA88], [VICO2510], [VICONI48], [VICONI63], [VICONIC2], [VICONIC4], [VICONID1], [VITHAL11], [WOLFF01], [WOLFF04], [YOSHIM44], [YOSHIM49].
 	</pre>
 	</details>
 - Correction (et/ou ajout) des ensembles de voix :
@@ -387,6 +395,7 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 	- coucoach
 	- Selphira
 	- D'Eon
+	- Prof Errata
 - Les créateurs du <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-partielle-de-bg2ee-v2-5-a.html">Mod semi-officiel de traduction partielle de BG2EE</a> :
 	- Lionel « La Voix 2 la sagesse » Bayle-Denise
 	- Denis « Isaya » Ribayrol
@@ -406,7 +415,7 @@ Comparez les différentes versions des cinématiques (BG2/BG2:EE/CorrectfrBG2EE)
 	- Zefklop
 	- Denis « Isaya » Ribayrol
 	- Freddy_Gwendo
-- Freddy_Gwendo pour son modèle de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>.
+- Freddy_Gwendo pour son modèle de <a href="https://github.com/GwendolyneFreddy/LCC-Readme">readme</a>, AlienQuake pour son processus d'auto action sur Github et Jmerry pour son aide technique.
 - L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
 - Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>, ainsi que <a href="https://www.aroundtheword.com/fr/">Around the word</a> pour la traduction française du contenu classique.
 - Les créateurs des Enhanced Editions et de Siege of Dragonspear : <a href="https://www.beamdog.com/">Overhaul Games</a>, <a href="https://www.beamdog.com/">Beamdog</a>, ainsi que <a href="https://mogi-group.com/">Mogi Group</a> pour la traduction française du contenu EE.
