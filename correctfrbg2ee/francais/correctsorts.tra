@@ -32,7 +32,7 @@ Temps d'incantation : 5
 Zone d'effet : les ennemis dans un rayon de 5 mètres autour de la cible
 Jet de sauvegarde : sorts (1/2)
 
-Lorsque le lanceur incante Chaîne d'éclairs, des arcs électriques jaillissent du bout de ses doigts, bondissant lentement mais sûrement vers la créature ciblée à une porté maximale de 12 mètres. Toutes les créatures ennemies présentes dans un rayon de 5 mètres autour de la créature ciblée subissent 1d6 points de dégâts électriques par tranche de 2 niveaux d'expérience du lanceur, jusqu'à un maximum de 10d6 points de dégâts électriques au niveau 20. Un jet de sauvegarde contre les sorts réussi permet de diviser par deux les dégâts subis. Les dégâts ainsi causés contournent les répliques illusoires des sorts profanes de 1er et 2ème niveau Image réfléchie et Image miroir. La résistance à la magie des créatures affectées ne rentre pas en ligne de compte.~
+Lorsque le lanceur incante Chaîne d'éclairs, des arcs électriques jaillissent du bout de ses doigts, bondissant lentement mais sûrement vers la créature ciblée à une portée maximale de 12 mètres. Toutes les créatures ennemies présentes dans un rayon de 5 mètres autour de la créature ciblée subissent 1d6 points de dégâts électriques par tranche de 2 niveaux d'expérience du lanceur, jusqu'à un maximum de 10d6 points de dégâts électriques au niveau 20. Un jet de sauvegarde contre les sorts réussi permet de diviser par deux les dégâts subis. Les dégâts ainsi causés contournent les répliques illusoires des sorts profanes de 1er et 2ème niveau Image réfléchie et Image miroir. La résistance à la magie des créatures affectées ne rentre pas en ligne de compte.~
 
 //SPCL612.SPL
 @302 = ~Métamorphose en loup
